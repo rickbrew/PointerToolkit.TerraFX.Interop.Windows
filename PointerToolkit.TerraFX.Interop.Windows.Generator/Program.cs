@@ -146,7 +146,6 @@ public static class Program
                 writer.WriteLine("<Project>");
                 writer.WriteLine("  <PropertyGroup>");
                 writer.WriteLine($"    <VersionPrefix>{assemblyVersion}</VersionPrefix>");
-                writer.WriteLine($"    <Version>{assemblyInformationalVersion}</Version>");
                 writer.WriteLine("  </PropertyGroup>");
                 writer.WriteLine("</Project>");
             });

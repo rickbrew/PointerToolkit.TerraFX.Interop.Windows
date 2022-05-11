@@ -2,6 +2,7 @@
   <Import Project="Version.Generated.props" />
   <PropertyGroup>
     <TargetFramework>net6.0-windows</TargetFramework>
+    <Version>$(VersionPrefix)-preview1</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
@@ -29,6 +30,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>﻿Provides methods ("operators") that enable compile-time type-safety when casting COM interface pointers from the TerraFX.Interop.Windows package.</Description>
     <Authors>Rick Brewster</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>false</Optimize>

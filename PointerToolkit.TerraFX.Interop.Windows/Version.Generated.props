@@ -1,6 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
     <VersionPrefix>10.0.20348.0</VersionPrefix>
-    <Version>10.0.20348.0+13987008c8acf1a07abbfdb7c0137be02ed04446</Version>
   </PropertyGroup>
 </Project>
