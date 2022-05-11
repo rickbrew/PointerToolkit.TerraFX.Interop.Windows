@@ -1582,12 +1582,6 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IAudioClockAdjustment, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioClockAdjustment* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioClockAdjustment, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IAudioEffectsChangedNotificationClient, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioEffectsChangedNotificationClient* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioEffectsChangedNotificationClient, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IAudioEffectsManager, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioEffectsManager* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioEffectsManager, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAudioEndpointVolume, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioEndpointVolume* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioEndpointVolume, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1649,12 +1643,6 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAudioStreamVolume, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioStreamVolume* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioStreamVolume, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IAudioSystemEffectsPropertyChangeNotificationClient, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioSystemEffectsPropertyChangeNotificationClient* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioSystemEffectsPropertyChangeNotificationClient, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IAudioSystemEffectsPropertyStore, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioSystemEffectsPropertyStore* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioSystemEffectsPropertyStore, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAudioTreble, TerraFX.Interop.Windows.IPerChannelDbLevel, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAudioTreble* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAudioTreble, TerraFX.Interop.Windows.IPerChannelDbLevel, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -2228,6 +2216,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDiaSymbol* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IDiaSymbol10, TerraFX.Interop.Windows.IDiaSymbol9, TerraFX.Interop.Windows.IDiaSymbol8, TerraFX.Interop.Windows.IDiaSymbol7, TerraFX.Interop.Windows.IDiaSymbol6, TerraFX.Interop.Windows.IDiaSymbol5, TerraFX.Interop.Windows.IDiaSymbol4, TerraFX.Interop.Windows.IDiaSymbol3, TerraFX.Interop.Windows.IDiaSymbol2, TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDiaSymbol10* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDiaSymbol10, TerraFX.Interop.Windows.IDiaSymbol9, TerraFX.Interop.Windows.IDiaSymbol8, TerraFX.Interop.Windows.IDiaSymbol7, TerraFX.Interop.Windows.IDiaSymbol6, TerraFX.Interop.Windows.IDiaSymbol5, TerraFX.Interop.Windows.IDiaSymbol4, TerraFX.Interop.Windows.IDiaSymbol3, TerraFX.Interop.Windows.IDiaSymbol2, TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IDiaSymbol2, TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDiaSymbol2* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDiaSymbol2, TerraFX.Interop.Windows.IDiaSymbol, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -4537,15 +4528,6 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IMFByteStreamTimeSeek, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IMFByteStreamTimeSeek* ptr) => *(CastPtr<TerraFX.Interop.Windows.IMFByteStreamTimeSeek, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateMonitor, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IMFCameraOcclusionStateMonitor* ptr) => *(CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateMonitor, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateReport, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IMFCameraOcclusionStateReport* ptr) => *(CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateReport, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateReportCallback, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IMFCameraOcclusionStateReportCallback* ptr) => *(CastPtr<TerraFX.Interop.Windows.IMFCameraOcclusionStateReportCallback, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IMFCaptureEngine, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IMFCaptureEngine* ptr) => *(CastPtr<TerraFX.Interop.Windows.IMFCaptureEngine, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -6182,9 +6164,6 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.ISpatialAudioClient, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.ISpatialAudioClient* ptr) => *(CastPtr<TerraFX.Interop.Windows.ISpatialAudioClient, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.Windows.ISpatialAudioClient2, TerraFX.Interop.Windows.ISpatialAudioClient, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.ISpatialAudioClient2* ptr) => *(CastPtr<TerraFX.Interop.Windows.ISpatialAudioClient2, TerraFX.Interop.Windows.ISpatialAudioClient, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.ISpatialAudioMetadataClient, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.ISpatialAudioMetadataClient* ptr) => *(CastPtr<TerraFX.Interop.Windows.ISpatialAudioMetadataClient, TerraFX.Interop.Windows.IUnknown>*)&ptr;

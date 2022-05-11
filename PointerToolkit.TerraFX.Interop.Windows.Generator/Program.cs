@@ -28,7 +28,7 @@ public static class Program
 
     public static void MainImpl(string outputDirPath)
     {
-        Console.WriteLine($"TerraFX.Interop.Windows.Pointers generator, outputting to {outputDirPath}");
+        Console.WriteLine($"PointerToolkit.TerraFX.Interop.Windows generator, outputting to {outputDirPath}");
 
         Assembly terraFxDll = typeof(global::TerraFX.Interop.Windows.Windows).Assembly;
 
@@ -115,6 +115,10 @@ public static class Program
             .Distinct(StringComparer.Ordinal)
             .ToArray();
 
+        string assemblyVersion = terraFxDll.GetName().Version!.ToString();
+        string assemblyFileVersion = terraFxDll.GetCustomAttribute<AssemblyFileVersionAttribute>()!.Version;
+        string assemblyInformationalVersion = terraFxDll.GetCustomAttribute<AssemblyInformationalVersionAttribute>()!.InformationalVersion;
+
         // AssemblyInfo.Generated.cs
         GenerateFile(
             Path.Combine(outputDirPath, "AssemblyInfo.Generated.cs"),
@@ -124,24 +128,27 @@ public static class Program
                 writer.WriteLine("using System.Reflection;");
                 writer.WriteLine("using System.Runtime.Versioning;");
                 writer.WriteLine();
-                writer.WriteLine("[assembly: AssemblyTitle(\"TerraFX.Interop.Windows.Pointers\")]");
+                writer.WriteLine("[assembly: AssemblyTitle(\"PointerToolkit.TerraFX.Interop.Windows\")]");
                 writer.WriteLine("[assembly: AssemblyMetadata(\"IsTrimmable\", \"True\")]");
 
-                writer.WriteLine($"[assembly: AssemblyVersion(\"{terraFxDll.GetName().Version!}\")]");
-
-                AssemblyFileVersionAttribute? assemblyFileVersion = terraFxDll.GetCustomAttribute<AssemblyFileVersionAttribute>();
-                if (assemblyFileVersion != null)
-                {
-                    writer.WriteLine($"[assembly: AssemblyFileVersion(\"{assemblyFileVersion.Version}\")]");
-                }
-
-                AssemblyInformationalVersionAttribute? assemblyInformationalVersion = terraFxDll.GetCustomAttribute<AssemblyInformationalVersionAttribute>();
-                if (assemblyInformationalVersion != null)
-                {
-                    writer.WriteLine($"[assembly: AssemblyInformationalVersion(\"{assemblyInformationalVersion.InformationalVersion}\")]");
-                }
+                writer.WriteLine($"[assembly: AssemblyVersion(\"{assemblyVersion}\")]");
+                writer.WriteLine($"[assembly: AssemblyFileVersion(\"{assemblyFileVersion}\")]");
+                writer.WriteLine($"[assembly: AssemblyInformationalVersion(\"{assemblyInformationalVersion}\")]");
 
                 writer.WriteLine("[assembly: SupportedOSPlatform(\"windows\")]");
+            });
+
+        // Version.props
+        GenerateFile(
+            Path.Combine(outputDirPath, "Version.Generated.props"),
+            delegate (TextWriter writer)
+            {
+                writer.WriteLine("<Project>");
+                writer.WriteLine("  <PropertyGroup>");
+                writer.WriteLine($"    <VersionPrefix>{assemblyVersion}</VersionPrefix>");
+                writer.WriteLine($"    <Version>{assemblyInformationalVersion}</Version>");
+                writer.WriteLine("  </PropertyGroup>");
+                writer.WriteLine("</Project>");
             });
 
         // Pointers.Generated.cs

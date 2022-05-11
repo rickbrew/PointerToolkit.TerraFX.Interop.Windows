@@ -32,6 +32,6 @@
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22000-rc2.1702533884" />
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.20348" />
   </ItemGroup>
 </Project>
