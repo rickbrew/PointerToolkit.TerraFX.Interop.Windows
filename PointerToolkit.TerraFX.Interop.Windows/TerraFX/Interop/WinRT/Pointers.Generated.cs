@@ -148,6 +148,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative* ptr) => *(CastPtr<TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative1, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative1* ptr) => *(CastPtr<TerraFX.Interop.WinRT.ILearningModelSessionOptionsNative1, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.WinRT.IMemoryBufferByteAccess, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.IMemoryBufferByteAccess* ptr) => *(CastPtr<TerraFX.Interop.WinRT.IMemoryBufferByteAccess, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -263,9 +266,6 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.WinRT.ISwapChainBackgroundPanelNative, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.ISwapChainBackgroundPanelNative* ptr) => *(CastPtr<TerraFX.Interop.WinRT.ISwapChainBackgroundPanelNative, TerraFX.Interop.Windows.IUnknown>*)&ptr;
-
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static CastPtr<TerraFX.Interop.WinRT.ISwapChainInterop, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.ISwapChainInterop* ptr) => *(CastPtr<TerraFX.Interop.WinRT.ISwapChainInterop, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.WinRT.ISwapChainPanelNative, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.WinRT.ISwapChainPanelNative* ptr) => *(CastPtr<TerraFX.Interop.WinRT.ISwapChainPanelNative, TerraFX.Interop.Windows.IUnknown>*)&ptr;

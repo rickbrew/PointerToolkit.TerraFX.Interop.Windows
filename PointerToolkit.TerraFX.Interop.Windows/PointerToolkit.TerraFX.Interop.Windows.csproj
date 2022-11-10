@@ -23,7 +23,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Copyright>Copyright ©️ 2021 Rick Brewster</Copyright>
+    <Copyright>Copyright ©️ Rick Brewster</Copyright>
     <PackageProjectUrl>https://github.com/rickbrew/PointerToolkit.TerraFX.Interop.Windows</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rickbrew/PointerToolkit.TerraFX.Interop.Windows</RepositoryUrl>
     <PackageTags>interlocked;pointer;pointers;unsafe;volatile</PackageTags>
@@ -43,8 +43,8 @@
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PointerToolkit" Version="1.0.0-preview7" PrivateAssets="all" />
-    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.20348" />
+    <PackageReference Include="PointerToolkit" Version="1.0.0-preview8" PrivateAssets="all" />
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
