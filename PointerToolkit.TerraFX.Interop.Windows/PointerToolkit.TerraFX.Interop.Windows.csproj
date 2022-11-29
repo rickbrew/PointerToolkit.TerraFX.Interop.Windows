@@ -2,7 +2,7 @@
   <Import Project="Version.Generated.props" />
   <PropertyGroup>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <Version>$(VersionPrefix)-preview2</Version>
+    <Version>$(VersionPrefix)</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
