@@ -1288,6 +1288,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IAppVisibilityEvents, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppVisibilityEvents* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppVisibilityEvents, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IAppxAppInstallerReader, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxAppInstallerReader* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxAppInstallerReader, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxBlockMapBlock, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxBlockMapBlock* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxBlockMapBlock, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1304,6 +1307,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxBundleFactory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxBundleFactory* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxBundleFactory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IAppxBundleFactory2, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxBundleFactory2* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxBundleFactory2, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxBundleManifestOptionalBundleInfo, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxBundleManifestOptionalBundleInfo* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxBundleManifestOptionalBundleInfo, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -1363,6 +1369,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IAppxContentGroupsEnumerator, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxContentGroupsEnumerator* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxContentGroupsEnumerator, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IAppxDigestProvider, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxDigestProvider* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxDigestProvider, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxEncryptedBundleWriter, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxEncryptedBundleWriter* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxEncryptedBundleWriter, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1390,10 +1399,16 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IAppxEncryptionFactory4, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxEncryptionFactory4* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxEncryptionFactory4, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IAppxEncryptionFactory5, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxEncryptionFactory5* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxEncryptionFactory5, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxFactory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxFactory* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxFactory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxFactory2, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxFactory2* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxFactory2, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IAppxFactory3, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxFactory3* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxFactory3, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IAppxFile, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IAppxFile* ptr) => *(CastPtr<TerraFX.Interop.Windows.IAppxFile, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -2117,6 +2132,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IDeveloperConsoleMessageReceiver, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDeveloperConsoleMessageReceiver* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDeveloperConsoleMessageReceiver, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IDeviceModelPlugIn, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDeviceModelPlugIn* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDeviceModelPlugIn, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IDeviceSpecificProperty, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IDeviceSpecificProperty* ptr) => *(CastPtr<TerraFX.Interop.Windows.IDeviceSpecificProperty, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -3026,6 +3044,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IFullScreenVideoEx, TerraFX.Interop.Windows.IFullScreenVideo, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IFullScreenVideoEx* ptr) => *(CastPtr<TerraFX.Interop.Windows.IFullScreenVideoEx, TerraFX.Interop.Windows.IFullScreenVideo, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IGamutMapModelPlugIn, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IGamutMapModelPlugIn* ptr) => *(CastPtr<TerraFX.Interop.Windows.IGamutMapModelPlugIn, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IGetBindHandle, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IGetBindHandle* ptr) => *(CastPtr<TerraFX.Interop.Windows.IGetBindHandle, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -5675,6 +5696,12 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IPrint, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IPrint* ptr) => *(CastPtr<TerraFX.Interop.Windows.IPrint, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IPrintDialogCallback, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IPrintDialogCallback* ptr) => *(CastPtr<TerraFX.Interop.Windows.IPrintDialogCallback, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IPrintDialogServices, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IPrintDialogServices* ptr) => *(CastPtr<TerraFX.Interop.Windows.IPrintDialogServices, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IPrintDocumentPackageStatusEvent, TerraFX.Interop.Windows.IDispatch, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IPrintDocumentPackageStatusEvent* ptr) => *(CastPtr<TerraFX.Interop.Windows.IPrintDocumentPackageStatusEvent, TerraFX.Interop.Windows.IDispatch, TerraFX.Interop.Windows.IUnknown>*)&ptr;

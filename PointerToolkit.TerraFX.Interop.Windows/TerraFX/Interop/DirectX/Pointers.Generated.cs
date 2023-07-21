@@ -1252,6 +1252,57 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.IDirectDrawSurface7, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectDrawSurface7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectDrawSurface7, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput2A, TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput2A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput2A, TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput2W, TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput2W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput2W, TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput7A, TerraFX.Interop.DirectX.IDirectInput2A, TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput7A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput7A, TerraFX.Interop.DirectX.IDirectInput2A, TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput7W, TerraFX.Interop.DirectX.IDirectInput2W, TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput7W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput7W, TerraFX.Interop.DirectX.IDirectInput2W, TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput8A, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput8A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput8A, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInput8W, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInput8W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInput8W, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputA* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice2A, TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice2A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice2A, TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice2W, TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice2W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice2W, TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice7A, TerraFX.Interop.DirectX.IDirectInputDevice2A, TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice7A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice7A, TerraFX.Interop.DirectX.IDirectInputDevice2A, TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice7W, TerraFX.Interop.DirectX.IDirectInputDevice2W, TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice7W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice7W, TerraFX.Interop.DirectX.IDirectInputDevice2W, TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice8A, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice8A* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice8A, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice8W, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDevice8W* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDevice8W, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDeviceA* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDeviceA, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputDeviceW* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputDeviceW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputEffect, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputEffect* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputEffect, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectInputW* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectInputW, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDirectManipulationAutoScrollBehavior, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectManipulationAutoScrollBehavior* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectManipulationAutoScrollBehavior, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
