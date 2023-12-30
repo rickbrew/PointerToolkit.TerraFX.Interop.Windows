@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="Version.Generated.props" />
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Version>$(VersionPrefix)</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
     <Features>strict</Features>
+    <IsAotCompatible>true</IsAotCompatible>
     <TieredCompilationQuickJitForLoops>true</TieredCompilationQuickJitForLoops>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
@@ -44,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="PointerToolkit" Version="1.0.0" PrivateAssets="all" />
-    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621.2" />
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621.5" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">

@@ -212,6 +212,11 @@ public static class Program
                         }
                         isFirst = false;
 
+                        if (comStructType.IsObsolete(out string? message).GetValueOrDefault())
+                        {
+                            // NOTE: 'message' might need escaping if it has quotes, backslashes, etc. Can worry about this later.
+                            writer.WriteLine($"    [Obsolete(\"{message}\", true)]");
+                        }
                         writer.WriteLine("    [MethodImpl(MethodImplOptions.AggressiveInlining)]");
                         writer.WriteLine($"    public static CastPtr<{castPtrTypeParams}> __cast({comStructType.FullName}* ptr) => *(CastPtr<{castPtrTypeParams}>*)&ptr;");
                     }

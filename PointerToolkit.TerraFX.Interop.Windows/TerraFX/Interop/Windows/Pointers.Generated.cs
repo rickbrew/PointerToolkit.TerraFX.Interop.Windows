@@ -4348,6 +4348,12 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.Windows.IIsolatedAppLauncher, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IIsolatedAppLauncher* ptr) => *(CastPtr<TerraFX.Interop.Windows.IIsolatedAppLauncher, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IIsolatedProcessLauncher, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IIsolatedProcessLauncher* ptr) => *(CastPtr<TerraFX.Interop.Windows.IIsolatedProcessLauncher, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.Windows.IIsolatedProcessLauncher2, TerraFX.Interop.Windows.IIsolatedProcessLauncher, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IIsolatedProcessLauncher2* ptr) => *(CastPtr<TerraFX.Interop.Windows.IIsolatedProcessLauncher2, TerraFX.Interop.Windows.IIsolatedProcessLauncher, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.Windows.IItemNameLimits, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.Windows.IItemNameLimits* ptr) => *(CastPtr<TerraFX.Interop.Windows.IItemNameLimits, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

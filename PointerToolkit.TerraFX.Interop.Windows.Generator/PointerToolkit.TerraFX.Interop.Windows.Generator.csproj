@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
@@ -33,6 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="PointerToolkit" Version="1.0.0" />
-    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621.2" />
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621.5" />
   </ItemGroup>
 </Project>

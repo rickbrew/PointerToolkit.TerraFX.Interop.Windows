@@ -109,6 +109,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1Device6, TerraFX.Interop.DirectX.ID2D1Device5, TerraFX.Interop.DirectX.ID2D1Device4, TerraFX.Interop.DirectX.ID2D1Device3, TerraFX.Interop.DirectX.ID2D1Device2, TerraFX.Interop.DirectX.ID2D1Device1, TerraFX.Interop.DirectX.ID2D1Device, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1Device6* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1Device6, TerraFX.Interop.DirectX.ID2D1Device5, TerraFX.Interop.DirectX.ID2D1Device4, TerraFX.Interop.DirectX.ID2D1Device3, TerraFX.Interop.DirectX.ID2D1Device2, TerraFX.Interop.DirectX.ID2D1Device1, TerraFX.Interop.DirectX.ID2D1Device, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID2D1Device7, TerraFX.Interop.DirectX.ID2D1Device6, TerraFX.Interop.DirectX.ID2D1Device5, TerraFX.Interop.DirectX.ID2D1Device4, TerraFX.Interop.DirectX.ID2D1Device3, TerraFX.Interop.DirectX.ID2D1Device2, TerraFX.Interop.DirectX.ID2D1Device1, TerraFX.Interop.DirectX.ID2D1Device, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1Device7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1Device7, TerraFX.Interop.DirectX.ID2D1Device6, TerraFX.Interop.DirectX.ID2D1Device5, TerraFX.Interop.DirectX.ID2D1Device4, TerraFX.Interop.DirectX.ID2D1Device3, TerraFX.Interop.DirectX.ID2D1Device2, TerraFX.Interop.DirectX.ID2D1Device1, TerraFX.Interop.DirectX.ID2D1Device, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1DeviceContext* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -128,6 +131,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext6, TerraFX.Interop.DirectX.ID2D1DeviceContext5, TerraFX.Interop.DirectX.ID2D1DeviceContext4, TerraFX.Interop.DirectX.ID2D1DeviceContext3, TerraFX.Interop.DirectX.ID2D1DeviceContext2, TerraFX.Interop.DirectX.ID2D1DeviceContext1, TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1DeviceContext6* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext6, TerraFX.Interop.DirectX.ID2D1DeviceContext5, TerraFX.Interop.DirectX.ID2D1DeviceContext4, TerraFX.Interop.DirectX.ID2D1DeviceContext3, TerraFX.Interop.DirectX.ID2D1DeviceContext2, TerraFX.Interop.DirectX.ID2D1DeviceContext1, TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext7, TerraFX.Interop.DirectX.ID2D1DeviceContext6, TerraFX.Interop.DirectX.ID2D1DeviceContext5, TerraFX.Interop.DirectX.ID2D1DeviceContext4, TerraFX.Interop.DirectX.ID2D1DeviceContext3, TerraFX.Interop.DirectX.ID2D1DeviceContext2, TerraFX.Interop.DirectX.ID2D1DeviceContext1, TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1DeviceContext7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1DeviceContext7, TerraFX.Interop.DirectX.ID2D1DeviceContext6, TerraFX.Interop.DirectX.ID2D1DeviceContext5, TerraFX.Interop.DirectX.ID2D1DeviceContext4, TerraFX.Interop.DirectX.ID2D1DeviceContext3, TerraFX.Interop.DirectX.ID2D1DeviceContext2, TerraFX.Interop.DirectX.ID2D1DeviceContext1, TerraFX.Interop.DirectX.ID2D1DeviceContext, TerraFX.Interop.DirectX.ID2D1RenderTarget, TerraFX.Interop.DirectX.ID2D1Resource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1DrawInfo, TerraFX.Interop.DirectX.ID2D1RenderInfo, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1DrawInfo* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1DrawInfo, TerraFX.Interop.DirectX.ID2D1RenderInfo, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -182,6 +188,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1Factory7, TerraFX.Interop.DirectX.ID2D1Factory6, TerraFX.Interop.DirectX.ID2D1Factory5, TerraFX.Interop.DirectX.ID2D1Factory4, TerraFX.Interop.DirectX.ID2D1Factory3, TerraFX.Interop.DirectX.ID2D1Factory2, TerraFX.Interop.DirectX.ID2D1Factory1, TerraFX.Interop.DirectX.ID2D1Factory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1Factory7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1Factory7, TerraFX.Interop.DirectX.ID2D1Factory6, TerraFX.Interop.DirectX.ID2D1Factory5, TerraFX.Interop.DirectX.ID2D1Factory4, TerraFX.Interop.DirectX.ID2D1Factory3, TerraFX.Interop.DirectX.ID2D1Factory2, TerraFX.Interop.DirectX.ID2D1Factory1, TerraFX.Interop.DirectX.ID2D1Factory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID2D1Factory8, TerraFX.Interop.DirectX.ID2D1Factory7, TerraFX.Interop.DirectX.ID2D1Factory6, TerraFX.Interop.DirectX.ID2D1Factory5, TerraFX.Interop.DirectX.ID2D1Factory4, TerraFX.Interop.DirectX.ID2D1Factory3, TerraFX.Interop.DirectX.ID2D1Factory2, TerraFX.Interop.DirectX.ID2D1Factory1, TerraFX.Interop.DirectX.ID2D1Factory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1Factory8* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1Factory8, TerraFX.Interop.DirectX.ID2D1Factory7, TerraFX.Interop.DirectX.ID2D1Factory6, TerraFX.Interop.DirectX.ID2D1Factory5, TerraFX.Interop.DirectX.ID2D1Factory4, TerraFX.Interop.DirectX.ID2D1Factory3, TerraFX.Interop.DirectX.ID2D1Factory2, TerraFX.Interop.DirectX.ID2D1Factory1, TerraFX.Interop.DirectX.ID2D1Factory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID2D1GdiInteropRenderTarget, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID2D1GdiInteropRenderTarget* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID2D1GdiInteropRenderTarget, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -799,6 +808,12 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12Device11* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID3D12Device12, TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12Device12* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12Device12, TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID3D12Device13, TerraFX.Interop.DirectX.ID3D12Device12, TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12Device13* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12Device13, TerraFX.Interop.DirectX.ID3D12Device12, TerraFX.Interop.DirectX.ID3D12Device11, TerraFX.Interop.DirectX.ID3D12Device10, TerraFX.Interop.DirectX.ID3D12Device9, TerraFX.Interop.DirectX.ID3D12Device8, TerraFX.Interop.DirectX.ID3D12Device7, TerraFX.Interop.DirectX.ID3D12Device6, TerraFX.Interop.DirectX.ID3D12Device5, TerraFX.Interop.DirectX.ID3D12Device4, TerraFX.Interop.DirectX.ID3D12Device3, TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12Device2* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12Device2, TerraFX.Interop.DirectX.ID3D12Device1, TerraFX.Interop.DirectX.ID3D12Device, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -886,6 +901,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12GraphicsCommandList8, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList7, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList6, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList5, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList4, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList3, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList1, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList, TerraFX.Interop.DirectX.ID3D12CommandList, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList8* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12GraphicsCommandList8, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList7, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList6, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList5, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList4, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList3, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList1, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList, TerraFX.Interop.DirectX.ID3D12CommandList, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID3D12GraphicsCommandList9, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList8, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList7, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList6, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList5, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList4, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList3, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList1, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList, TerraFX.Interop.DirectX.ID3D12CommandList, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12GraphicsCommandList9, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList8, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList7, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList6, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList5, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList4, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList3, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList1, TerraFX.Interop.DirectX.ID3D12GraphicsCommandList, TerraFX.Interop.DirectX.ID3D12CommandList, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12Heap, TerraFX.Interop.DirectX.ID3D12Pageable, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12Heap* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12Heap, TerraFX.Interop.DirectX.ID3D12Pageable, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -905,6 +923,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12LifetimeTracker, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12LifetimeTracker* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12LifetimeTracker, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.ID3D12ManualWriteTrackingResource, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12ManualWriteTrackingResource* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12ManualWriteTrackingResource, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.ID3D12MetaCommand, TerraFX.Interop.DirectX.ID3D12Pageable, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.ID3D12MetaCommand* ptr) => *(CastPtr<TerraFX.Interop.DirectX.ID3D12MetaCommand, TerraFX.Interop.DirectX.ID3D12Pageable, TerraFX.Interop.DirectX.ID3D12DeviceChild, TerraFX.Interop.DirectX.ID3D12Object, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -1117,6 +1138,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.IDCompositionDevice3, TerraFX.Interop.DirectX.IDCompositionDevice2, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionDevice3* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionDevice3, TerraFX.Interop.DirectX.IDCompositionDevice2, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDCompositionDevice4, TerraFX.Interop.DirectX.IDCompositionDevice3, TerraFX.Interop.DirectX.IDCompositionDevice2, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionDevice4* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionDevice4, TerraFX.Interop.DirectX.IDCompositionDevice3, TerraFX.Interop.DirectX.IDCompositionDevice2, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDCompositionDeviceDebug, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionDeviceDebug* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionDeviceDebug, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1183,6 +1207,9 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.IDCompositionTarget, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionTarget* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionTarget, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDCompositionTexture, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionTexture* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionTexture, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDCompositionTransform, TerraFX.Interop.DirectX.IDCompositionTransform3D, TerraFX.Interop.DirectX.IDCompositionEffect, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionTransform* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionTransform, TerraFX.Interop.DirectX.IDCompositionTransform3D, TerraFX.Interop.DirectX.IDCompositionEffect, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1211,6 +1238,78 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDCompositionVisualDebug, TerraFX.Interop.DirectX.IDCompositionVisual2, TerraFX.Interop.DirectX.IDCompositionVisual, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDCompositionVisualDebug* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDCompositionVisualDebug, TerraFX.Interop.DirectX.IDCompositionVisual2, TerraFX.Interop.DirectX.IDCompositionVisual, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3D9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3D9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3D9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3D9Ex, TerraFX.Interop.DirectX.IDirect3D9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3D9Ex* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3D9Ex, TerraFX.Interop.DirectX.IDirect3D9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3D9ExOverlayExtension, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3D9ExOverlayExtension* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3D9ExOverlayExtension, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DAuthenticatedChannel9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DAuthenticatedChannel9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DAuthenticatedChannel9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DBaseTexture9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DCryptoSession9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DCryptoSession9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DCryptoSession9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DCubeTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DCubeTexture9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DCubeTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DDevice9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9Ex, TerraFX.Interop.DirectX.IDirect3DDevice9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DDevice9Ex* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9Ex, TerraFX.Interop.DirectX.IDirect3DDevice9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9Video, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DDevice9Video* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DDevice9Video, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DIndexBuffer9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DIndexBuffer9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DIndexBuffer9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DPixelShader9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DPixelShader9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DPixelShader9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DQuery9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DQuery9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DQuery9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DResource9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DStateBlock9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DStateBlock9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DStateBlock9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DSurface9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DSurface9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DSurface9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DSwapChain9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DSwapChain9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DSwapChain9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DSwapChain9Ex, TerraFX.Interop.DirectX.IDirect3DSwapChain9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DSwapChain9Ex* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DSwapChain9Ex, TerraFX.Interop.DirectX.IDirect3DSwapChain9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DTexture9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexBuffer9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DVertexBuffer9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexBuffer9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexDeclaration9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DVertexDeclaration9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexDeclaration9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexShader9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DVertexShader9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DVertexShader9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DVolume9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DVolume9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DVolume9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDirect3DVolumeTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirect3DVolumeTexture9* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirect3DVolumeTexture9, TerraFX.Interop.DirectX.IDirect3DBaseTexture9, TerraFX.Interop.DirectX.IDirect3DResource9, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDirectDraw, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDirectDraw* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDirectDraw, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -1402,6 +1501,12 @@ public static unsafe class Pointers
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget2, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget2* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget2, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget3, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget2, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget3* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget3, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget2, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget1, TerraFX.Interop.DirectX.IDWriteBitmapRenderTarget, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteColorGlyphRunEnumerator, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteColorGlyphRunEnumerator* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteColorGlyphRunEnumerator, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -1430,6 +1535,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteFactory7, TerraFX.Interop.DirectX.IDWriteFactory6, TerraFX.Interop.DirectX.IDWriteFactory5, TerraFX.Interop.DirectX.IDWriteFactory4, TerraFX.Interop.DirectX.IDWriteFactory3, TerraFX.Interop.DirectX.IDWriteFactory2, TerraFX.Interop.DirectX.IDWriteFactory1, TerraFX.Interop.DirectX.IDWriteFactory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFactory7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFactory7, TerraFX.Interop.DirectX.IDWriteFactory6, TerraFX.Interop.DirectX.IDWriteFactory5, TerraFX.Interop.DirectX.IDWriteFactory4, TerraFX.Interop.DirectX.IDWriteFactory3, TerraFX.Interop.DirectX.IDWriteFactory2, TerraFX.Interop.DirectX.IDWriteFactory1, TerraFX.Interop.DirectX.IDWriteFactory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDWriteFactory8, TerraFX.Interop.DirectX.IDWriteFactory7, TerraFX.Interop.DirectX.IDWriteFactory6, TerraFX.Interop.DirectX.IDWriteFactory5, TerraFX.Interop.DirectX.IDWriteFactory4, TerraFX.Interop.DirectX.IDWriteFactory3, TerraFX.Interop.DirectX.IDWriteFactory2, TerraFX.Interop.DirectX.IDWriteFactory1, TerraFX.Interop.DirectX.IDWriteFactory, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFactory8* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFactory8, TerraFX.Interop.DirectX.IDWriteFactory7, TerraFX.Interop.DirectX.IDWriteFactory6, TerraFX.Interop.DirectX.IDWriteFactory5, TerraFX.Interop.DirectX.IDWriteFactory4, TerraFX.Interop.DirectX.IDWriteFactory3, TerraFX.Interop.DirectX.IDWriteFactory2, TerraFX.Interop.DirectX.IDWriteFactory1, TerraFX.Interop.DirectX.IDWriteFactory, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteFont, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFont* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFont, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -1484,6 +1592,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteFontFace6, TerraFX.Interop.DirectX.IDWriteFontFace5, TerraFX.Interop.DirectX.IDWriteFontFace4, TerraFX.Interop.DirectX.IDWriteFontFace3, TerraFX.Interop.DirectX.IDWriteFontFace2, TerraFX.Interop.DirectX.IDWriteFontFace1, TerraFX.Interop.DirectX.IDWriteFontFace, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFontFace6* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFontFace6, TerraFX.Interop.DirectX.IDWriteFontFace5, TerraFX.Interop.DirectX.IDWriteFontFace4, TerraFX.Interop.DirectX.IDWriteFontFace3, TerraFX.Interop.DirectX.IDWriteFontFace2, TerraFX.Interop.DirectX.IDWriteFontFace1, TerraFX.Interop.DirectX.IDWriteFontFace, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDWriteFontFace7, TerraFX.Interop.DirectX.IDWriteFontFace6, TerraFX.Interop.DirectX.IDWriteFontFace5, TerraFX.Interop.DirectX.IDWriteFontFace4, TerraFX.Interop.DirectX.IDWriteFontFace3, TerraFX.Interop.DirectX.IDWriteFontFace2, TerraFX.Interop.DirectX.IDWriteFontFace1, TerraFX.Interop.DirectX.IDWriteFontFace, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFontFace7* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFontFace7, TerraFX.Interop.DirectX.IDWriteFontFace6, TerraFX.Interop.DirectX.IDWriteFontFace5, TerraFX.Interop.DirectX.IDWriteFontFace4, TerraFX.Interop.DirectX.IDWriteFontFace3, TerraFX.Interop.DirectX.IDWriteFontFace2, TerraFX.Interop.DirectX.IDWriteFontFace1, TerraFX.Interop.DirectX.IDWriteFontFace, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteFontFaceReference, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteFontFaceReference* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteFontFaceReference, TerraFX.Interop.Windows.IUnknown>*)&ptr;
@@ -1580,6 +1691,9 @@ public static unsafe class Pointers
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWriteNumberSubstitution, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWriteNumberSubstitution* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWriteNumberSubstitution, TerraFX.Interop.Windows.IUnknown>*)&ptr;
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static CastPtr<TerraFX.Interop.DirectX.IDWritePaintReader, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWritePaintReader* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWritePaintReader, TerraFX.Interop.Windows.IUnknown>*)&ptr;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static CastPtr<TerraFX.Interop.DirectX.IDWritePixelSnapping, TerraFX.Interop.Windows.IUnknown> __cast(TerraFX.Interop.DirectX.IDWritePixelSnapping* ptr) => *(CastPtr<TerraFX.Interop.DirectX.IDWritePixelSnapping, TerraFX.Interop.Windows.IUnknown>*)&ptr;
