@@ -284,6 +284,11 @@ public static class Program
                         writer.WriteLine($"{{");
                         writer.WriteLine($"    private readonly {comStructType.FullName}* p;");
 
+                        // Get() method
+                        writer.WriteLine();
+                        writer.WriteLine($"    public {comStructType.FullName}* Get() => this.p;");
+                        writer.WriteLine();
+
                         // Implicit conversion from I* to PI
                         writer.WriteLine($"    public static implicit operator P{comStructType.Name}({comStructType.FullName}* p) => *(P{comStructType.Name}*)&p;");
 
