@@ -291,6 +291,9 @@ public static class Program
                             writer.WriteLine($"    public static implicit operator {type.FullName}*(P{comStructType.Name} p) => ({type.FullName}*)p.p;");
                         }
 
+                        // Implicit conversion to void*, which any "pointer" type should support
+                        writer.WriteLine($"    public static implicit operator void*(P{comStructType.Name} p) => p.p;");
+
                         writer.WriteLine($"}}");
                     }
                 });

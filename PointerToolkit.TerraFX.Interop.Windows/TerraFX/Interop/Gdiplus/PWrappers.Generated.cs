@@ -12,4 +12,5 @@ public unsafe readonly ref struct PIImageBytes
     public static implicit operator PIImageBytes(TerraFX.Interop.Gdiplus.IImageBytes* p) => *(PIImageBytes*)&p;
     public static implicit operator TerraFX.Interop.Gdiplus.IImageBytes*(PIImageBytes p) => (TerraFX.Interop.Gdiplus.IImageBytes*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIImageBytes p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIImageBytes p) => p.p;
 }
