@@ -204,8 +204,6 @@ public static class Program
                             castPtrTypeParamsList.Add(comStructType.FullName!);
                         }
 
-                        //string castPtrTypeParams = string.Join(", ", castPtrTypeParamsList);
-
                         if (!isFirst)
                         {
                             writer.WriteLine();
@@ -217,7 +215,6 @@ public static class Program
                             // NOTE: 'message' might need escaping if it has quotes, backslashes, etc. Can worry about this later.
                             writer.WriteLine($"    [Obsolete(\"{message}\", true)]");
                         }
-                        writer.WriteLine("    [MethodImpl(MethodImplOptions.AggressiveInlining)]");
                         writer.WriteLine($"    public static P{comStructType.Name} __cast({comStructType.FullName}* p) => (P{comStructType.Name})p;");
                     }
 
