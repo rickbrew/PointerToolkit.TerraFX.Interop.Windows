@@ -4,7 +4,7 @@ using System.Runtime.Versioning;
 
 [assembly: AssemblyTitle("PointerToolkit.TerraFX.Interop.Windows")]
 [assembly: AssemblyMetadata("IsTrimmable", "True")]
-[assembly: AssemblyVersion("10.0.22621.5")]
-[assembly: AssemblyFileVersion("10.0.22621.5")]
-[assembly: AssemblyInformationalVersion("10.0.22621.5+4efaa4f8a60a621d37a3a742c86c3412a1aa5956")]
+[assembly: AssemblyVersion("10.0.22621.6")]
+[assembly: AssemblyFileVersion("10.0.22621.6")]
+[assembly: AssemblyInformationalVersion("10.0.22621.6+39a0cf1a35f6e17e8c9f50f926a03596c702b5e1")]
 [assembly: SupportedOSPlatform("windows")]
