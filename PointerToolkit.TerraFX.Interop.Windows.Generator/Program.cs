@@ -223,6 +223,8 @@ public static class Program
         }
 
         // Per-interface wrappers, e.g. PIUnknown for IUnknown*
+        // As per @Metasyntactic on the C# Discord server in #roslyn, "put into one file. we'll be ok." (vs. one file per type)
+        // https://discord.com/channels/143867839282020352/598678594750775301/1237468680326221965
         foreach (string @namespace in namespaces)
         {
             Type[] nsComStructTypes = comStructTypes
