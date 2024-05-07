@@ -39,7 +39,7 @@ HRESULT hr = pFactory->CreateSolidColorBrush(..., &pBrush); // creates a brush
 pRenderTarget->FillRectangle(..., (PID2D1SolidColorBrush)pBrush); // will implicitly cast to ID2D1Brush*, not error prone!
 ```
 
-While this syntax is not as convenient as the old `__cast()` method operators, its build-time performance is enormously better. You *must* cast to the COM interface struct's corresponding `P` wrapper struct, there are no implicit or explicit casts to the other wrapper structs (you cannot do e.g. `(PID2D1Brush)` or `(PIUnknown)` in the code snippet above). This ensures that there is not an overwhelming number of cast operators (methods) for the compiler to search through (otherwise `PIUnknown` would have ~6500 cast operators!).
+While this syntax is not as convenient as the old `__cast()` method operators, its build-time performance is enormously better. You *must* cast to the COM interface's specific `P` wrapper struct, there are no implicit or explicit casts to the other wrapper structs (you cannot do e.g. `(PID2D1Brush)` or `(PIUnknown)` in the code snippet above). This ensures that there is not an overwhelming number of cast operators (which are still methods) for the compiler to search through. Otherwise `PIUnknown` would have ~6500 cast operators!
 
 ### __cast() method operators (old style)
 
