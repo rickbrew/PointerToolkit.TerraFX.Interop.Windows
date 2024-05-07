@@ -204,7 +204,7 @@ public static class Program
                             castPtrTypeParamsList.Add(comStructType.FullName!);
                         }
 
-                        string castPtrTypeParams = string.Join(", ", castPtrTypeParamsList);
+                        //string castPtrTypeParams = string.Join(", ", castPtrTypeParamsList);
 
                         if (!isFirst)
                         {
@@ -218,12 +218,86 @@ public static class Program
                             writer.WriteLine($"    [Obsolete(\"{message}\", true)]");
                         }
                         writer.WriteLine("    [MethodImpl(MethodImplOptions.AggressiveInlining)]");
-                        writer.WriteLine($"    public static CastPtr<{castPtrTypeParams}> __cast({comStructType.FullName}* ptr) => *(CastPtr<{castPtrTypeParams}>*)&ptr;");
+                        writer.WriteLine($"    public static P{comStructType.Name} __cast({comStructType.FullName}* p) => (P{comStructType.Name})p;");
                     }
 
                     writer.WriteLine("}");
                 });
-        }        
+        }
+
+        // Per-interface wrappers, e.g. PIUnknown for IUnknown*
+        foreach (string @namespace in namespaces)
+        {
+            Type[] nsComStructTypes = comStructTypes
+                .Where(t => string.Equals(@namespace, t.Namespace))
+                .OrderBy(t => t.FullName, StringComparer.OrdinalIgnoreCase)
+                .ToArray();
+
+            if (nsComStructTypes.Length == 0)
+            {
+                continue;
+            }
+
+            string filePath;
+            {
+                List<string> filePathComponents = new();
+                filePathComponents.Add(outputDirPath);
+                filePathComponents.AddRange(@namespace.Split('.') ?? Array.Empty<string>());
+                filePathComponents.Add("PWrappers.Generated.cs");
+                filePath = Path.Combine(filePathComponents.ToArray());
+            }
+
+            GenerateFile(
+                filePath,
+                delegate (TextWriter writer)
+                {
+                    writer.WriteLine("using PointerToolkit;");
+                    writer.WriteLine("using System;");
+                    writer.WriteLine("using System.Runtime.InteropServices;");
+                    writer.WriteLine("using System.Runtime.CompilerServices;");
+                    writer.WriteLine();
+                    writer.WriteLine($"namespace {@namespace};");
+
+                    foreach (Type comStructType in nsComStructTypes)
+                    {
+                        List<Type> inheritanceTypeChain;
+                        if (comStructToBaseTypes.TryGetValue(comStructType, out List<Type>? baseTypes))
+                        {
+                            inheritanceTypeChain = new List<Type>(baseTypes);
+                            inheritanceTypeChain.Insert(0, comStructType);
+                        }
+                        else
+                        {
+                            inheritanceTypeChain = new List<Type>(1);
+                            inheritanceTypeChain.Add(comStructType);
+                        }
+
+                        writer.WriteLine();
+
+                        if (comStructType.IsObsolete(out string? message).GetValueOrDefault())
+                        {
+                            // NOTE: 'message' might need escaping if it has quotes, backslashes, etc. Can worry about this later.
+                            writer.WriteLine($"[Obsolete(\"{message}\", true)]");
+                        }
+
+                        writer.WriteLine($"[StructLayout(LayoutKind.Sequential)]");
+                        writer.WriteLine($"public unsafe readonly ref struct P{comStructType.Name}");
+                        writer.WriteLine($"{{");
+                        writer.WriteLine($"    private readonly {comStructType.FullName}* p;");
+
+                        // Implicit conversion from I* to PI
+                        writer.WriteLine($"    public static implicit operator P{comStructType.Name}({comStructType.FullName}* p) => *(P{comStructType.Name}*)&p;");
+
+                        // Implicit conversion from PI to I*, and to all of I's base interfaces
+                        foreach (Type type in inheritanceTypeChain)
+                        {
+                            writer.WriteLine($"    public static implicit operator {type.FullName}*(P{comStructType.Name} p) => ({type.FullName}*)p.p;");
+                        }
+
+                        writer.WriteLine($"}}");
+                    }
+                });
+        }
     }
 
     public static void GenerateFile(string filePath, Action<TextWriter> writeCallback)
