@@ -258,6 +258,20 @@ public unsafe readonly ref struct PIAccountsSettingsPaneInterop
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAcousticEchoCancellationConfiguration
+{
+    private readonly TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration* p;
+
+    public TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration* Get() => this.p;
+
+    public static implicit operator PIAcousticEchoCancellationConfiguration(TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration* p) => *(PIAcousticEchoCancellationConfiguration*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration*(PIAcousticEchoCancellationConfiguration p) => (TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAcousticEchoCancellationConfiguration p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAcousticEchoCancellationConfiguration p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAcousticEchoCancellationConfiguration p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIActivatedEventArgs
 {
     private readonly TerraFX.Interop.WinRT.IActivatedEventArgs* p;
@@ -4527,6 +4541,20 @@ public unsafe readonly ref struct PIAudioDeviceController
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAudioDeviceController2
+{
+    private readonly TerraFX.Interop.WinRT.IAudioDeviceController2* p;
+
+    public TerraFX.Interop.WinRT.IAudioDeviceController2* Get() => this.p;
+
+    public static implicit operator PIAudioDeviceController2(TerraFX.Interop.WinRT.IAudioDeviceController2* p) => *(PIAudioDeviceController2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAudioDeviceController2*(PIAudioDeviceController2 p) => (TerraFX.Interop.WinRT.IAudioDeviceController2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAudioDeviceController2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAudioDeviceController2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAudioDeviceController2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIAudioDeviceInputNode
 {
     private readonly TerraFX.Interop.WinRT.IAudioDeviceInputNode* p;
@@ -4625,6 +4653,20 @@ public unsafe readonly ref struct PIAudioEffect
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAudioEffect2
+{
+    private readonly TerraFX.Interop.WinRT.IAudioEffect2* p;
+
+    public TerraFX.Interop.WinRT.IAudioEffect2* Get() => this.p;
+
+    public static implicit operator PIAudioEffect2(TerraFX.Interop.WinRT.IAudioEffect2* p) => *(PIAudioEffect2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAudioEffect2*(PIAudioEffect2 p) => (TerraFX.Interop.WinRT.IAudioEffect2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAudioEffect2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAudioEffect2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAudioEffect2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIAudioEffectDefinition
 {
     private readonly TerraFX.Interop.WinRT.IAudioEffectDefinition* p;
@@ -4664,6 +4706,34 @@ public unsafe readonly ref struct PIAudioEffectsManagerStatics
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAudioEffectsManagerStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAudioEffectsManagerStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIAudioEffectsManagerStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAudioEffectsPackConfiguration
+{
+    private readonly TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration* p;
+
+    public TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration* Get() => this.p;
+
+    public static implicit operator PIAudioEffectsPackConfiguration(TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration* p) => *(PIAudioEffectsPackConfiguration*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration*(PIAudioEffectsPackConfiguration p) => (TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAudioEffectsPackConfiguration p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAudioEffectsPackConfiguration p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAudioEffectsPackConfiguration p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAudioEffectsPackConfigurationStatics
+{
+    private readonly TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics* p;
+
+    public TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics* Get() => this.p;
+
+    public static implicit operator PIAudioEffectsPackConfigurationStatics(TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics* p) => *(PIAudioEffectsPackConfigurationStatics*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics*(PIAudioEffectsPackConfigurationStatics p) => (TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAudioEffectsPackConfigurationStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAudioEffectsPackConfigurationStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAudioEffectsPackConfigurationStatics p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -5777,6 +5847,34 @@ public unsafe readonly ref struct PIBackgroundTaskBuilder5
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBackgroundTaskBuilder6
+{
+    private readonly TerraFX.Interop.WinRT.IBackgroundTaskBuilder6* p;
+
+    public TerraFX.Interop.WinRT.IBackgroundTaskBuilder6* Get() => this.p;
+
+    public static implicit operator PIBackgroundTaskBuilder6(TerraFX.Interop.WinRT.IBackgroundTaskBuilder6* p) => *(PIBackgroundTaskBuilder6*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBackgroundTaskBuilder6*(PIBackgroundTaskBuilder6 p) => (TerraFX.Interop.WinRT.IBackgroundTaskBuilder6*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundTaskBuilder6 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundTaskBuilder6 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBackgroundTaskBuilder6 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBackgroundTaskBuilderStatics
+{
+    private readonly TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics* p;
+
+    public TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics* Get() => this.p;
+
+    public static implicit operator PIBackgroundTaskBuilderStatics(TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics* p) => *(PIBackgroundTaskBuilderStatics*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics*(PIBackgroundTaskBuilderStatics p) => (TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundTaskBuilderStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundTaskBuilderStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBackgroundTaskBuilderStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIBackgroundTaskCanceledEventHandler
 {
     private readonly TerraFX.Interop.WinRT.IBackgroundTaskCanceledEventHandler* p;
@@ -5939,6 +6037,20 @@ public unsafe readonly ref struct PIBackgroundTaskRegistration3
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundTaskRegistration3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundTaskRegistration3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIBackgroundTaskRegistration3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBackgroundTaskRegistration4
+{
+    private readonly TerraFX.Interop.WinRT.IBackgroundTaskRegistration4* p;
+
+    public TerraFX.Interop.WinRT.IBackgroundTaskRegistration4* Get() => this.p;
+
+    public static implicit operator PIBackgroundTaskRegistration4(TerraFX.Interop.WinRT.IBackgroundTaskRegistration4* p) => *(PIBackgroundTaskRegistration4*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBackgroundTaskRegistration4*(PIBackgroundTaskRegistration4 p) => (TerraFX.Interop.WinRT.IBackgroundTaskRegistration4*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundTaskRegistration4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundTaskRegistration4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBackgroundTaskRegistration4 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -6276,6 +6388,20 @@ public unsafe readonly ref struct PIBackgroundWorkCostStatics
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundWorkCostStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundWorkCostStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIBackgroundWorkCostStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBackgroundWorkCostStatics2
+{
+    private readonly TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2* p;
+
+    public TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2* Get() => this.p;
+
+    public static implicit operator PIBackgroundWorkCostStatics2(TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2* p) => *(PIBackgroundWorkCostStatics2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2*(PIBackgroundWorkCostStatics2 p) => (TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBackgroundWorkCostStatics2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBackgroundWorkCostStatics2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBackgroundWorkCostStatics2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -15582,6 +15708,20 @@ public unsafe readonly ref struct PIDetectedFace
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDetectedPerson
+{
+    private readonly TerraFX.Interop.WinRT.IDetectedPerson* p;
+
+    public TerraFX.Interop.WinRT.IDetectedPerson* Get() => this.p;
+
+    public static implicit operator PIDetectedPerson(TerraFX.Interop.WinRT.IDetectedPerson* p) => *(PIDetectedPerson*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDetectedPerson*(PIDetectedPerson p) => (TerraFX.Interop.WinRT.IDetectedPerson*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDetectedPerson p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDetectedPerson p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDetectedPerson p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIDeviceAccessChangedEventArgs
 {
     private readonly TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs* p;
@@ -15610,6 +15750,20 @@ public unsafe readonly ref struct PIDeviceAccessChangedEventArgs2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDeviceAccessChangedEventArgs3
+{
+    private readonly TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3* p;
+
+    public TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3* Get() => this.p;
+
+    public static implicit operator PIDeviceAccessChangedEventArgs3(TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3* p) => *(PIDeviceAccessChangedEventArgs3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3*(PIDeviceAccessChangedEventArgs3 p) => (TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceAccessChangedEventArgs3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceAccessChangedEventArgs3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDeviceAccessChangedEventArgs3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIDeviceAccessInformation
 {
     private readonly TerraFX.Interop.WinRT.IDeviceAccessInformation* p;
@@ -15621,6 +15775,20 @@ public unsafe readonly ref struct PIDeviceAccessInformation
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceAccessInformation p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceAccessInformation p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDeviceAccessInformation p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDeviceAccessInformation2
+{
+    private readonly TerraFX.Interop.WinRT.IDeviceAccessInformation2* p;
+
+    public TerraFX.Interop.WinRT.IDeviceAccessInformation2* Get() => this.p;
+
+    public static implicit operator PIDeviceAccessInformation2(TerraFX.Interop.WinRT.IDeviceAccessInformation2* p) => *(PIDeviceAccessInformation2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDeviceAccessInformation2*(PIDeviceAccessInformation2 p) => (TerraFX.Interop.WinRT.IDeviceAccessInformation2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceAccessInformation2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceAccessInformation2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDeviceAccessInformation2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -15735,6 +15903,20 @@ public unsafe readonly ref struct PIDeviceDisconnectButtonClickedEventArgs
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDeviceEnumerationSettings
+{
+    private readonly TerraFX.Interop.WinRT.IDeviceEnumerationSettings* p;
+
+    public TerraFX.Interop.WinRT.IDeviceEnumerationSettings* Get() => this.p;
+
+    public static implicit operator PIDeviceEnumerationSettings(TerraFX.Interop.WinRT.IDeviceEnumerationSettings* p) => *(PIDeviceEnumerationSettings*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDeviceEnumerationSettings*(PIDeviceEnumerationSettings p) => (TerraFX.Interop.WinRT.IDeviceEnumerationSettings*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceEnumerationSettings p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceEnumerationSettings p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDeviceEnumerationSettings p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIDeviceIcon
 {
     private readonly TerraFX.Interop.WinRT.IDeviceIcon* p;
@@ -15788,6 +15970,20 @@ public unsafe readonly ref struct PIDeviceInformationCustomPairing
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceInformationCustomPairing p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceInformationCustomPairing p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDeviceInformationCustomPairing p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDeviceInformationCustomPairing2
+{
+    private readonly TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2* p;
+
+    public TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2* Get() => this.p;
+
+    public static implicit operator PIDeviceInformationCustomPairing2(TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2* p) => *(PIDeviceInformationCustomPairing2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2*(PIDeviceInformationCustomPairing2 p) => (TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceInformationCustomPairing2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceInformationCustomPairing2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDeviceInformationCustomPairing2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -15872,6 +16068,20 @@ public unsafe readonly ref struct PIDeviceInformationStatics2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceInformationStatics2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceInformationStatics2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDeviceInformationStatics2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDeviceInformationStatics3
+{
+    private readonly TerraFX.Interop.WinRT.IDeviceInformationStatics3* p;
+
+    public TerraFX.Interop.WinRT.IDeviceInformationStatics3* Get() => this.p;
+
+    public static implicit operator PIDeviceInformationStatics3(TerraFX.Interop.WinRT.IDeviceInformationStatics3* p) => *(PIDeviceInformationStatics3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDeviceInformationStatics3*(PIDeviceInformationStatics3 p) => (TerraFX.Interop.WinRT.IDeviceInformationStatics3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDeviceInformationStatics3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDeviceInformationStatics3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDeviceInformationStatics3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -15989,6 +16199,20 @@ public unsafe readonly ref struct PIDevicePairingRequestedEventArgs2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDevicePairingRequestedEventArgs3
+{
+    private readonly TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3* p;
+
+    public TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3* Get() => this.p;
+
+    public static implicit operator PIDevicePairingRequestedEventArgs3(TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3* p) => *(PIDevicePairingRequestedEventArgs3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3*(PIDevicePairingRequestedEventArgs3 p) => (TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDevicePairingRequestedEventArgs3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDevicePairingRequestedEventArgs3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDevicePairingRequestedEventArgs3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIDevicePairingResult
 {
     private readonly TerraFX.Interop.WinRT.IDevicePairingResult* p;
@@ -16000,6 +16224,20 @@ public unsafe readonly ref struct PIDevicePairingResult
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDevicePairingResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDevicePairingResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDevicePairingResult p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDevicePairingSetMembersRequestedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs* Get() => this.p;
+
+    public static implicit operator PIDevicePairingSetMembersRequestedEventArgs(TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs* p) => *(PIDevicePairingSetMembersRequestedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs*(PIDevicePairingSetMembersRequestedEventArgs p) => (TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIDevicePairingSetMembersRequestedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDevicePairingSetMembersRequestedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDevicePairingSetMembersRequestedEventArgs p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -21420,6 +21658,34 @@ public unsafe readonly ref struct PIHdrVideoControl
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHeadOrientation
+{
+    private readonly TerraFX.Interop.WinRT.IHeadOrientation* p;
+
+    public TerraFX.Interop.WinRT.IHeadOrientation* Get() => this.p;
+
+    public static implicit operator PIHeadOrientation(TerraFX.Interop.WinRT.IHeadOrientation* p) => *(PIHeadOrientation*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHeadOrientation*(PIHeadOrientation p) => (TerraFX.Interop.WinRT.IHeadOrientation*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHeadOrientation p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHeadOrientation p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHeadOrientation p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHeadPosition
+{
+    private readonly TerraFX.Interop.WinRT.IHeadPosition* p;
+
+    public TerraFX.Interop.WinRT.IHeadPosition* Get() => this.p;
+
+    public static implicit operator PIHeadPosition(TerraFX.Interop.WinRT.IHeadPosition* p) => *(PIHeadPosition*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHeadPosition*(PIHeadPosition p) => (TerraFX.Interop.WinRT.IHeadPosition*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHeadPosition p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHeadPosition p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHeadPosition p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIHevcProfileIdsStatics
 {
     private readonly TerraFX.Interop.WinRT.IHevcProfileIdsStatics* p;
@@ -23198,6 +23464,20 @@ public unsafe readonly ref struct PIHumanPresenceSensor2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHumanPresenceSensor3
+{
+    private readonly TerraFX.Interop.WinRT.IHumanPresenceSensor3* p;
+
+    public TerraFX.Interop.WinRT.IHumanPresenceSensor3* Get() => this.p;
+
+    public static implicit operator PIHumanPresenceSensor3(TerraFX.Interop.WinRT.IHumanPresenceSensor3* p) => *(PIHumanPresenceSensor3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHumanPresenceSensor3*(PIHumanPresenceSensor3 p) => (TerraFX.Interop.WinRT.IHumanPresenceSensor3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSensor3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSensor3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHumanPresenceSensor3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIHumanPresenceSensorExtension
 {
     private readonly TerraFX.Interop.WinRT.IHumanPresenceSensorExtension* p;
@@ -23237,6 +23517,20 @@ public unsafe readonly ref struct PIHumanPresenceSensorReading2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSensorReading2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSensorReading2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIHumanPresenceSensorReading2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHumanPresenceSensorReading3
+{
+    private readonly TerraFX.Interop.WinRT.IHumanPresenceSensorReading3* p;
+
+    public TerraFX.Interop.WinRT.IHumanPresenceSensorReading3* Get() => this.p;
+
+    public static implicit operator PIHumanPresenceSensorReading3(TerraFX.Interop.WinRT.IHumanPresenceSensorReading3* p) => *(PIHumanPresenceSensorReading3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHumanPresenceSensorReading3*(PIHumanPresenceSensorReading3 p) => (TerraFX.Interop.WinRT.IHumanPresenceSensorReading3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSensorReading3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSensorReading3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHumanPresenceSensorReading3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -24187,6 +24481,34 @@ public unsafe readonly ref struct PIIppPrintDevice2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIIppPrintDevice2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIIppPrintDevice2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIIppPrintDevice2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIIppPrintDevice3
+{
+    private readonly TerraFX.Interop.WinRT.IIppPrintDevice3* p;
+
+    public TerraFX.Interop.WinRT.IIppPrintDevice3* Get() => this.p;
+
+    public static implicit operator PIIppPrintDevice3(TerraFX.Interop.WinRT.IIppPrintDevice3* p) => *(PIIppPrintDevice3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IIppPrintDevice3*(PIIppPrintDevice3 p) => (TerraFX.Interop.WinRT.IIppPrintDevice3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIIppPrintDevice3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIIppPrintDevice3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIIppPrintDevice3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIIppPrintDevice4
+{
+    private readonly TerraFX.Interop.WinRT.IIppPrintDevice4* p;
+
+    public TerraFX.Interop.WinRT.IIppPrintDevice4* Get() => this.p;
+
+    public static implicit operator PIIppPrintDevice4(TerraFX.Interop.WinRT.IIppPrintDevice4* p) => *(PIIppPrintDevice4*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IIppPrintDevice4*(PIIppPrintDevice4 p) => (TerraFX.Interop.WinRT.IIppPrintDevice4*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIIppPrintDevice4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIIppPrintDevice4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIIppPrintDevice4 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -29746,6 +30068,19 @@ public unsafe readonly ref struct PIModuleCommandResult
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIMonitorGraphicsCaptureItemInterop
+{
+    private readonly TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop* p;
+
+    public TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop* Get() => this.p;
+
+    public static implicit operator PIMonitorGraphicsCaptureItemInterop(TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop* p) => *(PIMonitorGraphicsCaptureItemInterop*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop*(PIMonitorGraphicsCaptureItemInterop p) => (TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMonitorGraphicsCaptureItemInterop p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIMonitorGraphicsCaptureItemInterop p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIMouseCapabilities
 {
     private readonly TerraFX.Interop.WinRT.IMouseCapabilities* p;
@@ -32601,6 +32936,48 @@ public unsafe readonly ref struct PIPowerEasingFunction
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPowerGridData
+{
+    private readonly TerraFX.Interop.WinRT.IPowerGridData* p;
+
+    public TerraFX.Interop.WinRT.IPowerGridData* Get() => this.p;
+
+    public static implicit operator PIPowerGridData(TerraFX.Interop.WinRT.IPowerGridData* p) => *(PIPowerGridData*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPowerGridData*(PIPowerGridData p) => (TerraFX.Interop.WinRT.IPowerGridData*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPowerGridData p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPowerGridData p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPowerGridData p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPowerGridForecast
+{
+    private readonly TerraFX.Interop.WinRT.IPowerGridForecast* p;
+
+    public TerraFX.Interop.WinRT.IPowerGridForecast* Get() => this.p;
+
+    public static implicit operator PIPowerGridForecast(TerraFX.Interop.WinRT.IPowerGridForecast* p) => *(PIPowerGridForecast*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPowerGridForecast*(PIPowerGridForecast p) => (TerraFX.Interop.WinRT.IPowerGridForecast*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPowerGridForecast p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPowerGridForecast p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPowerGridForecast p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPowerGridForecastStatics
+{
+    private readonly TerraFX.Interop.WinRT.IPowerGridForecastStatics* p;
+
+    public TerraFX.Interop.WinRT.IPowerGridForecastStatics* Get() => this.p;
+
+    public static implicit operator PIPowerGridForecastStatics(TerraFX.Interop.WinRT.IPowerGridForecastStatics* p) => *(PIPowerGridForecastStatics*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPowerGridForecastStatics*(PIPowerGridForecastStatics p) => (TerraFX.Interop.WinRT.IPowerGridForecastStatics*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPowerGridForecastStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPowerGridForecastStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPowerGridForecastStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIPowerManagerStatics
 {
     private readonly TerraFX.Interop.WinRT.IPowerManagerStatics* p;
@@ -33239,6 +33616,678 @@ public unsafe readonly ref struct PIPrintTaskTargetDeviceSupport
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTaskTargetDeviceSupport p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTaskTargetDeviceSupport p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIPrintTaskTargetDeviceSupport p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketCapabilities
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketCapabilities* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketCapabilities* Get() => this.p;
+
+    public static implicit operator PIPrintTicketCapabilities(TerraFX.Interop.WinRT.IPrintTicketCapabilities* p) => *(PIPrintTicketCapabilities*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketCapabilities*(PIPrintTicketCapabilities p) => (TerraFX.Interop.WinRT.IPrintTicketCapabilities*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketCapabilities p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketCapabilities p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketCapabilities p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketFeature
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketFeature* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketFeature* Get() => this.p;
+
+    public static implicit operator PIPrintTicketFeature(TerraFX.Interop.WinRT.IPrintTicketFeature* p) => *(PIPrintTicketFeature*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketFeature*(PIPrintTicketFeature p) => (TerraFX.Interop.WinRT.IPrintTicketFeature*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketFeature p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketFeature p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketFeature p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketOption
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketOption* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketOption* Get() => this.p;
+
+    public static implicit operator PIPrintTicketOption(TerraFX.Interop.WinRT.IPrintTicketOption* p) => *(PIPrintTicketOption*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketOption*(PIPrintTicketOption p) => (TerraFX.Interop.WinRT.IPrintTicketOption*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketOption p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketOption p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketOption p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketParameterDefinition
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketParameterDefinition* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketParameterDefinition* Get() => this.p;
+
+    public static implicit operator PIPrintTicketParameterDefinition(TerraFX.Interop.WinRT.IPrintTicketParameterDefinition* p) => *(PIPrintTicketParameterDefinition*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketParameterDefinition*(PIPrintTicketParameterDefinition p) => (TerraFX.Interop.WinRT.IPrintTicketParameterDefinition*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketParameterDefinition p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketParameterDefinition p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketParameterDefinition p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketParameterInitializer
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketParameterInitializer* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketParameterInitializer* Get() => this.p;
+
+    public static implicit operator PIPrintTicketParameterInitializer(TerraFX.Interop.WinRT.IPrintTicketParameterInitializer* p) => *(PIPrintTicketParameterInitializer*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketParameterInitializer*(PIPrintTicketParameterInitializer p) => (TerraFX.Interop.WinRT.IPrintTicketParameterInitializer*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketParameterInitializer p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketParameterInitializer p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketParameterInitializer p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintTicketValue
+{
+    private readonly TerraFX.Interop.WinRT.IPrintTicketValue* p;
+
+    public TerraFX.Interop.WinRT.IPrintTicketValue* Get() => this.p;
+
+    public static implicit operator PIPrintTicketValue(TerraFX.Interop.WinRT.IPrintTicketValue* p) => *(PIPrintTicketValue*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintTicketValue*(PIPrintTicketValue p) => (TerraFX.Interop.WinRT.IPrintTicketValue*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintTicketValue p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintTicketValue p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintTicketValue p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowBackgroundSession
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowBackgroundSession(TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession* p) => *(PIPrintWorkflowBackgroundSession*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession*(PIPrintWorkflowBackgroundSession p) => (TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowBackgroundSession p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowBackgroundSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowBackgroundSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowBackgroundSetupRequestedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowBackgroundSetupRequestedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs* p) => *(PIPrintWorkflowBackgroundSetupRequestedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs*(PIPrintWorkflowBackgroundSetupRequestedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowBackgroundSetupRequestedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowBackgroundSetupRequestedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowBackgroundSetupRequestedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowConfiguration
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowConfiguration* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowConfiguration* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowConfiguration(TerraFX.Interop.WinRT.IPrintWorkflowConfiguration* p) => *(PIPrintWorkflowConfiguration*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowConfiguration*(PIPrintWorkflowConfiguration p) => (TerraFX.Interop.WinRT.IPrintWorkflowConfiguration*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowConfiguration p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowConfiguration p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowConfiguration p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowConfiguration2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowConfiguration2(TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2* p) => *(PIPrintWorkflowConfiguration2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2*(PIPrintWorkflowConfiguration2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowConfiguration2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowConfiguration2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowConfiguration2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowForegroundSession
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowForegroundSession(TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession* p) => *(PIPrintWorkflowForegroundSession*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession*(PIPrintWorkflowForegroundSession p) => (TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowForegroundSession p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowForegroundSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowForegroundSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowForegroundSetupRequestedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowForegroundSetupRequestedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs* p) => *(PIPrintWorkflowForegroundSetupRequestedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs*(PIPrintWorkflowForegroundSetupRequestedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowForegroundSetupRequestedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowForegroundSetupRequestedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowForegroundSetupRequestedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobActivatedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobActivatedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs* p) => *(PIPrintWorkflowJobActivatedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs*(PIPrintWorkflowJobActivatedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobActivatedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobActivatedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobActivatedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobBackgroundSession
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobBackgroundSession(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession* p) => *(PIPrintWorkflowJobBackgroundSession*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession*(PIPrintWorkflowJobBackgroundSession p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobBackgroundSession p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobBackgroundSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobBackgroundSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobBackgroundSession2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobBackgroundSession2(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2* p) => *(PIPrintWorkflowJobBackgroundSession2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2*(PIPrintWorkflowJobBackgroundSession2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobBackgroundSession2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobBackgroundSession2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobBackgroundSession2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobIssueDetectedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobIssueDetectedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs* p) => *(PIPrintWorkflowJobIssueDetectedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs*(PIPrintWorkflowJobIssueDetectedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobIssueDetectedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobIssueDetectedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobIssueDetectedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobNotificationEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobNotificationEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs* p) => *(PIPrintWorkflowJobNotificationEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs*(PIPrintWorkflowJobNotificationEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobNotificationEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobNotificationEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobNotificationEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobStartingEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobStartingEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs* p) => *(PIPrintWorkflowJobStartingEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs*(PIPrintWorkflowJobStartingEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobStartingEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobStartingEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobStartingEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobStartingEventArgs2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobStartingEventArgs2(TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2* p) => *(PIPrintWorkflowJobStartingEventArgs2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2*(PIPrintWorkflowJobStartingEventArgs2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobStartingEventArgs2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobStartingEventArgs2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobStartingEventArgs2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobTriggerDetails
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobTriggerDetails(TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails* p) => *(PIPrintWorkflowJobTriggerDetails*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails*(PIPrintWorkflowJobTriggerDetails p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobTriggerDetails p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobTriggerDetails p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobTriggerDetails p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobUISession
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobUISession* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobUISession* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobUISession(TerraFX.Interop.WinRT.IPrintWorkflowJobUISession* p) => *(PIPrintWorkflowJobUISession*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobUISession*(PIPrintWorkflowJobUISession p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobUISession*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobUISession p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobUISession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobUISession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowJobUISession2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowJobUISession2(TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2* p) => *(PIPrintWorkflowJobUISession2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2*(PIPrintWorkflowJobUISession2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowJobUISession2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowJobUISession2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowJobUISession2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowObjectModelSourceFileContent
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowObjectModelSourceFileContent(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent* p) => *(PIPrintWorkflowObjectModelSourceFileContent*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent*(PIPrintWorkflowObjectModelSourceFileContent p) => (TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowObjectModelSourceFileContent p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowObjectModelSourceFileContent p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowObjectModelSourceFileContent p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowObjectModelSourceFileContentFactory
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowObjectModelSourceFileContentFactory(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory* p) => *(PIPrintWorkflowObjectModelSourceFileContentFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory*(PIPrintWorkflowObjectModelSourceFileContentFactory p) => (TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowObjectModelSourceFileContentFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowObjectModelSourceFileContentFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowObjectModelSourceFileContentFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowObjectModelTargetPackage
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowObjectModelTargetPackage(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage* p) => *(PIPrintWorkflowObjectModelTargetPackage*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage*(PIPrintWorkflowObjectModelTargetPackage p) => (TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowObjectModelTargetPackage p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowObjectModelTargetPackage p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowObjectModelTargetPackage p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlConverter
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlConverter(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter* p) => *(PIPrintWorkflowPdlConverter*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter*(PIPrintWorkflowPdlConverter p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlConverter p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlConverter p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlConverter p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlConverter2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlConverter2(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2* p) => *(PIPrintWorkflowPdlConverter2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2*(PIPrintWorkflowPdlConverter2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlConverter2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlConverter2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlConverter2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlDataAvailableEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlDataAvailableEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs* p) => *(PIPrintWorkflowPdlDataAvailableEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs*(PIPrintWorkflowPdlDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlDataAvailableEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlDataAvailableEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlModificationRequestedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlModificationRequestedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs* p) => *(PIPrintWorkflowPdlModificationRequestedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs*(PIPrintWorkflowPdlModificationRequestedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlModificationRequestedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlModificationRequestedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlModificationRequestedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlModificationRequestedEventArgs2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlModificationRequestedEventArgs2(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2* p) => *(PIPrintWorkflowPdlModificationRequestedEventArgs2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2*(PIPrintWorkflowPdlModificationRequestedEventArgs2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlModificationRequestedEventArgs2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlModificationRequestedEventArgs2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlModificationRequestedEventArgs2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlSourceContent
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlSourceContent(TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent* p) => *(PIPrintWorkflowPdlSourceContent*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent*(PIPrintWorkflowPdlSourceContent p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlSourceContent p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlSourceContent p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlSourceContent p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPdlTargetStream
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPdlTargetStream(TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream* p) => *(PIPrintWorkflowPdlTargetStream*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream*(PIPrintWorkflowPdlTargetStream p) => (TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPdlTargetStream p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPdlTargetStream p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPdlTargetStream p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPrinterJob
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPrinterJob(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob* p) => *(PIPrintWorkflowPrinterJob*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob*(PIPrintWorkflowPrinterJob p) => (TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPrinterJob p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPrinterJob p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPrinterJob p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowPrinterJob2
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowPrinterJob2(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2* p) => *(PIPrintWorkflowPrinterJob2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2*(PIPrintWorkflowPrinterJob2 p) => (TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowPrinterJob2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowPrinterJob2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowPrinterJob2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowSourceContent
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowSourceContent* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowSourceContent* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowSourceContent(TerraFX.Interop.WinRT.IPrintWorkflowSourceContent* p) => *(PIPrintWorkflowSourceContent*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowSourceContent*(PIPrintWorkflowSourceContent p) => (TerraFX.Interop.WinRT.IPrintWorkflowSourceContent*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowSourceContent p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowSourceContent p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowSourceContent p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowSpoolStreamContent
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowSpoolStreamContent(TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent* p) => *(PIPrintWorkflowSpoolStreamContent*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent*(PIPrintWorkflowSpoolStreamContent p) => (TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowSpoolStreamContent p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowSpoolStreamContent p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowSpoolStreamContent p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowStreamTarget
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowStreamTarget(TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget* p) => *(PIPrintWorkflowStreamTarget*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget*(PIPrintWorkflowStreamTarget p) => (TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowStreamTarget p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowStreamTarget p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowStreamTarget p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowSubmittedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowSubmittedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs* p) => *(PIPrintWorkflowSubmittedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs*(PIPrintWorkflowSubmittedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowSubmittedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowSubmittedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowSubmittedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowSubmittedOperation
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowSubmittedOperation(TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation* p) => *(PIPrintWorkflowSubmittedOperation*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation*(PIPrintWorkflowSubmittedOperation p) => (TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowSubmittedOperation p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowSubmittedOperation p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowSubmittedOperation p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowTarget
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowTarget* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowTarget* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowTarget(TerraFX.Interop.WinRT.IPrintWorkflowTarget* p) => *(PIPrintWorkflowTarget*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowTarget*(PIPrintWorkflowTarget p) => (TerraFX.Interop.WinRT.IPrintWorkflowTarget*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowTarget p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowTarget p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowTarget p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowTriggerDetails
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowTriggerDetails(TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails* p) => *(PIPrintWorkflowTriggerDetails*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails*(PIPrintWorkflowTriggerDetails p) => (TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowTriggerDetails p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowTriggerDetails p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowTriggerDetails p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowUIActivatedEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowUIActivatedEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs* p) => *(PIPrintWorkflowUIActivatedEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs*(PIPrintWorkflowUIActivatedEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowUIActivatedEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowUIActivatedEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowUIActivatedEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowUILauncher
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowUILauncher* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowUILauncher* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowUILauncher(TerraFX.Interop.WinRT.IPrintWorkflowUILauncher* p) => *(PIPrintWorkflowUILauncher*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowUILauncher*(PIPrintWorkflowUILauncher p) => (TerraFX.Interop.WinRT.IPrintWorkflowUILauncher*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowUILauncher p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowUILauncher p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowUILauncher p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowVirtualPrinterDataAvailableEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowVirtualPrinterDataAvailableEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs* p) => *(PIPrintWorkflowVirtualPrinterDataAvailableEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs*(PIPrintWorkflowVirtualPrinterDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowVirtualPrinterDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowVirtualPrinterDataAvailableEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowVirtualPrinterDataAvailableEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowVirtualPrinterSession
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowVirtualPrinterSession(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession* p) => *(PIPrintWorkflowVirtualPrinterSession*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession*(PIPrintWorkflowVirtualPrinterSession p) => (TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowVirtualPrinterSession p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowVirtualPrinterSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowVirtualPrinterSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowVirtualPrinterTriggerDetails
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowVirtualPrinterTriggerDetails(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails* p) => *(PIPrintWorkflowVirtualPrinterTriggerDetails*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails*(PIPrintWorkflowVirtualPrinterTriggerDetails p) => (TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowVirtualPrinterTriggerDetails p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowVirtualPrinterTriggerDetails p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowVirtualPrinterTriggerDetails p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowVirtualPrinterUIEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowVirtualPrinterUIEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs* p) => *(PIPrintWorkflowVirtualPrinterUIEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs*(PIPrintWorkflowVirtualPrinterUIEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowVirtualPrinterUIEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowVirtualPrinterUIEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowVirtualPrinterUIEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPrintWorkflowXpsDataAvailableEventArgs
+{
+    private readonly TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs* p;
+
+    public TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs* Get() => this.p;
+
+    public static implicit operator PIPrintWorkflowXpsDataAvailableEventArgs(TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs* p) => *(PIPrintWorkflowXpsDataAvailableEventArgs*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs*(PIPrintWorkflowXpsDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPrintWorkflowXpsDataAvailableEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPrintWorkflowXpsDataAvailableEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPrintWorkflowXpsDataAvailableEventArgs p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -47517,6 +48566,19 @@ public unsafe readonly ref struct PIWindowActivatedEventArgs
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWindowGraphicsCaptureItemInterop
+{
+    private readonly TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop* p;
+
+    public TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop* Get() => this.p;
+
+    public static implicit operator PIWindowGraphicsCaptureItemInterop(TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop* p) => *(PIWindowGraphicsCaptureItemInterop*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop*(PIWindowGraphicsCaptureItemInterop p) => (TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWindowGraphicsCaptureItemInterop p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWindowGraphicsCaptureItemInterop p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIWindowingEnvironment
 {
     private readonly TerraFX.Interop.WinRT.IWindowingEnvironment* p;
@@ -47681,6 +48743,34 @@ public unsafe readonly ref struct PIWordsSegmenterFactory
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWordsSegmenterFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWordsSegmenterFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIWordsSegmenterFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWorkflowPrintTicket
+{
+    private readonly TerraFX.Interop.WinRT.IWorkflowPrintTicket* p;
+
+    public TerraFX.Interop.WinRT.IWorkflowPrintTicket* Get() => this.p;
+
+    public static implicit operator PIWorkflowPrintTicket(TerraFX.Interop.WinRT.IWorkflowPrintTicket* p) => *(PIWorkflowPrintTicket*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWorkflowPrintTicket*(PIWorkflowPrintTicket p) => (TerraFX.Interop.WinRT.IWorkflowPrintTicket*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWorkflowPrintTicket p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWorkflowPrintTicket p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWorkflowPrintTicket p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWorkflowPrintTicketValidationResult
+{
+    private readonly TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult* p;
+
+    public TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult* Get() => this.p;
+
+    public static implicit operator PIWorkflowPrintTicketValidationResult(TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult* p) => *(PIWorkflowPrintTicketValidationResult*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult*(PIWorkflowPrintTicketValidationResult p) => (TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWorkflowPrintTicketValidationResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWorkflowPrintTicketValidationResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWorkflowPrintTicketValidationResult p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]

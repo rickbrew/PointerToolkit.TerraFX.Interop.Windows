@@ -544,6 +544,8 @@ public static unsafe class Pointers
 
     public static PID3D12Device13 __cast(TerraFX.Interop.DirectX.ID3D12Device13* p) => (PID3D12Device13)p;
 
+    public static PID3D12Device14 __cast(TerraFX.Interop.DirectX.ID3D12Device14* p) => (PID3D12Device14)p;
+
     public static PID3D12Device2 __cast(TerraFX.Interop.DirectX.ID3D12Device2* p) => (PID3D12Device2)p;
 
     public static PID3D12Device3 __cast(TerraFX.Interop.DirectX.ID3D12Device3* p) => (PID3D12Device3)p;
@@ -563,6 +565,8 @@ public static unsafe class Pointers
     public static PID3D12DeviceChild __cast(TerraFX.Interop.DirectX.ID3D12DeviceChild* p) => (PID3D12DeviceChild)p;
 
     public static PID3D12DeviceConfiguration __cast(TerraFX.Interop.DirectX.ID3D12DeviceConfiguration* p) => (PID3D12DeviceConfiguration)p;
+
+    public static PID3D12DeviceConfiguration1 __cast(TerraFX.Interop.DirectX.ID3D12DeviceConfiguration1* p) => (PID3D12DeviceConfiguration1)p;
 
     public static PID3D12DeviceDownlevel __cast(TerraFX.Interop.DirectX.ID3D12DeviceDownlevel* p) => (PID3D12DeviceDownlevel)p;
 
@@ -584,9 +588,13 @@ public static unsafe class Pointers
 
     public static PID3D12Fence1 __cast(TerraFX.Interop.DirectX.ID3D12Fence1* p) => (PID3D12Fence1)p;
 
+    public static PID3D12GBVDiagnostics __cast(TerraFX.Interop.DirectX.ID3D12GBVDiagnostics* p) => (PID3D12GBVDiagnostics)p;
+
     public static PID3D12GraphicsCommandList __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList* p) => (PID3D12GraphicsCommandList)p;
 
     public static PID3D12GraphicsCommandList1 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList1* p) => (PID3D12GraphicsCommandList1)p;
+
+    public static PID3D12GraphicsCommandList10 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList10* p) => (PID3D12GraphicsCommandList10)p;
 
     public static PID3D12GraphicsCommandList2 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2* p) => (PID3D12GraphicsCommandList2)p;
 
@@ -664,6 +672,8 @@ public static unsafe class Pointers
 
     public static PID3D12StateObjectProperties __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties* p) => (PID3D12StateObjectProperties)p;
 
+    public static PID3D12StateObjectProperties1 __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties1* p) => (PID3D12StateObjectProperties1)p;
+
     public static PID3D12SwapChainAssistant __cast(TerraFX.Interop.DirectX.ID3D12SwapChainAssistant* p) => (PID3D12SwapChainAssistant)p;
 
     public static PID3D12Tools __cast(TerraFX.Interop.DirectX.ID3D12Tools* p) => (PID3D12Tools)p;
@@ -725,6 +735,8 @@ public static unsafe class Pointers
     public static PID3D12VideoProcessor1 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessor1* p) => (PID3D12VideoProcessor1)p;
 
     public static PID3D12VirtualizationGuestDevice __cast(TerraFX.Interop.DirectX.ID3D12VirtualizationGuestDevice* p) => (PID3D12VirtualizationGuestDevice)p;
+
+    public static PID3D12WorkGraphProperties __cast(TerraFX.Interop.DirectX.ID3D12WorkGraphProperties* p) => (PID3D12WorkGraphProperties)p;
 
     public static PID3DBlob __cast(TerraFX.Interop.DirectX.ID3DBlob* p) => (PID3DBlob)p;
 
@@ -1224,11 +1236,17 @@ public static unsafe class Pointers
 
     public static PIDXCoreAdapter __cast(TerraFX.Interop.DirectX.IDXCoreAdapter* p) => (PIDXCoreAdapter)p;
 
+    public static PIDXCoreAdapter1 __cast(TerraFX.Interop.DirectX.IDXCoreAdapter1* p) => (PIDXCoreAdapter1)p;
+
     public static PIDXCoreAdapterFactory __cast(TerraFX.Interop.DirectX.IDXCoreAdapterFactory* p) => (PIDXCoreAdapterFactory)p;
+
+    public static PIDXCoreAdapterFactory1 __cast(TerraFX.Interop.DirectX.IDXCoreAdapterFactory1* p) => (PIDXCoreAdapterFactory1)p;
 
     public static PIDXCoreAdapterList __cast(TerraFX.Interop.DirectX.IDXCoreAdapterList* p) => (PIDXCoreAdapterList)p;
 
     public static PIDxcPdbUtils __cast(TerraFX.Interop.DirectX.IDxcPdbUtils* p) => (PIDxcPdbUtils)p;
+
+    public static PIDxcPdbUtils2 __cast(TerraFX.Interop.DirectX.IDxcPdbUtils2* p) => (PIDxcPdbUtils2)p;
 
     public static PIDxcResult __cast(TerraFX.Interop.DirectX.IDxcResult* p) => (PIDxcResult)p;
 
@@ -1353,4 +1371,6 @@ public static unsafe class Pointers
     public static POpenCLOn12CreatorID __cast(TerraFX.Interop.DirectX.OpenCLOn12CreatorID* p) => (POpenCLOn12CreatorID)p;
 
     public static POpenGLOn12CreatorID __cast(TerraFX.Interop.DirectX.OpenGLOn12CreatorID* p) => (POpenGLOn12CreatorID)p;
+
+    public static PVulkanOn12CreatorID __cast(TerraFX.Interop.DirectX.VulkanOn12CreatorID* p) => (PVulkanOn12CreatorID)p;
 }

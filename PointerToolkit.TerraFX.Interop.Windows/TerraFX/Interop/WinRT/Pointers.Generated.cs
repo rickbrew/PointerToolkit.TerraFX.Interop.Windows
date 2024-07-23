@@ -42,6 +42,8 @@ public static unsafe class Pointers
 
     public static PIAccountsSettingsPaneInterop __cast(TerraFX.Interop.WinRT.IAccountsSettingsPaneInterop* p) => (PIAccountsSettingsPaneInterop)p;
 
+    public static PIAcousticEchoCancellationConfiguration __cast(TerraFX.Interop.WinRT.IAcousticEchoCancellationConfiguration* p) => (PIAcousticEchoCancellationConfiguration)p;
+
     public static PIActivatedEventArgs __cast(TerraFX.Interop.WinRT.IActivatedEventArgs* p) => (PIActivatedEventArgs)p;
 
     public static PIActivatedEventArgsWithUser __cast(TerraFX.Interop.WinRT.IActivatedEventArgsWithUser* p) => (PIActivatedEventArgsWithUser)p;
@@ -654,6 +656,8 @@ public static unsafe class Pointers
 
     public static PIAudioDeviceController __cast(TerraFX.Interop.WinRT.IAudioDeviceController* p) => (PIAudioDeviceController)p;
 
+    public static PIAudioDeviceController2 __cast(TerraFX.Interop.WinRT.IAudioDeviceController2* p) => (PIAudioDeviceController2)p;
+
     public static PIAudioDeviceInputNode __cast(TerraFX.Interop.WinRT.IAudioDeviceInputNode* p) => (PIAudioDeviceInputNode)p;
 
     public static PIAudioDeviceModule __cast(TerraFX.Interop.WinRT.IAudioDeviceModule* p) => (PIAudioDeviceModule)p;
@@ -668,11 +672,17 @@ public static unsafe class Pointers
 
     public static PIAudioEffect __cast(TerraFX.Interop.WinRT.IAudioEffect* p) => (PIAudioEffect)p;
 
+    public static PIAudioEffect2 __cast(TerraFX.Interop.WinRT.IAudioEffect2* p) => (PIAudioEffect2)p;
+
     public static PIAudioEffectDefinition __cast(TerraFX.Interop.WinRT.IAudioEffectDefinition* p) => (PIAudioEffectDefinition)p;
 
     public static PIAudioEffectDefinitionFactory __cast(TerraFX.Interop.WinRT.IAudioEffectDefinitionFactory* p) => (PIAudioEffectDefinitionFactory)p;
 
     public static PIAudioEffectsManagerStatics __cast(TerraFX.Interop.WinRT.IAudioEffectsManagerStatics* p) => (PIAudioEffectsManagerStatics)p;
+
+    public static PIAudioEffectsPackConfiguration __cast(TerraFX.Interop.WinRT.IAudioEffectsPackConfiguration* p) => (PIAudioEffectsPackConfiguration)p;
+
+    public static PIAudioEffectsPackConfigurationStatics __cast(TerraFX.Interop.WinRT.IAudioEffectsPackConfigurationStatics* p) => (PIAudioEffectsPackConfigurationStatics)p;
 
     public static PIAudioEncodingProperties __cast(TerraFX.Interop.WinRT.IAudioEncodingProperties* p) => (PIAudioEncodingProperties)p;
 
@@ -836,6 +846,10 @@ public static unsafe class Pointers
 
     public static PIBackgroundTaskBuilder5 __cast(TerraFX.Interop.WinRT.IBackgroundTaskBuilder5* p) => (PIBackgroundTaskBuilder5)p;
 
+    public static PIBackgroundTaskBuilder6 __cast(TerraFX.Interop.WinRT.IBackgroundTaskBuilder6* p) => (PIBackgroundTaskBuilder6)p;
+
+    public static PIBackgroundTaskBuilderStatics __cast(TerraFX.Interop.WinRT.IBackgroundTaskBuilderStatics* p) => (PIBackgroundTaskBuilderStatics)p;
+
     public static PIBackgroundTaskCanceledEventHandler __cast(TerraFX.Interop.WinRT.IBackgroundTaskCanceledEventHandler* p) => (PIBackgroundTaskCanceledEventHandler)p;
 
     public static PIBackgroundTaskCompletedEventArgs __cast(TerraFX.Interop.WinRT.IBackgroundTaskCompletedEventArgs* p) => (PIBackgroundTaskCompletedEventArgs)p;
@@ -859,6 +873,8 @@ public static unsafe class Pointers
     public static PIBackgroundTaskRegistration2 __cast(TerraFX.Interop.WinRT.IBackgroundTaskRegistration2* p) => (PIBackgroundTaskRegistration2)p;
 
     public static PIBackgroundTaskRegistration3 __cast(TerraFX.Interop.WinRT.IBackgroundTaskRegistration3* p) => (PIBackgroundTaskRegistration3)p;
+
+    public static PIBackgroundTaskRegistration4 __cast(TerraFX.Interop.WinRT.IBackgroundTaskRegistration4* p) => (PIBackgroundTaskRegistration4)p;
 
     public static PIBackgroundTaskRegistrationGroup __cast(TerraFX.Interop.WinRT.IBackgroundTaskRegistrationGroup* p) => (PIBackgroundTaskRegistrationGroup)p;
 
@@ -908,6 +924,8 @@ public static unsafe class Pointers
     public static PIBackgroundUploaderUserConsent __cast(TerraFX.Interop.WinRT.IBackgroundUploaderUserConsent* p) => (PIBackgroundUploaderUserConsent)p;
 
     public static PIBackgroundWorkCostStatics __cast(TerraFX.Interop.WinRT.IBackgroundWorkCostStatics* p) => (PIBackgroundWorkCostStatics)p;
+
+    public static PIBackgroundWorkCostStatics2 __cast(TerraFX.Interop.WinRT.IBackgroundWorkCostStatics2* p) => (PIBackgroundWorkCostStatics2)p;
 
     public static PIBackRequestedEventArgs __cast(TerraFX.Interop.WinRT.IBackRequestedEventArgs* p) => (PIBackRequestedEventArgs)p;
 
@@ -2242,11 +2260,17 @@ public static unsafe class Pointers
 
     public static PIDetectedFace __cast(TerraFX.Interop.WinRT.IDetectedFace* p) => (PIDetectedFace)p;
 
+    public static PIDetectedPerson __cast(TerraFX.Interop.WinRT.IDetectedPerson* p) => (PIDetectedPerson)p;
+
     public static PIDeviceAccessChangedEventArgs __cast(TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs* p) => (PIDeviceAccessChangedEventArgs)p;
 
     public static PIDeviceAccessChangedEventArgs2 __cast(TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs2* p) => (PIDeviceAccessChangedEventArgs2)p;
 
+    public static PIDeviceAccessChangedEventArgs3 __cast(TerraFX.Interop.WinRT.IDeviceAccessChangedEventArgs3* p) => (PIDeviceAccessChangedEventArgs3)p;
+
     public static PIDeviceAccessInformation __cast(TerraFX.Interop.WinRT.IDeviceAccessInformation* p) => (PIDeviceAccessInformation)p;
+
+    public static PIDeviceAccessInformation2 __cast(TerraFX.Interop.WinRT.IDeviceAccessInformation2* p) => (PIDeviceAccessInformation2)p;
 
     public static PIDeviceAccessInformationStatics __cast(TerraFX.Interop.WinRT.IDeviceAccessInformationStatics* p) => (PIDeviceAccessInformationStatics)p;
 
@@ -2264,6 +2288,8 @@ public static unsafe class Pointers
 
     public static PIDeviceDisconnectButtonClickedEventArgs __cast(TerraFX.Interop.WinRT.IDeviceDisconnectButtonClickedEventArgs* p) => (PIDeviceDisconnectButtonClickedEventArgs)p;
 
+    public static PIDeviceEnumerationSettings __cast(TerraFX.Interop.WinRT.IDeviceEnumerationSettings* p) => (PIDeviceEnumerationSettings)p;
+
     public static PIDeviceIcon __cast(TerraFX.Interop.WinRT.IDeviceIcon* p) => (PIDeviceIcon)p;
 
     public static PIDeviceInformation __cast(TerraFX.Interop.WinRT.IDeviceInformation* p) => (PIDeviceInformation)p;
@@ -2271,6 +2297,8 @@ public static unsafe class Pointers
     public static PIDeviceInformation2 __cast(TerraFX.Interop.WinRT.IDeviceInformation2* p) => (PIDeviceInformation2)p;
 
     public static PIDeviceInformationCustomPairing __cast(TerraFX.Interop.WinRT.IDeviceInformationCustomPairing* p) => (PIDeviceInformationCustomPairing)p;
+
+    public static PIDeviceInformationCustomPairing2 __cast(TerraFX.Interop.WinRT.IDeviceInformationCustomPairing2* p) => (PIDeviceInformationCustomPairing2)p;
 
     public static PIDeviceInformationPairing __cast(TerraFX.Interop.WinRT.IDeviceInformationPairing* p) => (PIDeviceInformationPairing)p;
 
@@ -2283,6 +2311,8 @@ public static unsafe class Pointers
     public static PIDeviceInformationStatics __cast(TerraFX.Interop.WinRT.IDeviceInformationStatics* p) => (PIDeviceInformationStatics)p;
 
     public static PIDeviceInformationStatics2 __cast(TerraFX.Interop.WinRT.IDeviceInformationStatics2* p) => (PIDeviceInformationStatics2)p;
+
+    public static PIDeviceInformationStatics3 __cast(TerraFX.Interop.WinRT.IDeviceInformationStatics3* p) => (PIDeviceInformationStatics3)p;
 
     public static PIDeviceInformationUpdate __cast(TerraFX.Interop.WinRT.IDeviceInformationUpdate* p) => (PIDeviceInformationUpdate)p;
 
@@ -2302,7 +2332,11 @@ public static unsafe class Pointers
 
     public static PIDevicePairingRequestedEventArgs2 __cast(TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs2* p) => (PIDevicePairingRequestedEventArgs2)p;
 
+    public static PIDevicePairingRequestedEventArgs3 __cast(TerraFX.Interop.WinRT.IDevicePairingRequestedEventArgs3* p) => (PIDevicePairingRequestedEventArgs3)p;
+
     public static PIDevicePairingResult __cast(TerraFX.Interop.WinRT.IDevicePairingResult* p) => (PIDevicePairingResult)p;
+
+    public static PIDevicePairingSetMembersRequestedEventArgs __cast(TerraFX.Interop.WinRT.IDevicePairingSetMembersRequestedEventArgs* p) => (PIDevicePairingSetMembersRequestedEventArgs)p;
 
     public static PIDevicePairingSettings __cast(TerraFX.Interop.WinRT.IDevicePairingSettings* p) => (PIDevicePairingSettings)p;
 
@@ -3086,6 +3120,10 @@ public static unsafe class Pointers
 
     public static PIHdrVideoControl __cast(TerraFX.Interop.WinRT.IHdrVideoControl* p) => (PIHdrVideoControl)p;
 
+    public static PIHeadOrientation __cast(TerraFX.Interop.WinRT.IHeadOrientation* p) => (PIHeadOrientation)p;
+
+    public static PIHeadPosition __cast(TerraFX.Interop.WinRT.IHeadPosition* p) => (PIHeadPosition)p;
+
     public static PIHevcProfileIdsStatics __cast(TerraFX.Interop.WinRT.IHevcProfileIdsStatics* p) => (PIHevcProfileIdsStatics)p;
 
     public static PIHighDynamicRangeControl __cast(TerraFX.Interop.WinRT.IHighDynamicRangeControl* p) => (PIHighDynamicRangeControl)p;
@@ -3340,11 +3378,15 @@ public static unsafe class Pointers
 
     public static PIHumanPresenceSensor2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensor2* p) => (PIHumanPresenceSensor2)p;
 
+    public static PIHumanPresenceSensor3 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensor3* p) => (PIHumanPresenceSensor3)p;
+
     public static PIHumanPresenceSensorExtension __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorExtension* p) => (PIHumanPresenceSensorExtension)p;
 
     public static PIHumanPresenceSensorReading __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReading* p) => (PIHumanPresenceSensorReading)p;
 
     public static PIHumanPresenceSensorReading2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReading2* p) => (PIHumanPresenceSensorReading2)p;
+
+    public static PIHumanPresenceSensorReading3 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReading3* p) => (PIHumanPresenceSensorReading3)p;
 
     public static PIHumanPresenceSensorReadingChangedEventArgs __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReadingChangedEventArgs* p) => (PIHumanPresenceSensorReadingChangedEventArgs)p;
 
@@ -3481,6 +3523,10 @@ public static unsafe class Pointers
     public static PIIppPrintDevice __cast(TerraFX.Interop.WinRT.IIppPrintDevice* p) => (PIIppPrintDevice)p;
 
     public static PIIppPrintDevice2 __cast(TerraFX.Interop.WinRT.IIppPrintDevice2* p) => (PIIppPrintDevice2)p;
+
+    public static PIIppPrintDevice3 __cast(TerraFX.Interop.WinRT.IIppPrintDevice3* p) => (PIIppPrintDevice3)p;
+
+    public static PIIppPrintDevice4 __cast(TerraFX.Interop.WinRT.IIppPrintDevice4* p) => (PIIppPrintDevice4)p;
 
     public static PIIppPrintDeviceStatics __cast(TerraFX.Interop.WinRT.IIppPrintDeviceStatics* p) => (PIIppPrintDeviceStatics)p;
 
@@ -4281,6 +4327,8 @@ public static unsafe class Pointers
 
     public static PIModuleCommandResult __cast(TerraFX.Interop.WinRT.IModuleCommandResult* p) => (PIModuleCommandResult)p;
 
+    public static PIMonitorGraphicsCaptureItemInterop __cast(TerraFX.Interop.WinRT.IMonitorGraphicsCaptureItemInterop* p) => (PIMonitorGraphicsCaptureItemInterop)p;
+
     public static PIMouseCapabilities __cast(TerraFX.Interop.WinRT.IMouseCapabilities* p) => (PIMouseCapabilities)p;
 
     public static PIMouseDevice __cast(TerraFX.Interop.WinRT.IMouseDevice* p) => (PIMouseDevice)p;
@@ -4691,6 +4739,12 @@ public static unsafe class Pointers
 
     public static PIPowerEasingFunction __cast(TerraFX.Interop.WinRT.IPowerEasingFunction* p) => (PIPowerEasingFunction)p;
 
+    public static PIPowerGridData __cast(TerraFX.Interop.WinRT.IPowerGridData* p) => (PIPowerGridData)p;
+
+    public static PIPowerGridForecast __cast(TerraFX.Interop.WinRT.IPowerGridForecast* p) => (PIPowerGridForecast)p;
+
+    public static PIPowerGridForecastStatics __cast(TerraFX.Interop.WinRT.IPowerGridForecastStatics* p) => (PIPowerGridForecastStatics)p;
+
     public static PIPowerManagerStatics __cast(TerraFX.Interop.WinRT.IPowerManagerStatics* p) => (PIPowerManagerStatics)p;
 
     public static PIPrelaunchActivatedEventArgs __cast(TerraFX.Interop.WinRT.IPrelaunchActivatedEventArgs* p) => (PIPrelaunchActivatedEventArgs)p;
@@ -4782,6 +4836,102 @@ public static unsafe class Pointers
     public static PIPrintTaskSourceRequestedHandler __cast(TerraFX.Interop.WinRT.IPrintTaskSourceRequestedHandler* p) => (PIPrintTaskSourceRequestedHandler)p;
 
     public static PIPrintTaskTargetDeviceSupport __cast(TerraFX.Interop.WinRT.IPrintTaskTargetDeviceSupport* p) => (PIPrintTaskTargetDeviceSupport)p;
+
+    public static PIPrintTicketCapabilities __cast(TerraFX.Interop.WinRT.IPrintTicketCapabilities* p) => (PIPrintTicketCapabilities)p;
+
+    public static PIPrintTicketFeature __cast(TerraFX.Interop.WinRT.IPrintTicketFeature* p) => (PIPrintTicketFeature)p;
+
+    public static PIPrintTicketOption __cast(TerraFX.Interop.WinRT.IPrintTicketOption* p) => (PIPrintTicketOption)p;
+
+    public static PIPrintTicketParameterDefinition __cast(TerraFX.Interop.WinRT.IPrintTicketParameterDefinition* p) => (PIPrintTicketParameterDefinition)p;
+
+    public static PIPrintTicketParameterInitializer __cast(TerraFX.Interop.WinRT.IPrintTicketParameterInitializer* p) => (PIPrintTicketParameterInitializer)p;
+
+    public static PIPrintTicketValue __cast(TerraFX.Interop.WinRT.IPrintTicketValue* p) => (PIPrintTicketValue)p;
+
+    public static PIPrintWorkflowBackgroundSession __cast(TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSession* p) => (PIPrintWorkflowBackgroundSession)p;
+
+    public static PIPrintWorkflowBackgroundSetupRequestedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowBackgroundSetupRequestedEventArgs* p) => (PIPrintWorkflowBackgroundSetupRequestedEventArgs)p;
+
+    public static PIPrintWorkflowConfiguration __cast(TerraFX.Interop.WinRT.IPrintWorkflowConfiguration* p) => (PIPrintWorkflowConfiguration)p;
+
+    public static PIPrintWorkflowConfiguration2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowConfiguration2* p) => (PIPrintWorkflowConfiguration2)p;
+
+    public static PIPrintWorkflowForegroundSession __cast(TerraFX.Interop.WinRT.IPrintWorkflowForegroundSession* p) => (PIPrintWorkflowForegroundSession)p;
+
+    public static PIPrintWorkflowForegroundSetupRequestedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowForegroundSetupRequestedEventArgs* p) => (PIPrintWorkflowForegroundSetupRequestedEventArgs)p;
+
+    public static PIPrintWorkflowJobActivatedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobActivatedEventArgs* p) => (PIPrintWorkflowJobActivatedEventArgs)p;
+
+    public static PIPrintWorkflowJobBackgroundSession __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession* p) => (PIPrintWorkflowJobBackgroundSession)p;
+
+    public static PIPrintWorkflowJobBackgroundSession2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2* p) => (PIPrintWorkflowJobBackgroundSession2)p;
+
+    public static PIPrintWorkflowJobIssueDetectedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs* p) => (PIPrintWorkflowJobIssueDetectedEventArgs)p;
+
+    public static PIPrintWorkflowJobNotificationEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobNotificationEventArgs* p) => (PIPrintWorkflowJobNotificationEventArgs)p;
+
+    public static PIPrintWorkflowJobStartingEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs* p) => (PIPrintWorkflowJobStartingEventArgs)p;
+
+    public static PIPrintWorkflowJobStartingEventArgs2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobStartingEventArgs2* p) => (PIPrintWorkflowJobStartingEventArgs2)p;
+
+    public static PIPrintWorkflowJobTriggerDetails __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobTriggerDetails* p) => (PIPrintWorkflowJobTriggerDetails)p;
+
+    public static PIPrintWorkflowJobUISession __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobUISession* p) => (PIPrintWorkflowJobUISession)p;
+
+    public static PIPrintWorkflowJobUISession2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2* p) => (PIPrintWorkflowJobUISession2)p;
+
+    public static PIPrintWorkflowObjectModelSourceFileContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent* p) => (PIPrintWorkflowObjectModelSourceFileContent)p;
+
+    public static PIPrintWorkflowObjectModelSourceFileContentFactory __cast(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContentFactory* p) => (PIPrintWorkflowObjectModelSourceFileContentFactory)p;
+
+    public static PIPrintWorkflowObjectModelTargetPackage __cast(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelTargetPackage* p) => (PIPrintWorkflowObjectModelTargetPackage)p;
+
+    public static PIPrintWorkflowPdlConverter __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter* p) => (PIPrintWorkflowPdlConverter)p;
+
+    public static PIPrintWorkflowPdlConverter2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2* p) => (PIPrintWorkflowPdlConverter2)p;
+
+    public static PIPrintWorkflowPdlDataAvailableEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs* p) => (PIPrintWorkflowPdlDataAvailableEventArgs)p;
+
+    public static PIPrintWorkflowPdlModificationRequestedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs* p) => (PIPrintWorkflowPdlModificationRequestedEventArgs)p;
+
+    public static PIPrintWorkflowPdlModificationRequestedEventArgs2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2* p) => (PIPrintWorkflowPdlModificationRequestedEventArgs2)p;
+
+    public static PIPrintWorkflowPdlSourceContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent* p) => (PIPrintWorkflowPdlSourceContent)p;
+
+    public static PIPrintWorkflowPdlTargetStream __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlTargetStream* p) => (PIPrintWorkflowPdlTargetStream)p;
+
+    public static PIPrintWorkflowPrinterJob __cast(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob* p) => (PIPrintWorkflowPrinterJob)p;
+
+    public static PIPrintWorkflowPrinterJob2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2* p) => (PIPrintWorkflowPrinterJob2)p;
+
+    public static PIPrintWorkflowSourceContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowSourceContent* p) => (PIPrintWorkflowSourceContent)p;
+
+    public static PIPrintWorkflowSpoolStreamContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowSpoolStreamContent* p) => (PIPrintWorkflowSpoolStreamContent)p;
+
+    public static PIPrintWorkflowStreamTarget __cast(TerraFX.Interop.WinRT.IPrintWorkflowStreamTarget* p) => (PIPrintWorkflowStreamTarget)p;
+
+    public static PIPrintWorkflowSubmittedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowSubmittedEventArgs* p) => (PIPrintWorkflowSubmittedEventArgs)p;
+
+    public static PIPrintWorkflowSubmittedOperation __cast(TerraFX.Interop.WinRT.IPrintWorkflowSubmittedOperation* p) => (PIPrintWorkflowSubmittedOperation)p;
+
+    public static PIPrintWorkflowTarget __cast(TerraFX.Interop.WinRT.IPrintWorkflowTarget* p) => (PIPrintWorkflowTarget)p;
+
+    public static PIPrintWorkflowTriggerDetails __cast(TerraFX.Interop.WinRT.IPrintWorkflowTriggerDetails* p) => (PIPrintWorkflowTriggerDetails)p;
+
+    public static PIPrintWorkflowUIActivatedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowUIActivatedEventArgs* p) => (PIPrintWorkflowUIActivatedEventArgs)p;
+
+    public static PIPrintWorkflowUILauncher __cast(TerraFX.Interop.WinRT.IPrintWorkflowUILauncher* p) => (PIPrintWorkflowUILauncher)p;
+
+    public static PIPrintWorkflowVirtualPrinterDataAvailableEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterDataAvailableEventArgs* p) => (PIPrintWorkflowVirtualPrinterDataAvailableEventArgs)p;
+
+    public static PIPrintWorkflowVirtualPrinterSession __cast(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterSession* p) => (PIPrintWorkflowVirtualPrinterSession)p;
+
+    public static PIPrintWorkflowVirtualPrinterTriggerDetails __cast(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterTriggerDetails* p) => (PIPrintWorkflowVirtualPrinterTriggerDetails)p;
+
+    public static PIPrintWorkflowVirtualPrinterUIEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowVirtualPrinterUIEventArgs* p) => (PIPrintWorkflowVirtualPrinterUIEventArgs)p;
+
+    public static PIPrintWorkflowXpsDataAvailableEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs* p) => (PIPrintWorkflowXpsDataAvailableEventArgs)p;
 
     public static PIProcessAudioFrameContext __cast(TerraFX.Interop.WinRT.IProcessAudioFrameContext* p) => (PIProcessAudioFrameContext)p;
 
@@ -6863,6 +7013,8 @@ public static unsafe class Pointers
 
     public static PIWindowActivatedEventArgs __cast(TerraFX.Interop.WinRT.IWindowActivatedEventArgs* p) => (PIWindowActivatedEventArgs)p;
 
+    public static PIWindowGraphicsCaptureItemInterop __cast(TerraFX.Interop.WinRT.IWindowGraphicsCaptureItemInterop* p) => (PIWindowGraphicsCaptureItemInterop)p;
+
     public static PIWindowingEnvironment __cast(TerraFX.Interop.WinRT.IWindowingEnvironment* p) => (PIWindowingEnvironment)p;
 
     public static PIWindowingEnvironmentAddedEventArgs __cast(TerraFX.Interop.WinRT.IWindowingEnvironmentAddedEventArgs* p) => (PIWindowingEnvironmentAddedEventArgs)p;
@@ -6886,6 +7038,10 @@ public static unsafe class Pointers
     public static PIWordsSegmenter __cast(TerraFX.Interop.WinRT.IWordsSegmenter* p) => (PIWordsSegmenter)p;
 
     public static PIWordsSegmenterFactory __cast(TerraFX.Interop.WinRT.IWordsSegmenterFactory* p) => (PIWordsSegmenterFactory)p;
+
+    public static PIWorkflowPrintTicket __cast(TerraFX.Interop.WinRT.IWorkflowPrintTicket* p) => (PIWorkflowPrintTicket)p;
+
+    public static PIWorkflowPrintTicketValidationResult __cast(TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult* p) => (PIWorkflowPrintTicketValidationResult)p;
 
     public static PIWwanConnectionProfileDetails __cast(TerraFX.Interop.WinRT.IWwanConnectionProfileDetails* p) => (PIWwanConnectionProfileDetails)p;
 

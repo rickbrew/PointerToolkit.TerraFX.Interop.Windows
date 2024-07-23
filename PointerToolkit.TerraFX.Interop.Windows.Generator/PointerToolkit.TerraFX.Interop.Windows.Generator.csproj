@@ -33,6 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="PointerToolkit" Version="1.0.1" />
-    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.22621.6" />
+    <PackageReference Include="TerraFX.Interop.Windows" Version="10.0.26100" />
   </ItemGroup>
 </Project>

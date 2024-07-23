@@ -5950,6 +5950,20 @@ public unsafe readonly ref struct PIAppxBlockMapFile
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAppxBlockMapFile2
+{
+    private readonly TerraFX.Interop.Windows.IAppxBlockMapFile2* p;
+
+    public TerraFX.Interop.Windows.IAppxBlockMapFile2* Get() => this.p;
+
+    public static implicit operator PIAppxBlockMapFile2(TerraFX.Interop.Windows.IAppxBlockMapFile2* p) => *(PIAppxBlockMapFile2*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IAppxBlockMapFile2*(PIAppxBlockMapFile2 p) => (TerraFX.Interop.Windows.IAppxBlockMapFile2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IAppxBlockMapFile*(PIAppxBlockMapFile2 p) => (TerraFX.Interop.Windows.IAppxBlockMapFile*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppxBlockMapFile2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAppxBlockMapFile2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIAppxBlockMapFilesEnumerator
 {
     private readonly TerraFX.Interop.Windows.IAppxBlockMapFilesEnumerator* p;
@@ -6441,6 +6455,20 @@ public unsafe readonly ref struct PIAppxFile
     public static implicit operator TerraFX.Interop.Windows.IAppxFile*(PIAppxFile p) => (TerraFX.Interop.Windows.IAppxFile*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppxFile p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIAppxFile p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAppxFile2
+{
+    private readonly TerraFX.Interop.Windows.IAppxFile2* p;
+
+    public TerraFX.Interop.Windows.IAppxFile2* Get() => this.p;
+
+    public static implicit operator PIAppxFile2(TerraFX.Interop.Windows.IAppxFile2* p) => *(PIAppxFile2*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IAppxFile2*(PIAppxFile2 p) => (TerraFX.Interop.Windows.IAppxFile2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IAppxFile*(PIAppxFile2 p) => (TerraFX.Interop.Windows.IAppxFile*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppxFile2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAppxFile2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -9704,6 +9732,20 @@ public unsafe readonly ref struct PIDiaDataSource
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDiaDataSourceEx
+{
+    private readonly TerraFX.Interop.Windows.IDiaDataSourceEx* p;
+
+    public TerraFX.Interop.Windows.IDiaDataSourceEx* Get() => this.p;
+
+    public static implicit operator PIDiaDataSourceEx(TerraFX.Interop.Windows.IDiaDataSourceEx* p) => *(PIDiaDataSourceEx*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaDataSourceEx*(PIDiaDataSourceEx p) => (TerraFX.Interop.Windows.IDiaDataSourceEx*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaDataSource*(PIDiaDataSourceEx p) => (TerraFX.Interop.Windows.IDiaDataSource*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaDataSourceEx p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDiaDataSourceEx p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIDiaEnumDebugStreamData
 {
     private readonly TerraFX.Interop.Windows.IDiaEnumDebugStreamData* p;
@@ -9818,6 +9860,33 @@ public unsafe readonly ref struct PIDiaEnumSourceFiles
     public static implicit operator TerraFX.Interop.Windows.IDiaEnumSourceFiles*(PIDiaEnumSourceFiles p) => (TerraFX.Interop.Windows.IDiaEnumSourceFiles*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaEnumSourceFiles p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDiaEnumSourceFiles p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDiaEnumSourceLink
+{
+    private readonly TerraFX.Interop.Windows.IDiaEnumSourceLink* p;
+
+    public TerraFX.Interop.Windows.IDiaEnumSourceLink* Get() => this.p;
+
+    public static implicit operator PIDiaEnumSourceLink(TerraFX.Interop.Windows.IDiaEnumSourceLink* p) => *(PIDiaEnumSourceLink*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaEnumSourceLink*(PIDiaEnumSourceLink p) => (TerraFX.Interop.Windows.IDiaEnumSourceLink*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaEnumSourceLink p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDiaEnumSourceLink p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDiaEnumSourceLink2
+{
+    private readonly TerraFX.Interop.Windows.IDiaEnumSourceLink2* p;
+
+    public TerraFX.Interop.Windows.IDiaEnumSourceLink2* Get() => this.p;
+
+    public static implicit operator PIDiaEnumSourceLink2(TerraFX.Interop.Windows.IDiaEnumSourceLink2* p) => *(PIDiaEnumSourceLink2*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaEnumSourceLink2*(PIDiaEnumSourceLink2 p) => (TerraFX.Interop.Windows.IDiaEnumSourceLink2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaEnumSourceLink*(PIDiaEnumSourceLink2 p) => (TerraFX.Interop.Windows.IDiaEnumSourceLink*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaEnumSourceLink2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDiaEnumSourceLink2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -10054,6 +10123,20 @@ public unsafe readonly ref struct PIDiaSession
     public static implicit operator TerraFX.Interop.Windows.IDiaSession*(PIDiaSession p) => (TerraFX.Interop.Windows.IDiaSession*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIDiaSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIDiaSessionEx
+{
+    private readonly TerraFX.Interop.Windows.IDiaSessionEx* p;
+
+    public TerraFX.Interop.Windows.IDiaSessionEx* Get() => this.p;
+
+    public static implicit operator PIDiaSessionEx(TerraFX.Interop.Windows.IDiaSessionEx* p) => *(PIDiaSessionEx*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaSessionEx*(PIDiaSessionEx p) => (TerraFX.Interop.Windows.IDiaSessionEx*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IDiaSession*(PIDiaSessionEx p) => (TerraFX.Interop.Windows.IDiaSession*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIDiaSessionEx p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIDiaSessionEx p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -21255,6 +21338,20 @@ public unsafe readonly ref struct PIMFDeviceTransform
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIMFDeviceTransform2
+{
+    private readonly TerraFX.Interop.Windows.IMFDeviceTransform2* p;
+
+    public TerraFX.Interop.Windows.IMFDeviceTransform2* Get() => this.p;
+
+    public static implicit operator PIMFDeviceTransform2(TerraFX.Interop.Windows.IMFDeviceTransform2* p) => *(PIMFDeviceTransform2*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IMFDeviceTransform2*(PIMFDeviceTransform2 p) => (TerraFX.Interop.Windows.IMFDeviceTransform2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IMFDeviceTransform*(PIMFDeviceTransform2 p) => (TerraFX.Interop.Windows.IMFDeviceTransform*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFDeviceTransform2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIMFDeviceTransform2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIMFDeviceTransformCallback
 {
     private readonly TerraFX.Interop.Windows.IMFDeviceTransformCallback* p;
@@ -21291,6 +21388,19 @@ public unsafe readonly ref struct PIMFDXGIBuffer
     public static implicit operator TerraFX.Interop.Windows.IMFDXGIBuffer*(PIMFDXGIBuffer p) => (TerraFX.Interop.Windows.IMFDXGIBuffer*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFDXGIBuffer p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIMFDXGIBuffer p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIMFDXGICrossAdapterBuffer
+{
+    private readonly TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer* p;
+
+    public TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer* Get() => this.p;
+
+    public static implicit operator PIMFDXGICrossAdapterBuffer(TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer* p) => *(PIMFDXGICrossAdapterBuffer*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer*(PIMFDXGICrossAdapterBuffer p) => (TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFDXGICrossAdapterBuffer p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIMFDXGICrossAdapterBuffer p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -21408,6 +21518,32 @@ public unsafe readonly ref struct PIMFExtendedDRMTypeSupport
     public static implicit operator TerraFX.Interop.Windows.IMFExtendedDRMTypeSupport*(PIMFExtendedDRMTypeSupport p) => (TerraFX.Interop.Windows.IMFExtendedDRMTypeSupport*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFExtendedDRMTypeSupport p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIMFExtendedDRMTypeSupport p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIMFFaceDetectionTransform
+{
+    private readonly TerraFX.Interop.Windows.IMFFaceDetectionTransform* p;
+
+    public TerraFX.Interop.Windows.IMFFaceDetectionTransform* Get() => this.p;
+
+    public static implicit operator PIMFFaceDetectionTransform(TerraFX.Interop.Windows.IMFFaceDetectionTransform* p) => *(PIMFFaceDetectionTransform*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IMFFaceDetectionTransform*(PIMFFaceDetectionTransform p) => (TerraFX.Interop.Windows.IMFFaceDetectionTransform*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFFaceDetectionTransform p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIMFFaceDetectionTransform p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIMFFaceDetectionTransformCallback
+{
+    private readonly TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback* p;
+
+    public TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback* Get() => this.p;
+
+    public static implicit operator PIMFFaceDetectionTransformCallback(TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback* p) => *(PIMFFaceDetectionTransformCallback*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback*(PIMFFaceDetectionTransformCallback p) => (TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIMFFaceDetectionTransformCallback p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIMFFaceDetectionTransformCallback p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -24611,6 +24747,19 @@ public unsafe readonly ref struct PIObjectWithFolderEnumMode
     public static implicit operator TerraFX.Interop.Windows.IObjectWithFolderEnumMode*(PIObjectWithFolderEnumMode p) => (TerraFX.Interop.Windows.IObjectWithFolderEnumMode*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIObjectWithFolderEnumMode p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIObjectWithFolderEnumMode p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIObjectWithPackageFullName
+{
+    private readonly TerraFX.Interop.Windows.IObjectWithPackageFullName* p;
+
+    public TerraFX.Interop.Windows.IObjectWithPackageFullName* Get() => this.p;
+
+    public static implicit operator PIObjectWithPackageFullName(TerraFX.Interop.Windows.IObjectWithPackageFullName* p) => *(PIObjectWithPackageFullName*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IObjectWithPackageFullName*(PIObjectWithPackageFullName p) => (TerraFX.Interop.Windows.IObjectWithPackageFullName*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIObjectWithPackageFullName p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIObjectWithPackageFullName p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -35876,6 +36025,20 @@ public unsafe readonly ref struct PIWICBitmapSourceTransform
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWICBitmapSourceTransform2
+{
+    private readonly TerraFX.Interop.Windows.IWICBitmapSourceTransform2* p;
+
+    public TerraFX.Interop.Windows.IWICBitmapSourceTransform2* Get() => this.p;
+
+    public static implicit operator PIWICBitmapSourceTransform2(TerraFX.Interop.Windows.IWICBitmapSourceTransform2* p) => *(PIWICBitmapSourceTransform2*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IWICBitmapSourceTransform2*(PIWICBitmapSourceTransform2 p) => (TerraFX.Interop.Windows.IWICBitmapSourceTransform2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IWICBitmapSourceTransform*(PIWICBitmapSourceTransform2 p) => (TerraFX.Interop.Windows.IWICBitmapSourceTransform*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICBitmapSourceTransform2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWICBitmapSourceTransform2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIWICColorContext
 {
     private readonly TerraFX.Interop.Windows.IWICColorContext* p;
@@ -35994,6 +36157,19 @@ public unsafe readonly ref struct PIWICDevelopRawNotificationCallback
     public static implicit operator TerraFX.Interop.Windows.IWICDevelopRawNotificationCallback*(PIWICDevelopRawNotificationCallback p) => (TerraFX.Interop.Windows.IWICDevelopRawNotificationCallback*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICDevelopRawNotificationCallback p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIWICDevelopRawNotificationCallback p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWICDisplayAdaptationControl
+{
+    private readonly TerraFX.Interop.Windows.IWICDisplayAdaptationControl* p;
+
+    public TerraFX.Interop.Windows.IWICDisplayAdaptationControl* Get() => this.p;
+
+    public static implicit operator PIWICDisplayAdaptationControl(TerraFX.Interop.Windows.IWICDisplayAdaptationControl* p) => *(PIWICDisplayAdaptationControl*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IWICDisplayAdaptationControl*(PIWICDisplayAdaptationControl p) => (TerraFX.Interop.Windows.IWICDisplayAdaptationControl*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICDisplayAdaptationControl p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWICDisplayAdaptationControl p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]

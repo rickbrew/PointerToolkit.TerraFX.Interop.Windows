@@ -868,6 +868,8 @@ public static unsafe class Pointers
 
     public static PIAppxBlockMapFile __cast(TerraFX.Interop.Windows.IAppxBlockMapFile* p) => (PIAppxBlockMapFile)p;
 
+    public static PIAppxBlockMapFile2 __cast(TerraFX.Interop.Windows.IAppxBlockMapFile2* p) => (PIAppxBlockMapFile2)p;
+
     public static PIAppxBlockMapFilesEnumerator __cast(TerraFX.Interop.Windows.IAppxBlockMapFilesEnumerator* p) => (PIAppxBlockMapFilesEnumerator)p;
 
     public static PIAppxBlockMapReader __cast(TerraFX.Interop.Windows.IAppxBlockMapReader* p) => (PIAppxBlockMapReader)p;
@@ -943,6 +945,8 @@ public static unsafe class Pointers
     public static PIAppxFactory3 __cast(TerraFX.Interop.Windows.IAppxFactory3* p) => (PIAppxFactory3)p;
 
     public static PIAppxFile __cast(TerraFX.Interop.Windows.IAppxFile* p) => (PIAppxFile)p;
+
+    public static PIAppxFile2 __cast(TerraFX.Interop.Windows.IAppxFile2* p) => (PIAppxFile2)p;
 
     public static PIAppxFilesEnumerator __cast(TerraFX.Interop.Windows.IAppxFilesEnumerator* p) => (PIAppxFilesEnumerator)p;
 
@@ -1434,6 +1438,8 @@ public static unsafe class Pointers
 
     public static PIDiaDataSource __cast(TerraFX.Interop.Windows.IDiaDataSource* p) => (PIDiaDataSource)p;
 
+    public static PIDiaDataSourceEx __cast(TerraFX.Interop.Windows.IDiaDataSourceEx* p) => (PIDiaDataSourceEx)p;
+
     public static PIDiaEnumDebugStreamData __cast(TerraFX.Interop.Windows.IDiaEnumDebugStreamData* p) => (PIDiaEnumDebugStreamData)p;
 
     public static PIDiaEnumDebugStreams __cast(TerraFX.Interop.Windows.IDiaEnumDebugStreams* p) => (PIDiaEnumDebugStreams)p;
@@ -1451,6 +1457,10 @@ public static unsafe class Pointers
     public static PIDiaEnumSegments __cast(TerraFX.Interop.Windows.IDiaEnumSegments* p) => (PIDiaEnumSegments)p;
 
     public static PIDiaEnumSourceFiles __cast(TerraFX.Interop.Windows.IDiaEnumSourceFiles* p) => (PIDiaEnumSourceFiles)p;
+
+    public static PIDiaEnumSourceLink __cast(TerraFX.Interop.Windows.IDiaEnumSourceLink* p) => (PIDiaEnumSourceLink)p;
+
+    public static PIDiaEnumSourceLink2 __cast(TerraFX.Interop.Windows.IDiaEnumSourceLink2* p) => (PIDiaEnumSourceLink2)p;
 
     public static PIDiaEnumStackFrames __cast(TerraFX.Interop.Windows.IDiaEnumStackFrames* p) => (PIDiaEnumStackFrames)p;
 
@@ -1487,6 +1497,8 @@ public static unsafe class Pointers
     public static PIDiaSegment __cast(TerraFX.Interop.Windows.IDiaSegment* p) => (PIDiaSegment)p;
 
     public static PIDiaSession __cast(TerraFX.Interop.Windows.IDiaSession* p) => (PIDiaSession)p;
+
+    public static PIDiaSessionEx __cast(TerraFX.Interop.Windows.IDiaSessionEx* p) => (PIDiaSessionEx)p;
 
     public static PIDiaSourceFile __cast(TerraFX.Interop.Windows.IDiaSourceFile* p) => (PIDiaSourceFile)p;
 
@@ -3124,11 +3136,15 @@ public static unsafe class Pointers
 
     public static PIMFDeviceTransform __cast(TerraFX.Interop.Windows.IMFDeviceTransform* p) => (PIMFDeviceTransform)p;
 
+    public static PIMFDeviceTransform2 __cast(TerraFX.Interop.Windows.IMFDeviceTransform2* p) => (PIMFDeviceTransform2)p;
+
     public static PIMFDeviceTransformCallback __cast(TerraFX.Interop.Windows.IMFDeviceTransformCallback* p) => (PIMFDeviceTransformCallback)p;
 
     public static PIMFDLNASinkInit __cast(TerraFX.Interop.Windows.IMFDLNASinkInit* p) => (PIMFDLNASinkInit)p;
 
     public static PIMFDXGIBuffer __cast(TerraFX.Interop.Windows.IMFDXGIBuffer* p) => (PIMFDXGIBuffer)p;
+
+    public static PIMFDXGICrossAdapterBuffer __cast(TerraFX.Interop.Windows.IMFDXGICrossAdapterBuffer* p) => (PIMFDXGICrossAdapterBuffer)p;
 
     public static PIMFDXGIDeviceManager __cast(TerraFX.Interop.Windows.IMFDXGIDeviceManager* p) => (PIMFDXGIDeviceManager)p;
 
@@ -3147,6 +3163,10 @@ public static unsafe class Pointers
     public static PIMFExtendedCameraIntrinsicsDistortionModelArcTan __cast(TerraFX.Interop.Windows.IMFExtendedCameraIntrinsicsDistortionModelArcTan* p) => (PIMFExtendedCameraIntrinsicsDistortionModelArcTan)p;
 
     public static PIMFExtendedDRMTypeSupport __cast(TerraFX.Interop.Windows.IMFExtendedDRMTypeSupport* p) => (PIMFExtendedDRMTypeSupport)p;
+
+    public static PIMFFaceDetectionTransform __cast(TerraFX.Interop.Windows.IMFFaceDetectionTransform* p) => (PIMFFaceDetectionTransform)p;
+
+    public static PIMFFaceDetectionTransformCallback __cast(TerraFX.Interop.Windows.IMFFaceDetectionTransformCallback* p) => (PIMFFaceDetectionTransformCallback)p;
 
     public static PIMFFieldOfUseMFTUnlock __cast(TerraFX.Interop.Windows.IMFFieldOfUseMFTUnlock* p) => (PIMFFieldOfUseMFTUnlock)p;
 
@@ -3629,6 +3649,8 @@ public static unsafe class Pointers
     public static PIObjectWithCancelEvent __cast(TerraFX.Interop.Windows.IObjectWithCancelEvent* p) => (PIObjectWithCancelEvent)p;
 
     public static PIObjectWithFolderEnumMode __cast(TerraFX.Interop.Windows.IObjectWithFolderEnumMode* p) => (PIObjectWithFolderEnumMode)p;
+
+    public static PIObjectWithPackageFullName __cast(TerraFX.Interop.Windows.IObjectWithPackageFullName* p) => (PIObjectWithPackageFullName)p;
 
     public static PIObjectWithProgID __cast(TerraFX.Interop.Windows.IObjectWithProgID* p) => (PIObjectWithProgID)p;
 
@@ -5290,6 +5312,8 @@ public static unsafe class Pointers
 
     public static PIWICBitmapSourceTransform __cast(TerraFX.Interop.Windows.IWICBitmapSourceTransform* p) => (PIWICBitmapSourceTransform)p;
 
+    public static PIWICBitmapSourceTransform2 __cast(TerraFX.Interop.Windows.IWICBitmapSourceTransform2* p) => (PIWICBitmapSourceTransform2)p;
+
     public static PIWICColorContext __cast(TerraFX.Interop.Windows.IWICColorContext* p) => (PIWICColorContext)p;
 
     public static PIWICColorTransform __cast(TerraFX.Interop.Windows.IWICColorTransform* p) => (PIWICColorTransform)p;
@@ -5307,6 +5331,8 @@ public static unsafe class Pointers
     public static PIWICDevelopRaw __cast(TerraFX.Interop.Windows.IWICDevelopRaw* p) => (PIWICDevelopRaw)p;
 
     public static PIWICDevelopRawNotificationCallback __cast(TerraFX.Interop.Windows.IWICDevelopRawNotificationCallback* p) => (PIWICDevelopRawNotificationCallback)p;
+
+    public static PIWICDisplayAdaptationControl __cast(TerraFX.Interop.Windows.IWICDisplayAdaptationControl* p) => (PIWICDisplayAdaptationControl)p;
 
     public static PIWICEnumMetadataItem __cast(TerraFX.Interop.Windows.IWICEnumMetadataItem* p) => (PIWICEnumMetadataItem)p;
 
