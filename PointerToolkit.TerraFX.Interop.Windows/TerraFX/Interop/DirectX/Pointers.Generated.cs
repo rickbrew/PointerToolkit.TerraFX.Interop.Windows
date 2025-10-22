@@ -14,6 +14,8 @@ public static unsafe class Pointers
 
     public static PDirectMLTensorFlowCreatorID __cast(TerraFX.Interop.DirectX.DirectMLTensorFlowCreatorID* p) => (PDirectMLTensorFlowCreatorID)p;
 
+    public static PDirectMLWebNNCreatorID __cast(TerraFX.Interop.DirectX.DirectMLWebNNCreatorID* p) => (PDirectMLWebNNCreatorID)p;
+
     public static PID2D1AnalysisTransform __cast(TerraFX.Interop.DirectX.ID2D1AnalysisTransform* p) => (PID2D1AnalysisTransform)p;
 
     public static PID2D1Bitmap __cast(TerraFX.Interop.DirectX.ID2D1Bitmap* p) => (PID2D1Bitmap)p;
@@ -584,6 +586,12 @@ public static unsafe class Pointers
 
     public static PID3D12DeviceRemovedExtendedDataSettings2 __cast(TerraFX.Interop.DirectX.ID3D12DeviceRemovedExtendedDataSettings2* p) => (PID3D12DeviceRemovedExtendedDataSettings2)p;
 
+    public static PID3D12DeviceTools __cast(TerraFX.Interop.DirectX.ID3D12DeviceTools* p) => (PID3D12DeviceTools)p;
+
+    public static PID3D12DeviceTools1 __cast(TerraFX.Interop.DirectX.ID3D12DeviceTools1* p) => (PID3D12DeviceTools1)p;
+
+    public static PID3D12DSRDeviceFactory __cast(TerraFX.Interop.DirectX.ID3D12DSRDeviceFactory* p) => (PID3D12DSRDeviceFactory)p;
+
     public static PID3D12Fence __cast(TerraFX.Interop.DirectX.ID3D12Fence* p) => (PID3D12Fence)p;
 
     public static PID3D12Fence1 __cast(TerraFX.Interop.DirectX.ID3D12Fence1* p) => (PID3D12Fence1)p;
@@ -634,6 +642,8 @@ public static unsafe class Pointers
 
     public static PID3D12Pageable __cast(TerraFX.Interop.DirectX.ID3D12Pageable* p) => (PID3D12Pageable)p;
 
+    public static PID3D12PageableTools __cast(TerraFX.Interop.DirectX.ID3D12PageableTools* p) => (PID3D12PageableTools)p;
+
     public static PID3D12PipelineLibrary __cast(TerraFX.Interop.DirectX.ID3D12PipelineLibrary* p) => (PID3D12PipelineLibrary)p;
 
     public static PID3D12PipelineLibrary1 __cast(TerraFX.Interop.DirectX.ID3D12PipelineLibrary1* p) => (PID3D12PipelineLibrary1)p;
@@ -677,6 +687,10 @@ public static unsafe class Pointers
     public static PID3D12SwapChainAssistant __cast(TerraFX.Interop.DirectX.ID3D12SwapChainAssistant* p) => (PID3D12SwapChainAssistant)p;
 
     public static PID3D12Tools __cast(TerraFX.Interop.DirectX.ID3D12Tools* p) => (PID3D12Tools)p;
+
+    public static PID3D12Tools1 __cast(TerraFX.Interop.DirectX.ID3D12Tools1* p) => (PID3D12Tools1)p;
+
+    public static PID3D12Tools2 __cast(TerraFX.Interop.DirectX.ID3D12Tools2* p) => (PID3D12Tools2)p;
 
     public static PID3D12VersionedRootSignatureDeserializer __cast(TerraFX.Interop.DirectX.ID3D12VersionedRootSignatureDeserializer* p) => (PID3D12VersionedRootSignatureDeserializer)p;
 
@@ -774,7 +788,11 @@ public static unsafe class Pointers
 
     public static PIDCompositionDevice4 __cast(TerraFX.Interop.DirectX.IDCompositionDevice4* p) => (PIDCompositionDevice4)p;
 
+    public static PIDCompositionDevice5 __cast(TerraFX.Interop.DirectX.IDCompositionDevice5* p) => (PIDCompositionDevice5)p;
+
     public static PIDCompositionDeviceDebug __cast(TerraFX.Interop.DirectX.IDCompositionDeviceDebug* p) => (PIDCompositionDeviceDebug)p;
+
+    public static PIDCompositionDynamicTexture __cast(TerraFX.Interop.DirectX.IDCompositionDynamicTexture* p) => (PIDCompositionDynamicTexture)p;
 
     public static PIDCompositionEffect __cast(TerraFX.Interop.DirectX.IDCompositionEffect* p) => (PIDCompositionEffect)p;
 

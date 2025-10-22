@@ -230,6 +230,34 @@ public unsafe readonly ref struct PIAccelerometerStatics3
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAcceptedVoipPhoneCallOptions
+{
+    private readonly TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions* p;
+
+    public TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions* Get() => this.p;
+
+    public static implicit operator PIAcceptedVoipPhoneCallOptions(TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions* p) => *(PIAcceptedVoipPhoneCallOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions*(PIAcceptedVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAcceptedVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAcceptedVoipPhoneCallOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAcceptedVoipPhoneCallOptions p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAcceptedVoipPhoneCallOptionsFactory
+{
+    private readonly TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory* p;
+
+    public TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory* Get() => this.p;
+
+    public static implicit operator PIAcceptedVoipPhoneCallOptionsFactory(TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory* p) => *(PIAcceptedVoipPhoneCallOptionsFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory*(PIAcceptedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAcceptedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAcceptedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAcceptedVoipPhoneCallOptionsFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIAccessibilitySettings
 {
     private readonly TerraFX.Interop.WinRT.IAccessibilitySettings* p;
@@ -2495,6 +2523,34 @@ public unsafe readonly ref struct PIAppInfoStatics
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAppInfoStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppInfoStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIAppInfoStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAppInitiatedVoipPhoneCallOptions
+{
+    private readonly TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions* p;
+
+    public TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions* Get() => this.p;
+
+    public static implicit operator PIAppInitiatedVoipPhoneCallOptions(TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions* p) => *(PIAppInitiatedVoipPhoneCallOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions*(PIAppInitiatedVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAppInitiatedVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppInitiatedVoipPhoneCallOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAppInitiatedVoipPhoneCallOptions p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAppInitiatedVoipPhoneCallOptionsFactory
+{
+    private readonly TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory* p;
+
+    public TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory* Get() => this.p;
+
+    public static implicit operator PIAppInitiatedVoipPhoneCallOptionsFactory(TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory* p) => *(PIAppInitiatedVoipPhoneCallOptionsFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory*(PIAppInitiatedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIAppInitiatedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAppInitiatedVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAppInitiatedVoipPhoneCallOptionsFactory p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -7020,6 +7076,20 @@ public unsafe readonly ref struct PIBluetoothAdapter3
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothAdapter4
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothAdapter4* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothAdapter4* Get() => this.p;
+
+    public static implicit operator PIBluetoothAdapter4(TerraFX.Interop.WinRT.IBluetoothAdapter4* p) => *(PIBluetoothAdapter4*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothAdapter4*(PIBluetoothAdapter4 p) => (TerraFX.Interop.WinRT.IBluetoothAdapter4*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothAdapter4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothAdapter4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothAdapter4 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIBluetoothAdapterStatics
 {
     private readonly TerraFX.Interop.WinRT.IBluetoothAdapterStatics* p;
@@ -7314,6 +7384,20 @@ public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisher2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisher3
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementPublisher3(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3* p) => *(PIBluetoothLEAdvertisementPublisher3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3*(PIBluetoothLEAdvertisementPublisher3 p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementPublisher3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementPublisher3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementPublisher3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisherFactory
 {
     private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherFactory* p;
@@ -7384,6 +7468,20 @@ public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisherTrigger2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisherTrigger3
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementPublisherTrigger3(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3* p) => *(PIBluetoothLEAdvertisementPublisherTrigger3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3*(PIBluetoothLEAdvertisementPublisherTrigger3 p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementPublisherTrigger3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementPublisherTrigger3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementPublisherTrigger3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIBluetoothLEAdvertisementPublisherTriggerDetails
 {
     private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTriggerDetails* p;
@@ -7440,6 +7538,48 @@ public unsafe readonly ref struct PIBluetoothLEAdvertisementReceivedEventArgs2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementReceivedEventArgs3
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementReceivedEventArgs3(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3* p) => *(PIBluetoothLEAdvertisementReceivedEventArgs3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3*(PIBluetoothLEAdvertisementReceivedEventArgs3 p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementReceivedEventArgs3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementReceivedEventArgs3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementReceivedEventArgs3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementScanParameters
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementScanParameters(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters* p) => *(PIBluetoothLEAdvertisementScanParameters*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters*(PIBluetoothLEAdvertisementScanParameters p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementScanParameters p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementScanParameters p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementScanParameters p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementScanParametersStatics
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementScanParametersStatics(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics* p) => *(PIBluetoothLEAdvertisementScanParametersStatics*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics*(PIBluetoothLEAdvertisementScanParametersStatics p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementScanParametersStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementScanParametersStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementScanParametersStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIBluetoothLEAdvertisementWatcher
 {
     private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher* p;
@@ -7465,6 +7605,20 @@ public unsafe readonly ref struct PIBluetoothLEAdvertisementWatcher2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementWatcher2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementWatcher2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIBluetoothLEAdvertisementWatcher2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementWatcher3
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementWatcher3(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3* p) => *(PIBluetoothLEAdvertisementWatcher3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3*(PIBluetoothLEAdvertisementWatcher3 p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementWatcher3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementWatcher3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementWatcher3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -7521,6 +7675,20 @@ public unsafe readonly ref struct PIBluetoothLEAdvertisementWatcherTrigger2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementWatcherTrigger2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementWatcherTrigger2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIBluetoothLEAdvertisementWatcherTrigger2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIBluetoothLEAdvertisementWatcherTrigger3
+{
+    private readonly TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3* p;
+
+    public TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3* Get() => this.p;
+
+    public static implicit operator PIBluetoothLEAdvertisementWatcherTrigger3(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3* p) => *(PIBluetoothLEAdvertisementWatcherTrigger3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3*(PIBluetoothLEAdvertisementWatcherTrigger3 p) => (TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIBluetoothLEAdvertisementWatcherTrigger3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIBluetoothLEAdvertisementWatcherTrigger3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIBluetoothLEAdvertisementWatcherTrigger3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -8248,6 +8416,20 @@ public unsafe readonly ref struct PICallAnswerEventArgs
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PICallAnswerEventArgs p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PICallAnswerEventArgs p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PICallAnswerEventArgs p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PICallAnswerEventArgs2
+{
+    private readonly TerraFX.Interop.WinRT.ICallAnswerEventArgs2* p;
+
+    public TerraFX.Interop.WinRT.ICallAnswerEventArgs2* Get() => this.p;
+
+    public static implicit operator PICallAnswerEventArgs2(TerraFX.Interop.WinRT.ICallAnswerEventArgs2* p) => *(PICallAnswerEventArgs2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.ICallAnswerEventArgs2*(PICallAnswerEventArgs2 p) => (TerraFX.Interop.WinRT.ICallAnswerEventArgs2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PICallAnswerEventArgs2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PICallAnswerEventArgs2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PICallAnswerEventArgs2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -20260,6 +20442,20 @@ public unsafe readonly ref struct PIGattServiceProvider
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIGattServiceProvider2
+{
+    private readonly TerraFX.Interop.WinRT.IGattServiceProvider2* p;
+
+    public TerraFX.Interop.WinRT.IGattServiceProvider2* Get() => this.p;
+
+    public static implicit operator PIGattServiceProvider2(TerraFX.Interop.WinRT.IGattServiceProvider2* p) => *(PIGattServiceProvider2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IGattServiceProvider2*(PIGattServiceProvider2 p) => (TerraFX.Interop.WinRT.IGattServiceProvider2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIGattServiceProvider2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIGattServiceProvider2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIGattServiceProvider2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIGattServiceProviderAdvertisementStatusChangedEventArgs
 {
     private readonly TerraFX.Interop.WinRT.IGattServiceProviderAdvertisementStatusChangedEventArgs* p;
@@ -20302,6 +20498,20 @@ public unsafe readonly ref struct PIGattServiceProviderAdvertisingParameters2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIGattServiceProviderAdvertisingParameters3
+{
+    private readonly TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3* p;
+
+    public TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3* Get() => this.p;
+
+    public static implicit operator PIGattServiceProviderAdvertisingParameters3(TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3* p) => *(PIGattServiceProviderAdvertisingParameters3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3*(PIGattServiceProviderAdvertisingParameters3 p) => (TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIGattServiceProviderAdvertisingParameters3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIGattServiceProviderAdvertisingParameters3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIGattServiceProviderAdvertisingParameters3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIGattServiceProviderConnection
 {
     private readonly TerraFX.Interop.WinRT.IGattServiceProviderConnection* p;
@@ -20313,6 +20523,20 @@ public unsafe readonly ref struct PIGattServiceProviderConnection
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIGattServiceProviderConnection p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIGattServiceProviderConnection p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIGattServiceProviderConnection p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIGattServiceProviderConnection2
+{
+    private readonly TerraFX.Interop.WinRT.IGattServiceProviderConnection2* p;
+
+    public TerraFX.Interop.WinRT.IGattServiceProviderConnection2* Get() => this.p;
+
+    public static implicit operator PIGattServiceProviderConnection2(TerraFX.Interop.WinRT.IGattServiceProviderConnection2* p) => *(PIGattServiceProviderConnection2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IGattServiceProviderConnection2*(PIGattServiceProviderConnection2 p) => (TerraFX.Interop.WinRT.IGattServiceProviderConnection2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIGattServiceProviderConnection2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIGattServiceProviderConnection2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIGattServiceProviderConnection2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -23562,6 +23786,20 @@ public unsafe readonly ref struct PIHumanPresenceSensorReadingUpdate
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHumanPresenceSensorReadingUpdate2
+{
+    private readonly TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2* p;
+
+    public TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2* Get() => this.p;
+
+    public static implicit operator PIHumanPresenceSensorReadingUpdate2(TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2* p) => *(PIHumanPresenceSensorReadingUpdate2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2*(PIHumanPresenceSensorReadingUpdate2 p) => (TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSensorReadingUpdate2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSensorReadingUpdate2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHumanPresenceSensorReadingUpdate2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIHumanPresenceSensorStatics
 {
     private readonly TerraFX.Interop.WinRT.IHumanPresenceSensorStatics* p;
@@ -24104,6 +24342,34 @@ public unsafe readonly ref struct PIInclinometerStatics4
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIInclinometerStatics4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIInclinometerStatics4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIInclinometerStatics4 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIIncomingVoipPhoneCallOptions
+{
+    private readonly TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions* p;
+
+    public TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions* Get() => this.p;
+
+    public static implicit operator PIIncomingVoipPhoneCallOptions(TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions* p) => *(PIIncomingVoipPhoneCallOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions*(PIIncomingVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIIncomingVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIIncomingVoipPhoneCallOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIIncomingVoipPhoneCallOptions p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIIncomingVoipPhoneCallOptionsFactory
+{
+    private readonly TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory* p;
+
+    public TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory* Get() => this.p;
+
+    public static implicit operator PIIncomingVoipPhoneCallOptionsFactory(TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory* p) => *(PIIncomingVoipPhoneCallOptionsFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory*(PIIncomingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIIncomingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIIncomingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIIncomingVoipPhoneCallOptionsFactory p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -25961,6 +26227,20 @@ public unsafe readonly ref struct PILightSensor3
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PILightSensor4
+{
+    private readonly TerraFX.Interop.WinRT.ILightSensor4* p;
+
+    public TerraFX.Interop.WinRT.ILightSensor4* Get() => this.p;
+
+    public static implicit operator PILightSensor4(TerraFX.Interop.WinRT.ILightSensor4* p) => *(PILightSensor4*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.ILightSensor4*(PILightSensor4 p) => (TerraFX.Interop.WinRT.ILightSensor4*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PILightSensor4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PILightSensor4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PILightSensor4 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PILightSensorDataThreshold
 {
     private readonly TerraFX.Interop.WinRT.ILightSensorDataThreshold* p;
@@ -25972,6 +26252,20 @@ public unsafe readonly ref struct PILightSensorDataThreshold
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PILightSensorDataThreshold p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PILightSensorDataThreshold p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PILightSensorDataThreshold p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PILightSensorDataThreshold2
+{
+    private readonly TerraFX.Interop.WinRT.ILightSensorDataThreshold2* p;
+
+    public TerraFX.Interop.WinRT.ILightSensorDataThreshold2* Get() => this.p;
+
+    public static implicit operator PILightSensorDataThreshold2(TerraFX.Interop.WinRT.ILightSensorDataThreshold2* p) => *(PILightSensorDataThreshold2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.ILightSensorDataThreshold2*(PILightSensorDataThreshold2 p) => (TerraFX.Interop.WinRT.ILightSensorDataThreshold2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PILightSensorDataThreshold2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PILightSensorDataThreshold2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PILightSensorDataThreshold2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -26014,6 +26308,20 @@ public unsafe readonly ref struct PILightSensorReading2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PILightSensorReading2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PILightSensorReading2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PILightSensorReading2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PILightSensorReading3
+{
+    private readonly TerraFX.Interop.WinRT.ILightSensorReading3* p;
+
+    public TerraFX.Interop.WinRT.ILightSensorReading3* Get() => this.p;
+
+    public static implicit operator PILightSensorReading3(TerraFX.Interop.WinRT.ILightSensorReading3* p) => *(PILightSensorReading3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.ILightSensorReading3*(PILightSensorReading3 p) => (TerraFX.Interop.WinRT.ILightSensorReading3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PILightSensorReading3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PILightSensorReading3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PILightSensorReading3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -30891,6 +31199,34 @@ public unsafe readonly ref struct PIOrientationSensorStatics4
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIOutgoingVoipPhoneCallOptions
+{
+    private readonly TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions* p;
+
+    public TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions* Get() => this.p;
+
+    public static implicit operator PIOutgoingVoipPhoneCallOptions(TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions* p) => *(PIOutgoingVoipPhoneCallOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions*(PIOutgoingVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIOutgoingVoipPhoneCallOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIOutgoingVoipPhoneCallOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIOutgoingVoipPhoneCallOptions p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIOutgoingVoipPhoneCallOptionsFactory
+{
+    private readonly TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory* p;
+
+    public TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory* Get() => this.p;
+
+    public static implicit operator PIOutgoingVoipPhoneCallOptionsFactory(TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory* p) => *(PIOutgoingVoipPhoneCallOptionsFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory*(PIOutgoingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIOutgoingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIOutgoingVoipPhoneCallOptionsFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIOutgoingVoipPhoneCallOptionsFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIOutputStream
 {
     private readonly TerraFX.Interop.WinRT.IOutputStream* p;
@@ -32765,6 +33101,20 @@ public unsafe readonly ref struct PIPointerPoint
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPointerPoint p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPointerPoint p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIPointerPoint p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPointerPointPhysicalPosition
+{
+    private readonly TerraFX.Interop.WinRT.IPointerPointPhysicalPosition* p;
+
+    public TerraFX.Interop.WinRT.IPointerPointPhysicalPosition* Get() => this.p;
+
+    public static implicit operator PIPointerPointPhysicalPosition(TerraFX.Interop.WinRT.IPointerPointPhysicalPosition* p) => *(PIPointerPointPhysicalPosition*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IPointerPointPhysicalPosition*(PIPointerPointPhysicalPosition p) => (TerraFX.Interop.WinRT.IPointerPointPhysicalPosition*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIPointerPointPhysicalPosition p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPointerPointPhysicalPosition p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPointerPointPhysicalPosition p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -42210,6 +42560,48 @@ public unsafe readonly ref struct PIStorageProviderPropertyCapabilities
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderQueryResult
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderQueryResult* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderQueryResult* Get() => this.p;
+
+    public static implicit operator PIStorageProviderQueryResult(TerraFX.Interop.WinRT.IStorageProviderQueryResult* p) => *(PIStorageProviderQueryResult*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderQueryResult*(PIStorageProviderQueryResult p) => (TerraFX.Interop.WinRT.IStorageProviderQueryResult*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderQueryResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderQueryResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderQueryResult p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderQueryResultSet
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderQueryResultSet* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderQueryResultSet* Get() => this.p;
+
+    public static implicit operator PIStorageProviderQueryResultSet(TerraFX.Interop.WinRT.IStorageProviderQueryResultSet* p) => *(PIStorageProviderQueryResultSet*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderQueryResultSet*(PIStorageProviderQueryResultSet p) => (TerraFX.Interop.WinRT.IStorageProviderQueryResultSet*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderQueryResultSet p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderQueryResultSet p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderQueryResultSet p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderQueryResultSetFactory
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory* Get() => this.p;
+
+    public static implicit operator PIStorageProviderQueryResultSetFactory(TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory* p) => *(PIStorageProviderQueryResultSetFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory*(PIStorageProviderQueryResultSetFactory p) => (TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderQueryResultSetFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderQueryResultSetFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderQueryResultSetFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIStorageProviderQuotaUI
 {
     private readonly TerraFX.Interop.WinRT.IStorageProviderQuotaUI* p;
@@ -42221,6 +42613,62 @@ public unsafe readonly ref struct PIStorageProviderQuotaUI
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderQuotaUI p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderQuotaUI p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIStorageProviderQuotaUI p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderSearchHandler
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderSearchHandler* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderSearchHandler* Get() => this.p;
+
+    public static implicit operator PIStorageProviderSearchHandler(TerraFX.Interop.WinRT.IStorageProviderSearchHandler* p) => *(PIStorageProviderSearchHandler*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderSearchHandler*(PIStorageProviderSearchHandler p) => (TerraFX.Interop.WinRT.IStorageProviderSearchHandler*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderSearchHandler p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderSearchHandler p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderSearchHandler p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderSearchHandlerFactory
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory* Get() => this.p;
+
+    public static implicit operator PIStorageProviderSearchHandlerFactory(TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory* p) => *(PIStorageProviderSearchHandlerFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory*(PIStorageProviderSearchHandlerFactory p) => (TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderSearchHandlerFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderSearchHandlerFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderSearchHandlerFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderSearchQueryOptions
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions* Get() => this.p;
+
+    public static implicit operator PIStorageProviderSearchQueryOptions(TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions* p) => *(PIStorageProviderSearchQueryOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions*(PIStorageProviderSearchQueryOptions p) => (TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderSearchQueryOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderSearchQueryOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderSearchQueryOptions p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIStorageProviderSearchResult
+{
+    private readonly TerraFX.Interop.WinRT.IStorageProviderSearchResult* p;
+
+    public TerraFX.Interop.WinRT.IStorageProviderSearchResult* Get() => this.p;
+
+    public static implicit operator PIStorageProviderSearchResult(TerraFX.Interop.WinRT.IStorageProviderSearchResult* p) => *(PIStorageProviderSearchResult*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IStorageProviderSearchResult*(PIStorageProviderSearchResult p) => (TerraFX.Interop.WinRT.IStorageProviderSearchResult*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIStorageProviderSearchResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIStorageProviderSearchResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIStorageProviderSearchResult p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -45168,6 +45616,20 @@ public unsafe readonly ref struct PIUIViewSettingsInterop
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIUIViewSettingsPreferredInteractionMode
+{
+    private readonly TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode* p;
+
+    public TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode* Get() => this.p;
+
+    public static implicit operator PIUIViewSettingsPreferredInteractionMode(TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode* p) => *(PIUIViewSettingsPreferredInteractionMode*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode*(PIUIViewSettingsPreferredInteractionMode p) => (TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIUIViewSettingsPreferredInteractionMode p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIUIViewSettingsPreferredInteractionMode p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIUIViewSettingsPreferredInteractionMode p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIUIViewSettingsStatics
 {
     private readonly TerraFX.Interop.WinRT.IUIViewSettingsStatics* p;
@@ -47322,6 +47784,20 @@ public unsafe readonly ref struct PIVoipCallCoordinator4
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIVoipCallCoordinator5
+{
+    private readonly TerraFX.Interop.WinRT.IVoipCallCoordinator5* p;
+
+    public TerraFX.Interop.WinRT.IVoipCallCoordinator5* Get() => this.p;
+
+    public static implicit operator PIVoipCallCoordinator5(TerraFX.Interop.WinRT.IVoipCallCoordinator5* p) => *(PIVoipCallCoordinator5*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IVoipCallCoordinator5*(PIVoipCallCoordinator5 p) => (TerraFX.Interop.WinRT.IVoipCallCoordinator5*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIVoipCallCoordinator5 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIVoipCallCoordinator5 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIVoipCallCoordinator5 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIVoipCallCoordinatorStatics
 {
     private readonly TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics* p;
@@ -47333,6 +47809,20 @@ public unsafe readonly ref struct PIVoipCallCoordinatorStatics
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIVoipCallCoordinatorStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIVoipCallCoordinatorStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIVoipCallCoordinatorStatics p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIVoipCallCoordinatorStatics2
+{
+    private readonly TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2* p;
+
+    public TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2* Get() => this.p;
+
+    public static implicit operator PIVoipCallCoordinatorStatics2(TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2* p) => *(PIVoipCallCoordinatorStatics2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2*(PIVoipCallCoordinatorStatics2 p) => (TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIVoipCallCoordinatorStatics2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIVoipCallCoordinatorStatics2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIVoipCallCoordinatorStatics2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -47375,6 +47865,20 @@ public unsafe readonly ref struct PIVoipPhoneCall3
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIVoipPhoneCall3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIVoipPhoneCall3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIVoipPhoneCall3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIVoipPhoneCall4
+{
+    private readonly TerraFX.Interop.WinRT.IVoipPhoneCall4* p;
+
+    public TerraFX.Interop.WinRT.IVoipPhoneCall4* Get() => this.p;
+
+    public static implicit operator PIVoipPhoneCall4(TerraFX.Interop.WinRT.IVoipPhoneCall4* p) => *(PIVoipPhoneCall4*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IVoipPhoneCall4*(PIVoipPhoneCall4 p) => (TerraFX.Interop.WinRT.IVoipPhoneCall4*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIVoipPhoneCall4 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIVoipPhoneCall4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIVoipPhoneCall4 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -48090,6 +48594,48 @@ public unsafe readonly ref struct PIWebAccountScopeManagerStatics
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationAddAccountResponse
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationAddAccountResponse(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse* p) => *(PIWebAuthenticationAddAccountResponse*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse*(PIWebAuthenticationAddAccountResponse p) => (TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationAddAccountResponse p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationAddAccountResponse p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationAddAccountResponse p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationAddAccountResponseFactory
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationAddAccountResponseFactory(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory* p) => *(PIWebAuthenticationAddAccountResponseFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory*(PIWebAuthenticationAddAccountResponseFactory p) => (TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationAddAccountResponseFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationAddAccountResponseFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationAddAccountResponseFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationAddAccountResult
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationAddAccountResult(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult* p) => *(PIWebAuthenticationAddAccountResult*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult*(PIWebAuthenticationAddAccountResult p) => (TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationAddAccountResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationAddAccountResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationAddAccountResult p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIWebAuthenticationBrokerContinuationEventArgs
 {
     private readonly TerraFX.Interop.WinRT.IWebAuthenticationBrokerContinuationEventArgs* p;
@@ -48202,6 +48748,20 @@ public unsafe readonly ref struct PIWebAuthenticationCoreManagerStatics4
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationCoreManagerStatics5
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationCoreManagerStatics5(TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5* p) => *(PIWebAuthenticationCoreManagerStatics5*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5*(PIWebAuthenticationCoreManagerStatics5 p) => (TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationCoreManagerStatics5 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationCoreManagerStatics5 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationCoreManagerStatics5 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIWebAuthenticationResult
 {
     private readonly TerraFX.Interop.WinRT.IWebAuthenticationResult* p;
@@ -48213,6 +48773,34 @@ public unsafe readonly ref struct PIWebAuthenticationResult
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIWebAuthenticationResult p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationTransferTokenRequest
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationTransferTokenRequest(TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest* p) => *(PIWebAuthenticationTransferTokenRequest*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest*(PIWebAuthenticationTransferTokenRequest p) => (TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationTransferTokenRequest p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationTransferTokenRequest p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationTransferTokenRequest p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWebAuthenticationTransferTokenRequestFactory
+{
+    private readonly TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory* p;
+
+    public TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory* Get() => this.p;
+
+    public static implicit operator PIWebAuthenticationTransferTokenRequestFactory(TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory* p) => *(PIWebAuthenticationTransferTokenRequestFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory*(PIWebAuthenticationTransferTokenRequestFactory p) => (TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIWebAuthenticationTransferTokenRequestFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWebAuthenticationTransferTokenRequestFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWebAuthenticationTransferTokenRequestFactory p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]

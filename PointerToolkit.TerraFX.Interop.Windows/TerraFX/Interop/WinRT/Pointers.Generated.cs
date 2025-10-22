@@ -38,6 +38,10 @@ public static unsafe class Pointers
 
     public static PIAccelerometerStatics3 __cast(TerraFX.Interop.WinRT.IAccelerometerStatics3* p) => (PIAccelerometerStatics3)p;
 
+    public static PIAcceptedVoipPhoneCallOptions __cast(TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptions* p) => (PIAcceptedVoipPhoneCallOptions)p;
+
+    public static PIAcceptedVoipPhoneCallOptionsFactory __cast(TerraFX.Interop.WinRT.IAcceptedVoipPhoneCallOptionsFactory* p) => (PIAcceptedVoipPhoneCallOptionsFactory)p;
+
     public static PIAccessibilitySettings __cast(TerraFX.Interop.WinRT.IAccessibilitySettings* p) => (PIAccessibilitySettings)p;
 
     public static PIAccountsSettingsPaneInterop __cast(TerraFX.Interop.WinRT.IAccountsSettingsPaneInterop* p) => (PIAccountsSettingsPaneInterop)p;
@@ -361,6 +365,10 @@ public static unsafe class Pointers
     public static PIAppInfo4 __cast(TerraFX.Interop.WinRT.IAppInfo4* p) => (PIAppInfo4)p;
 
     public static PIAppInfoStatics __cast(TerraFX.Interop.WinRT.IAppInfoStatics* p) => (PIAppInfoStatics)p;
+
+    public static PIAppInitiatedVoipPhoneCallOptions __cast(TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptions* p) => (PIAppInitiatedVoipPhoneCallOptions)p;
+
+    public static PIAppInitiatedVoipPhoneCallOptionsFactory __cast(TerraFX.Interop.WinRT.IAppInitiatedVoipPhoneCallOptionsFactory* p) => (PIAppInitiatedVoipPhoneCallOptionsFactory)p;
 
     public static PIAppInstallerInfo __cast(TerraFX.Interop.WinRT.IAppInstallerInfo* p) => (PIAppInstallerInfo)p;
 
@@ -1015,6 +1023,8 @@ public static unsafe class Pointers
 
     public static PIBluetoothAdapter3 __cast(TerraFX.Interop.WinRT.IBluetoothAdapter3* p) => (PIBluetoothAdapter3)p;
 
+    public static PIBluetoothAdapter4 __cast(TerraFX.Interop.WinRT.IBluetoothAdapter4* p) => (PIBluetoothAdapter4)p;
+
     public static PIBluetoothAdapterStatics __cast(TerraFX.Interop.WinRT.IBluetoothAdapterStatics* p) => (PIBluetoothAdapterStatics)p;
 
     public static PIBluetoothClassOfDevice __cast(TerraFX.Interop.WinRT.IBluetoothClassOfDevice* p) => (PIBluetoothClassOfDevice)p;
@@ -1057,6 +1067,8 @@ public static unsafe class Pointers
 
     public static PIBluetoothLEAdvertisementPublisher2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher2* p) => (PIBluetoothLEAdvertisementPublisher2)p;
 
+    public static PIBluetoothLEAdvertisementPublisher3 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisher3* p) => (PIBluetoothLEAdvertisementPublisher3)p;
+
     public static PIBluetoothLEAdvertisementPublisherFactory __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherFactory* p) => (PIBluetoothLEAdvertisementPublisherFactory)p;
 
     public static PIBluetoothLEAdvertisementPublisherStatusChangedEventArgs __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherStatusChangedEventArgs* p) => (PIBluetoothLEAdvertisementPublisherStatusChangedEventArgs)p;
@@ -1067,6 +1079,8 @@ public static unsafe class Pointers
 
     public static PIBluetoothLEAdvertisementPublisherTrigger2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger2* p) => (PIBluetoothLEAdvertisementPublisherTrigger2)p;
 
+    public static PIBluetoothLEAdvertisementPublisherTrigger3 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTrigger3* p) => (PIBluetoothLEAdvertisementPublisherTrigger3)p;
+
     public static PIBluetoothLEAdvertisementPublisherTriggerDetails __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTriggerDetails* p) => (PIBluetoothLEAdvertisementPublisherTriggerDetails)p;
 
     public static PIBluetoothLEAdvertisementPublisherTriggerDetails2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementPublisherTriggerDetails2* p) => (PIBluetoothLEAdvertisementPublisherTriggerDetails2)p;
@@ -1075,9 +1089,17 @@ public static unsafe class Pointers
 
     public static PIBluetoothLEAdvertisementReceivedEventArgs2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs2* p) => (PIBluetoothLEAdvertisementReceivedEventArgs2)p;
 
+    public static PIBluetoothLEAdvertisementReceivedEventArgs3 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementReceivedEventArgs3* p) => (PIBluetoothLEAdvertisementReceivedEventArgs3)p;
+
+    public static PIBluetoothLEAdvertisementScanParameters __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParameters* p) => (PIBluetoothLEAdvertisementScanParameters)p;
+
+    public static PIBluetoothLEAdvertisementScanParametersStatics __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementScanParametersStatics* p) => (PIBluetoothLEAdvertisementScanParametersStatics)p;
+
     public static PIBluetoothLEAdvertisementWatcher __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher* p) => (PIBluetoothLEAdvertisementWatcher)p;
 
     public static PIBluetoothLEAdvertisementWatcher2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher2* p) => (PIBluetoothLEAdvertisementWatcher2)p;
+
+    public static PIBluetoothLEAdvertisementWatcher3 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcher3* p) => (PIBluetoothLEAdvertisementWatcher3)p;
 
     public static PIBluetoothLEAdvertisementWatcherFactory __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherFactory* p) => (PIBluetoothLEAdvertisementWatcherFactory)p;
 
@@ -1086,6 +1108,8 @@ public static unsafe class Pointers
     public static PIBluetoothLEAdvertisementWatcherTrigger __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger* p) => (PIBluetoothLEAdvertisementWatcherTrigger)p;
 
     public static PIBluetoothLEAdvertisementWatcherTrigger2 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger2* p) => (PIBluetoothLEAdvertisementWatcherTrigger2)p;
+
+    public static PIBluetoothLEAdvertisementWatcherTrigger3 __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTrigger3* p) => (PIBluetoothLEAdvertisementWatcherTrigger3)p;
 
     public static PIBluetoothLEAdvertisementWatcherTriggerDetails __cast(TerraFX.Interop.WinRT.IBluetoothLEAdvertisementWatcherTriggerDetails* p) => (PIBluetoothLEAdvertisementWatcherTriggerDetails)p;
 
@@ -1190,6 +1214,8 @@ public static unsafe class Pointers
     public static PICalendarIdentifiersStatics3 __cast(TerraFX.Interop.WinRT.ICalendarIdentifiersStatics3* p) => (PICalendarIdentifiersStatics3)p;
 
     public static PICallAnswerEventArgs __cast(TerraFX.Interop.WinRT.ICallAnswerEventArgs* p) => (PICallAnswerEventArgs)p;
+
+    public static PICallAnswerEventArgs2 __cast(TerraFX.Interop.WinRT.ICallAnswerEventArgs2* p) => (PICallAnswerEventArgs2)p;
 
     public static PICallControl __cast(TerraFX.Interop.WinRT.ICallControl* p) => (PICallControl)p;
 
@@ -2920,13 +2946,19 @@ public static unsafe class Pointers
 
     public static PIGattServiceProvider __cast(TerraFX.Interop.WinRT.IGattServiceProvider* p) => (PIGattServiceProvider)p;
 
+    public static PIGattServiceProvider2 __cast(TerraFX.Interop.WinRT.IGattServiceProvider2* p) => (PIGattServiceProvider2)p;
+
     public static PIGattServiceProviderAdvertisementStatusChangedEventArgs __cast(TerraFX.Interop.WinRT.IGattServiceProviderAdvertisementStatusChangedEventArgs* p) => (PIGattServiceProviderAdvertisementStatusChangedEventArgs)p;
 
     public static PIGattServiceProviderAdvertisingParameters __cast(TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters* p) => (PIGattServiceProviderAdvertisingParameters)p;
 
     public static PIGattServiceProviderAdvertisingParameters2 __cast(TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters2* p) => (PIGattServiceProviderAdvertisingParameters2)p;
 
+    public static PIGattServiceProviderAdvertisingParameters3 __cast(TerraFX.Interop.WinRT.IGattServiceProviderAdvertisingParameters3* p) => (PIGattServiceProviderAdvertisingParameters3)p;
+
     public static PIGattServiceProviderConnection __cast(TerraFX.Interop.WinRT.IGattServiceProviderConnection* p) => (PIGattServiceProviderConnection)p;
+
+    public static PIGattServiceProviderConnection2 __cast(TerraFX.Interop.WinRT.IGattServiceProviderConnection2* p) => (PIGattServiceProviderConnection2)p;
 
     public static PIGattServiceProviderConnectionStatics __cast(TerraFX.Interop.WinRT.IGattServiceProviderConnectionStatics* p) => (PIGattServiceProviderConnectionStatics)p;
 
@@ -3392,6 +3424,8 @@ public static unsafe class Pointers
 
     public static PIHumanPresenceSensorReadingUpdate __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate* p) => (PIHumanPresenceSensorReadingUpdate)p;
 
+    public static PIHumanPresenceSensorReadingUpdate2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorReadingUpdate2* p) => (PIHumanPresenceSensorReadingUpdate2)p;
+
     public static PIHumanPresenceSensorStatics __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorStatics* p) => (PIHumanPresenceSensorStatics)p;
 
     public static PIHumanPresenceSensorStatics2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensorStatics2* p) => (PIHumanPresenceSensorStatics2)p;
@@ -3469,6 +3503,10 @@ public static unsafe class Pointers
     public static PIInclinometerStatics3 __cast(TerraFX.Interop.WinRT.IInclinometerStatics3* p) => (PIInclinometerStatics3)p;
 
     public static PIInclinometerStatics4 __cast(TerraFX.Interop.WinRT.IInclinometerStatics4* p) => (PIInclinometerStatics4)p;
+
+    public static PIIncomingVoipPhoneCallOptions __cast(TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptions* p) => (PIIncomingVoipPhoneCallOptions)p;
+
+    public static PIIncomingVoipPhoneCallOptionsFactory __cast(TerraFX.Interop.WinRT.IIncomingVoipPhoneCallOptionsFactory* p) => (PIIncomingVoipPhoneCallOptionsFactory)p;
 
     public static PIIndexableContent __cast(TerraFX.Interop.WinRT.IIndexableContent* p) => (PIIndexableContent)p;
 
@@ -3737,13 +3775,19 @@ public static unsafe class Pointers
 
     public static PILightSensor3 __cast(TerraFX.Interop.WinRT.ILightSensor3* p) => (PILightSensor3)p;
 
+    public static PILightSensor4 __cast(TerraFX.Interop.WinRT.ILightSensor4* p) => (PILightSensor4)p;
+
     public static PILightSensorDataThreshold __cast(TerraFX.Interop.WinRT.ILightSensorDataThreshold* p) => (PILightSensorDataThreshold)p;
+
+    public static PILightSensorDataThreshold2 __cast(TerraFX.Interop.WinRT.ILightSensorDataThreshold2* p) => (PILightSensorDataThreshold2)p;
 
     public static PILightSensorDeviceId __cast(TerraFX.Interop.WinRT.ILightSensorDeviceId* p) => (PILightSensorDeviceId)p;
 
     public static PILightSensorReading __cast(TerraFX.Interop.WinRT.ILightSensorReading* p) => (PILightSensorReading)p;
 
     public static PILightSensorReading2 __cast(TerraFX.Interop.WinRT.ILightSensorReading2* p) => (PILightSensorReading2)p;
+
+    public static PILightSensorReading3 __cast(TerraFX.Interop.WinRT.ILightSensorReading3* p) => (PILightSensorReading3)p;
 
     public static PILightSensorReadingChangedEventArgs __cast(TerraFX.Interop.WinRT.ILightSensorReadingChangedEventArgs* p) => (PILightSensorReadingChangedEventArgs)p;
 
@@ -4445,6 +4489,10 @@ public static unsafe class Pointers
 
     public static PIOrientationSensorStatics4 __cast(TerraFX.Interop.WinRT.IOrientationSensorStatics4* p) => (PIOrientationSensorStatics4)p;
 
+    public static PIOutgoingVoipPhoneCallOptions __cast(TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptions* p) => (PIOutgoingVoipPhoneCallOptions)p;
+
+    public static PIOutgoingVoipPhoneCallOptionsFactory __cast(TerraFX.Interop.WinRT.IOutgoingVoipPhoneCallOptionsFactory* p) => (PIOutgoingVoipPhoneCallOptionsFactory)p;
+
     public static PIOutputStream __cast(TerraFX.Interop.WinRT.IOutputStream* p) => (PIOutputStream)p;
 
     public static PIPackage __cast(TerraFX.Interop.WinRT.IPackage* p) => (PIPackage)p;
@@ -4714,6 +4762,8 @@ public static unsafe class Pointers
     public static PIPointerEventArgs __cast(TerraFX.Interop.WinRT.IPointerEventArgs* p) => (PIPointerEventArgs)p;
 
     public static PIPointerPoint __cast(TerraFX.Interop.WinRT.IPointerPoint* p) => (PIPointerPoint)p;
+
+    public static PIPointerPointPhysicalPosition __cast(TerraFX.Interop.WinRT.IPointerPointPhysicalPosition* p) => (PIPointerPointPhysicalPosition)p;
 
     public static PIPointerPointProperties __cast(TerraFX.Interop.WinRT.IPointerPointProperties* p) => (PIPointerPointProperties)p;
 
@@ -6088,7 +6138,21 @@ public static unsafe class Pointers
 
     public static PIStorageProviderPropertyCapabilities __cast(TerraFX.Interop.WinRT.IStorageProviderPropertyCapabilities* p) => (PIStorageProviderPropertyCapabilities)p;
 
+    public static PIStorageProviderQueryResult __cast(TerraFX.Interop.WinRT.IStorageProviderQueryResult* p) => (PIStorageProviderQueryResult)p;
+
+    public static PIStorageProviderQueryResultSet __cast(TerraFX.Interop.WinRT.IStorageProviderQueryResultSet* p) => (PIStorageProviderQueryResultSet)p;
+
+    public static PIStorageProviderQueryResultSetFactory __cast(TerraFX.Interop.WinRT.IStorageProviderQueryResultSetFactory* p) => (PIStorageProviderQueryResultSetFactory)p;
+
     public static PIStorageProviderQuotaUI __cast(TerraFX.Interop.WinRT.IStorageProviderQuotaUI* p) => (PIStorageProviderQuotaUI)p;
+
+    public static PIStorageProviderSearchHandler __cast(TerraFX.Interop.WinRT.IStorageProviderSearchHandler* p) => (PIStorageProviderSearchHandler)p;
+
+    public static PIStorageProviderSearchHandlerFactory __cast(TerraFX.Interop.WinRT.IStorageProviderSearchHandlerFactory* p) => (PIStorageProviderSearchHandlerFactory)p;
+
+    public static PIStorageProviderSearchQueryOptions __cast(TerraFX.Interop.WinRT.IStorageProviderSearchQueryOptions* p) => (PIStorageProviderSearchQueryOptions)p;
+
+    public static PIStorageProviderSearchResult __cast(TerraFX.Interop.WinRT.IStorageProviderSearchResult* p) => (PIStorageProviderSearchResult)p;
 
     public static PIStorageProviderStatusUI __cast(TerraFX.Interop.WinRT.IStorageProviderStatusUI* p) => (PIStorageProviderStatusUI)p;
 
@@ -6512,6 +6576,8 @@ public static unsafe class Pointers
 
     public static PIUIViewSettingsInterop __cast(TerraFX.Interop.WinRT.IUIViewSettingsInterop* p) => (PIUIViewSettingsInterop)p;
 
+    public static PIUIViewSettingsPreferredInteractionMode __cast(TerraFX.Interop.WinRT.IUIViewSettingsPreferredInteractionMode* p) => (PIUIViewSettingsPreferredInteractionMode)p;
+
     public static PIUIViewSettingsStatics __cast(TerraFX.Interop.WinRT.IUIViewSettingsStatics* p) => (PIUIViewSettingsStatics)p;
 
     public static PIUnbufferedFileHandleOplockCallback __cast(TerraFX.Interop.WinRT.IUnbufferedFileHandleOplockCallback* p) => (PIUnbufferedFileHandleOplockCallback)p;
@@ -6823,13 +6889,19 @@ public static unsafe class Pointers
 
     public static PIVoipCallCoordinator4 __cast(TerraFX.Interop.WinRT.IVoipCallCoordinator4* p) => (PIVoipCallCoordinator4)p;
 
+    public static PIVoipCallCoordinator5 __cast(TerraFX.Interop.WinRT.IVoipCallCoordinator5* p) => (PIVoipCallCoordinator5)p;
+
     public static PIVoipCallCoordinatorStatics __cast(TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics* p) => (PIVoipCallCoordinatorStatics)p;
+
+    public static PIVoipCallCoordinatorStatics2 __cast(TerraFX.Interop.WinRT.IVoipCallCoordinatorStatics2* p) => (PIVoipCallCoordinatorStatics2)p;
 
     public static PIVoipPhoneCall __cast(TerraFX.Interop.WinRT.IVoipPhoneCall* p) => (PIVoipPhoneCall)p;
 
     public static PIVoipPhoneCall2 __cast(TerraFX.Interop.WinRT.IVoipPhoneCall2* p) => (PIVoipPhoneCall2)p;
 
     public static PIVoipPhoneCall3 __cast(TerraFX.Interop.WinRT.IVoipPhoneCall3* p) => (PIVoipPhoneCall3)p;
+
+    public static PIVoipPhoneCall4 __cast(TerraFX.Interop.WinRT.IVoipPhoneCall4* p) => (PIVoipPhoneCall4)p;
 
     public static PIVp9ProfileIdsStatics __cast(TerraFX.Interop.WinRT.IVp9ProfileIdsStatics* p) => (PIVp9ProfileIdsStatics)p;
 
@@ -6945,6 +7017,12 @@ public static unsafe class Pointers
 
     public static PIWebAccountScopeManagerStatics __cast(TerraFX.Interop.WinRT.IWebAccountScopeManagerStatics* p) => (PIWebAccountScopeManagerStatics)p;
 
+    public static PIWebAuthenticationAddAccountResponse __cast(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponse* p) => (PIWebAuthenticationAddAccountResponse)p;
+
+    public static PIWebAuthenticationAddAccountResponseFactory __cast(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResponseFactory* p) => (PIWebAuthenticationAddAccountResponseFactory)p;
+
+    public static PIWebAuthenticationAddAccountResult __cast(TerraFX.Interop.WinRT.IWebAuthenticationAddAccountResult* p) => (PIWebAuthenticationAddAccountResult)p;
+
     public static PIWebAuthenticationBrokerContinuationEventArgs __cast(TerraFX.Interop.WinRT.IWebAuthenticationBrokerContinuationEventArgs* p) => (PIWebAuthenticationBrokerContinuationEventArgs)p;
 
     public static PIWebAuthenticationBrokerStatics __cast(TerraFX.Interop.WinRT.IWebAuthenticationBrokerStatics* p) => (PIWebAuthenticationBrokerStatics)p;
@@ -6961,7 +7039,13 @@ public static unsafe class Pointers
 
     public static PIWebAuthenticationCoreManagerStatics4 __cast(TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics4* p) => (PIWebAuthenticationCoreManagerStatics4)p;
 
+    public static PIWebAuthenticationCoreManagerStatics5 __cast(TerraFX.Interop.WinRT.IWebAuthenticationCoreManagerStatics5* p) => (PIWebAuthenticationCoreManagerStatics5)p;
+
     public static PIWebAuthenticationResult __cast(TerraFX.Interop.WinRT.IWebAuthenticationResult* p) => (PIWebAuthenticationResult)p;
+
+    public static PIWebAuthenticationTransferTokenRequest __cast(TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequest* p) => (PIWebAuthenticationTransferTokenRequest)p;
+
+    public static PIWebAuthenticationTransferTokenRequestFactory __cast(TerraFX.Interop.WinRT.IWebAuthenticationTransferTokenRequestFactory* p) => (PIWebAuthenticationTransferTokenRequestFactory)p;
 
     public static PIWebErrorStatics __cast(TerraFX.Interop.WinRT.IWebErrorStatics* p) => (PIWebErrorStatics)p;
 

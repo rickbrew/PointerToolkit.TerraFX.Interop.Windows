@@ -840,6 +840,74 @@ public static unsafe class Pointers
 
     public static PIAppActivationUIInfo __cast(TerraFX.Interop.Windows.IAppActivationUIInfo* p) => (PIAppActivationUIInfo)p;
 
+    public static PIAppHostAdminManager __cast(TerraFX.Interop.Windows.IAppHostAdminManager* p) => (PIAppHostAdminManager)p;
+
+    public static PIAppHostChangeHandler __cast(TerraFX.Interop.Windows.IAppHostChangeHandler* p) => (PIAppHostChangeHandler)p;
+
+    public static PIAppHostChildElementCollection __cast(TerraFX.Interop.Windows.IAppHostChildElementCollection* p) => (PIAppHostChildElementCollection)p;
+
+    public static PIAppHostCollectionSchema __cast(TerraFX.Interop.Windows.IAppHostCollectionSchema* p) => (PIAppHostCollectionSchema)p;
+
+    public static PIAppHostConfigException __cast(TerraFX.Interop.Windows.IAppHostConfigException* p) => (PIAppHostConfigException)p;
+
+    public static PIAppHostConfigFile __cast(TerraFX.Interop.Windows.IAppHostConfigFile* p) => (PIAppHostConfigFile)p;
+
+    public static PIAppHostConfigLocation __cast(TerraFX.Interop.Windows.IAppHostConfigLocation* p) => (PIAppHostConfigLocation)p;
+
+    public static PIAppHostConfigLocationCollection __cast(TerraFX.Interop.Windows.IAppHostConfigLocationCollection* p) => (PIAppHostConfigLocationCollection)p;
+
+    public static PIAppHostConfigManager __cast(TerraFX.Interop.Windows.IAppHostConfigManager* p) => (PIAppHostConfigManager)p;
+
+    public static PIAppHostConstantValue __cast(TerraFX.Interop.Windows.IAppHostConstantValue* p) => (PIAppHostConstantValue)p;
+
+    public static PIAppHostConstantValueCollection __cast(TerraFX.Interop.Windows.IAppHostConstantValueCollection* p) => (PIAppHostConstantValueCollection)p;
+
+    public static PIAppHostElement __cast(TerraFX.Interop.Windows.IAppHostElement* p) => (PIAppHostElement)p;
+
+    public static PIAppHostElementCollection __cast(TerraFX.Interop.Windows.IAppHostElementCollection* p) => (PIAppHostElementCollection)p;
+
+    public static PIAppHostElementExtension __cast(TerraFX.Interop.Windows.IAppHostElementExtension* p) => (PIAppHostElementExtension)p;
+
+    public static PIAppHostElementSchema __cast(TerraFX.Interop.Windows.IAppHostElementSchema* p) => (PIAppHostElementSchema)p;
+
+    public static PIAppHostElementSchemaCollection __cast(TerraFX.Interop.Windows.IAppHostElementSchemaCollection* p) => (PIAppHostElementSchemaCollection)p;
+
+    public static PIAppHostMappingExtension __cast(TerraFX.Interop.Windows.IAppHostMappingExtension* p) => (PIAppHostMappingExtension)p;
+
+    public static PIAppHostMethod __cast(TerraFX.Interop.Windows.IAppHostMethod* p) => (PIAppHostMethod)p;
+
+    public static PIAppHostMethodCollection __cast(TerraFX.Interop.Windows.IAppHostMethodCollection* p) => (PIAppHostMethodCollection)p;
+
+    public static PIAppHostMethodExtension __cast(TerraFX.Interop.Windows.IAppHostMethodExtension* p) => (PIAppHostMethodExtension)p;
+
+    public static PIAppHostMethodInstance __cast(TerraFX.Interop.Windows.IAppHostMethodInstance* p) => (PIAppHostMethodInstance)p;
+
+    public static PIAppHostMethodSchema __cast(TerraFX.Interop.Windows.IAppHostMethodSchema* p) => (PIAppHostMethodSchema)p;
+
+    public static PIAppHostPathMapper __cast(TerraFX.Interop.Windows.IAppHostPathMapper* p) => (PIAppHostPathMapper)p;
+
+    public static PIAppHostPathMapper2 __cast(TerraFX.Interop.Windows.IAppHostPathMapper2* p) => (PIAppHostPathMapper2)p;
+
+    public static PIAppHostProperty __cast(TerraFX.Interop.Windows.IAppHostProperty* p) => (PIAppHostProperty)p;
+
+    public static PIAppHostPropertyCollection __cast(TerraFX.Interop.Windows.IAppHostPropertyCollection* p) => (PIAppHostPropertyCollection)p;
+
+    public static PIAppHostPropertyException __cast(TerraFX.Interop.Windows.IAppHostPropertyException* p) => (PIAppHostPropertyException)p;
+
+    public static PIAppHostPropertyExtension __cast(TerraFX.Interop.Windows.IAppHostPropertyExtension* p) => (PIAppHostPropertyExtension)p;
+
+    public static PIAppHostPropertySchema __cast(TerraFX.Interop.Windows.IAppHostPropertySchema* p) => (PIAppHostPropertySchema)p;
+
+    public static PIAppHostPropertySchemaCollection __cast(TerraFX.Interop.Windows.IAppHostPropertySchemaCollection* p) => (PIAppHostPropertySchemaCollection)p;
+
+    public static PIAppHostSectionDefinition __cast(TerraFX.Interop.Windows.IAppHostSectionDefinition* p) => (PIAppHostSectionDefinition)p;
+
+    public static PIAppHostSectionDefinitionCollection __cast(TerraFX.Interop.Windows.IAppHostSectionDefinitionCollection* p) => (PIAppHostSectionDefinitionCollection)p;
+
+    public static PIAppHostSectionGroup __cast(TerraFX.Interop.Windows.IAppHostSectionGroup* p) => (PIAppHostSectionGroup)p;
+
+    public static PIAppHostWritableAdminManager __cast(TerraFX.Interop.Windows.IAppHostWritableAdminManager* p) => (PIAppHostWritableAdminManager)p;
+
     public static PIApplicationActivationManager __cast(TerraFX.Interop.Windows.IApplicationActivationManager* p) => (PIApplicationActivationManager)p;
 
     public static PIApplicationAssociationRegistration __cast(TerraFX.Interop.Windows.IApplicationAssociationRegistration* p) => (PIApplicationAssociationRegistration)p;
@@ -1047,6 +1115,8 @@ public static unsafe class Pointers
     public static PIAsyncRpcChannelBuffer __cast(TerraFX.Interop.Windows.IAsyncRpcChannelBuffer* p) => (PIAsyncRpcChannelBuffer)p;
 
     public static PIAttachmentExecute __cast(TerraFX.Interop.Windows.IAttachmentExecute* p) => (PIAttachmentExecute)p;
+
+    public static PIAttachmentExecute2 __cast(TerraFX.Interop.Windows.IAttachmentExecute2* p) => (PIAttachmentExecute2)p;
 
     public static PIAudioAmbisonicsControl __cast(TerraFX.Interop.Windows.IAudioAmbisonicsControl* p) => (PIAudioAmbisonicsControl)p;
 
@@ -1270,6 +1340,8 @@ public static unsafe class Pointers
 
     public static PICommDlgBrowser3 __cast(TerraFX.Interop.Windows.ICommDlgBrowser3* p) => (PICommDlgBrowser3)p;
 
+    public static PICompositionFramePresentStatistics __cast(TerraFX.Interop.Windows.ICompositionFramePresentStatistics* p) => (PICompositionFramePresentStatistics)p;
+
     public static PIComputerInfoChangeNotify __cast(TerraFX.Interop.Windows.IComputerInfoChangeNotify* p) => (PIComputerInfoChangeNotify)p;
 
     public static PIComThreadingInfo __cast(TerraFX.Interop.Windows.IComThreadingInfo* p) => (PIComThreadingInfo)p;
@@ -1440,6 +1512,8 @@ public static unsafe class Pointers
 
     public static PIDiaDataSourceEx __cast(TerraFX.Interop.Windows.IDiaDataSourceEx* p) => (PIDiaDataSourceEx)p;
 
+    public static PIDiaDataSourceEx2 __cast(TerraFX.Interop.Windows.IDiaDataSourceEx2* p) => (PIDiaDataSourceEx2)p;
+
     public static PIDiaEnumDebugStreamData __cast(TerraFX.Interop.Windows.IDiaEnumDebugStreamData* p) => (PIDiaEnumDebugStreamData)p;
 
     public static PIDiaEnumDebugStreams __cast(TerraFX.Interop.Windows.IDiaEnumDebugStreams* p) => (PIDiaEnumDebugStreams)p;
@@ -1451,6 +1525,8 @@ public static unsafe class Pointers
     public static PIDiaEnumInputAssemblyFiles __cast(TerraFX.Interop.Windows.IDiaEnumInputAssemblyFiles* p) => (PIDiaEnumInputAssemblyFiles)p;
 
     public static PIDiaEnumLineNumbers __cast(TerraFX.Interop.Windows.IDiaEnumLineNumbers* p) => (PIDiaEnumLineNumbers)p;
+
+    public static PIDiaEnumNamedStreams __cast(TerraFX.Interop.Windows.IDiaEnumNamedStreams* p) => (PIDiaEnumNamedStreams)p;
 
     public static PIDiaEnumSectionContribs __cast(TerraFX.Interop.Windows.IDiaEnumSectionContribs* p) => (PIDiaEnumSectionContribs)p;
 
@@ -2814,6 +2890,8 @@ public static unsafe class Pointers
 
     public static PIIMEServices __cast(TerraFX.Interop.Windows.IIMEServices* p) => (PIIMEServices)p;
 
+    public static PIIndependentFlipFramePresentStatistics __cast(TerraFX.Interop.Windows.IIndependentFlipFramePresentStatistics* p) => (PIIndependentFlipFramePresentStatistics)p;
+
     public static PIInertiaProcessor __cast(TerraFX.Interop.Windows.IInertiaProcessor* p) => (PIInertiaProcessor)p;
 
     public static PIInitializeCommand __cast(TerraFX.Interop.Windows.IInitializeCommand* p) => (PIInitializeCommand)p;
@@ -3814,6 +3892,24 @@ public static unsafe class Pointers
 
     public static PIPointerInactive __cast(TerraFX.Interop.Windows.IPointerInactive* p) => (PIPointerInactive)p;
 
+    public static PIPresentationBuffer __cast(TerraFX.Interop.Windows.IPresentationBuffer* p) => (PIPresentationBuffer)p;
+
+    public static PIPresentationContent __cast(TerraFX.Interop.Windows.IPresentationContent* p) => (PIPresentationContent)p;
+
+    public static PIPresentationFactory __cast(TerraFX.Interop.Windows.IPresentationFactory* p) => (PIPresentationFactory)p;
+
+    public static PIPresentationFactory_SupportHdrAware __cast(TerraFX.Interop.Windows.IPresentationFactory_SupportHdrAware* p) => (PIPresentationFactory_SupportHdrAware)p;
+
+    public static PIPresentationManager __cast(TerraFX.Interop.Windows.IPresentationManager* p) => (PIPresentationManager)p;
+
+    public static PIPresentationSurface __cast(TerraFX.Interop.Windows.IPresentationSurface* p) => (PIPresentationSurface)p;
+
+    public static PIPresentationSurface2 __cast(TerraFX.Interop.Windows.IPresentationSurface2* p) => (PIPresentationSurface2)p;
+
+    public static PIPresentStatistics __cast(TerraFX.Interop.Windows.IPresentStatistics* p) => (PIPresentStatistics)p;
+
+    public static PIPresentStatusPresentStatistics __cast(TerraFX.Interop.Windows.IPresentStatusPresentStatistics* p) => (PIPresentStatusPresentStatistics)p;
+
     public static PIPreviewHandler __cast(TerraFX.Interop.Windows.IPreviewHandler* p) => (PIPreviewHandler)p;
 
     public static PIPreviewHandlerFrame __cast(TerraFX.Interop.Windows.IPreviewHandlerFrame* p) => (PIPreviewHandlerFrame)p;
@@ -4421,6 +4517,8 @@ public static unsafe class Pointers
     public static PISpXMLRecoResult __cast(TerraFX.Interop.Windows.ISpXMLRecoResult* p) => (PISpXMLRecoResult)p;
 
     public static PIStartMenuPinnedList __cast(TerraFX.Interop.Windows.IStartMenuPinnedList* p) => (PIStartMenuPinnedList)p;
+
+    public static PIStaticVerbProvider __cast(TerraFX.Interop.Windows.IStaticVerbProvider* p) => (PIStaticVerbProvider)p;
 
     public static PIStdMarshalInfo __cast(TerraFX.Interop.Windows.IStdMarshalInfo* p) => (PIStdMarshalInfo)p;
 
@@ -5300,6 +5398,10 @@ public static unsafe class Pointers
 
     public static PIWICBitmapFlipRotator __cast(TerraFX.Interop.Windows.IWICBitmapFlipRotator* p) => (PIWICBitmapFlipRotator)p;
 
+    public static PIWICBitmapFrameChainReader __cast(TerraFX.Interop.Windows.IWICBitmapFrameChainReader* p) => (PIWICBitmapFrameChainReader)p;
+
+    public static PIWICBitmapFrameChainWriter __cast(TerraFX.Interop.Windows.IWICBitmapFrameChainWriter* p) => (PIWICBitmapFrameChainWriter)p;
+
     public static PIWICBitmapFrameDecode __cast(TerraFX.Interop.Windows.IWICBitmapFrameDecode* p) => (PIWICBitmapFrameDecode)p;
 
     public static PIWICBitmapFrameEncode __cast(TerraFX.Interop.Windows.IWICBitmapFrameEncode* p) => (PIWICBitmapFrameEncode)p;
@@ -5333,6 +5435,8 @@ public static unsafe class Pointers
     public static PIWICDevelopRawNotificationCallback __cast(TerraFX.Interop.Windows.IWICDevelopRawNotificationCallback* p) => (PIWICDevelopRawNotificationCallback)p;
 
     public static PIWICDisplayAdaptationControl __cast(TerraFX.Interop.Windows.IWICDisplayAdaptationControl* p) => (PIWICDisplayAdaptationControl)p;
+
+    public static PIWICDisplayAdaptationControl2 __cast(TerraFX.Interop.Windows.IWICDisplayAdaptationControl2* p) => (PIWICDisplayAdaptationControl2)p;
 
     public static PIWICEnumMetadataItem __cast(TerraFX.Interop.Windows.IWICEnumMetadataItem* p) => (PIWICEnumMetadataItem)p;
 
