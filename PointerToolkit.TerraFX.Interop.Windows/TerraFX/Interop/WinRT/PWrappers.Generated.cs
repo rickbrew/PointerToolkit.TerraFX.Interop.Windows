@@ -4541,6 +4541,19 @@ public unsafe readonly ref struct PIAttachableInputObjectFactory
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIAttestationChallengeHandler
+{
+    private readonly TerraFX.Interop.WinRT.IAttestationChallengeHandler* p;
+
+    public TerraFX.Interop.WinRT.IAttestationChallengeHandler* Get() => this.p;
+
+    public static implicit operator PIAttestationChallengeHandler(TerraFX.Interop.WinRT.IAttestationChallengeHandler* p) => *(PIAttestationChallengeHandler*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IAttestationChallengeHandler*(PIAttestationChallengeHandler p) => (TerraFX.Interop.WinRT.IAttestationChallengeHandler*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIAttestationChallengeHandler p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIAttestationChallengeHandler p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIAttributedNetworkUsage
 {
     private readonly TerraFX.Interop.WinRT.IAttributedNetworkUsage* p;
@@ -23660,6 +23673,20 @@ public unsafe readonly ref struct PIHumanPresenceFeatures2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHumanPresenceFeatures3
+{
+    private readonly TerraFX.Interop.WinRT.IHumanPresenceFeatures3* p;
+
+    public TerraFX.Interop.WinRT.IHumanPresenceFeatures3* Get() => this.p;
+
+    public static implicit operator PIHumanPresenceFeatures3(TerraFX.Interop.WinRT.IHumanPresenceFeatures3* p) => *(PIHumanPresenceFeatures3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHumanPresenceFeatures3*(PIHumanPresenceFeatures3 p) => (TerraFX.Interop.WinRT.IHumanPresenceFeatures3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceFeatures3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceFeatures3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHumanPresenceFeatures3 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIHumanPresenceSensor
 {
     private readonly TerraFX.Interop.WinRT.IHumanPresenceSensor* p;
@@ -23853,6 +23880,20 @@ public unsafe readonly ref struct PIHumanPresenceSettings2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSettings2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSettings2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIHumanPresenceSettings2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIHumanPresenceSettings3
+{
+    private readonly TerraFX.Interop.WinRT.IHumanPresenceSettings3* p;
+
+    public TerraFX.Interop.WinRT.IHumanPresenceSettings3* Get() => this.p;
+
+    public static implicit operator PIHumanPresenceSettings3(TerraFX.Interop.WinRT.IHumanPresenceSettings3* p) => *(PIHumanPresenceSettings3*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IHumanPresenceSettings3*(PIHumanPresenceSettings3 p) => (TerraFX.Interop.WinRT.IHumanPresenceSettings3*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIHumanPresenceSettings3 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIHumanPresenceSettings3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIHumanPresenceSettings3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -25156,6 +25197,20 @@ public unsafe readonly ref struct PIKeyCredential
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIKeyCredential2
+{
+    private readonly TerraFX.Interop.WinRT.IKeyCredential2* p;
+
+    public TerraFX.Interop.WinRT.IKeyCredential2* Get() => this.p;
+
+    public static implicit operator PIKeyCredential2(TerraFX.Interop.WinRT.IKeyCredential2* p) => *(PIKeyCredential2*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IKeyCredential2*(PIKeyCredential2 p) => (TerraFX.Interop.WinRT.IKeyCredential2*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIKeyCredential2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIKeyCredential2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIKeyCredential2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIKeyCredentialAttestationResult
 {
     private readonly TerraFX.Interop.WinRT.IKeyCredentialAttestationResult* p;
@@ -25167,6 +25222,48 @@ public unsafe readonly ref struct PIKeyCredentialAttestationResult
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIKeyCredentialAttestationResult p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIKeyCredentialAttestationResult p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIKeyCredentialAttestationResult p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIKeyCredentialCacheConfiguration
+{
+    private readonly TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration* p;
+
+    public TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration* Get() => this.p;
+
+    public static implicit operator PIKeyCredentialCacheConfiguration(TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration* p) => *(PIKeyCredentialCacheConfiguration*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration*(PIKeyCredentialCacheConfiguration p) => (TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIKeyCredentialCacheConfiguration p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIKeyCredentialCacheConfiguration p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIKeyCredentialCacheConfiguration p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIKeyCredentialCacheConfigurationFactory
+{
+    private readonly TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory* p;
+
+    public TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory* Get() => this.p;
+
+    public static implicit operator PIKeyCredentialCacheConfigurationFactory(TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory* p) => *(PIKeyCredentialCacheConfigurationFactory*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory*(PIKeyCredentialCacheConfigurationFactory p) => (TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIKeyCredentialCacheConfigurationFactory p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIKeyCredentialCacheConfigurationFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIKeyCredentialCacheConfigurationFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIKeyCredentialManagerExtendedStatics
+{
+    private readonly TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics* p;
+
+    public TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics* Get() => this.p;
+
+    public static implicit operator PIKeyCredentialManagerExtendedStatics(TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics* p) => *(PIKeyCredentialManagerExtendedStatics*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics*(PIKeyCredentialManagerExtendedStatics p) => (TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIKeyCredentialManagerExtendedStatics p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIKeyCredentialManagerExtendedStatics p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIKeyCredentialManagerExtendedStatics p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -30959,6 +31056,20 @@ public unsafe readonly ref struct PINumeralSystemIdentifiersStatics2
     public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PINumeralSystemIdentifiersStatics2 p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PINumeralSystemIdentifiersStatics2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PINumeralSystemIdentifiersStatics2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIOnlookerDetectionOptions
+{
+    private readonly TerraFX.Interop.WinRT.IOnlookerDetectionOptions* p;
+
+    public TerraFX.Interop.WinRT.IOnlookerDetectionOptions* Get() => this.p;
+
+    public static implicit operator PIOnlookerDetectionOptions(TerraFX.Interop.WinRT.IOnlookerDetectionOptions* p) => *(PIOnlookerDetectionOptions*)&p;
+    public static implicit operator TerraFX.Interop.WinRT.IOnlookerDetectionOptions*(PIOnlookerDetectionOptions p) => (TerraFX.Interop.WinRT.IOnlookerDetectionOptions*)p.p;
+    public static implicit operator TerraFX.Interop.WinRT.IInspectable*(PIOnlookerDetectionOptions p) => (TerraFX.Interop.WinRT.IInspectable*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIOnlookerDetectionOptions p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIOnlookerDetectionOptions p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]

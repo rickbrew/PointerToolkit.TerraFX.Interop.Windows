@@ -656,6 +656,8 @@ public static unsafe class Pointers
 
     public static PIAttachableInputObjectFactory __cast(TerraFX.Interop.WinRT.IAttachableInputObjectFactory* p) => (PIAttachableInputObjectFactory)p;
 
+    public static PIAttestationChallengeHandler __cast(TerraFX.Interop.WinRT.IAttestationChallengeHandler* p) => (PIAttestationChallengeHandler)p;
+
     public static PIAttributedNetworkUsage __cast(TerraFX.Interop.WinRT.IAttributedNetworkUsage* p) => (PIAttributedNetworkUsage)p;
 
     public static PIAudioBuffer __cast(TerraFX.Interop.WinRT.IAudioBuffer* p) => (PIAudioBuffer)p;
@@ -3406,6 +3408,8 @@ public static unsafe class Pointers
 
     public static PIHumanPresenceFeatures2 __cast(TerraFX.Interop.WinRT.IHumanPresenceFeatures2* p) => (PIHumanPresenceFeatures2)p;
 
+    public static PIHumanPresenceFeatures3 __cast(TerraFX.Interop.WinRT.IHumanPresenceFeatures3* p) => (PIHumanPresenceFeatures3)p;
+
     public static PIHumanPresenceSensor __cast(TerraFX.Interop.WinRT.IHumanPresenceSensor* p) => (PIHumanPresenceSensor)p;
 
     public static PIHumanPresenceSensor2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSensor2* p) => (PIHumanPresenceSensor2)p;
@@ -3433,6 +3437,8 @@ public static unsafe class Pointers
     public static PIHumanPresenceSettings __cast(TerraFX.Interop.WinRT.IHumanPresenceSettings* p) => (PIHumanPresenceSettings)p;
 
     public static PIHumanPresenceSettings2 __cast(TerraFX.Interop.WinRT.IHumanPresenceSettings2* p) => (PIHumanPresenceSettings2)p;
+
+    public static PIHumanPresenceSettings3 __cast(TerraFX.Interop.WinRT.IHumanPresenceSettings3* p) => (PIHumanPresenceSettings3)p;
 
     public static PIHumanPresenceSettingsStatics __cast(TerraFX.Interop.WinRT.IHumanPresenceSettingsStatics* p) => (PIHumanPresenceSettingsStatics)p;
 
@@ -3620,7 +3626,15 @@ public static unsafe class Pointers
 
     public static PIKeyCredential __cast(TerraFX.Interop.WinRT.IKeyCredential* p) => (PIKeyCredential)p;
 
+    public static PIKeyCredential2 __cast(TerraFX.Interop.WinRT.IKeyCredential2* p) => (PIKeyCredential2)p;
+
     public static PIKeyCredentialAttestationResult __cast(TerraFX.Interop.WinRT.IKeyCredentialAttestationResult* p) => (PIKeyCredentialAttestationResult)p;
+
+    public static PIKeyCredentialCacheConfiguration __cast(TerraFX.Interop.WinRT.IKeyCredentialCacheConfiguration* p) => (PIKeyCredentialCacheConfiguration)p;
+
+    public static PIKeyCredentialCacheConfigurationFactory __cast(TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory* p) => (PIKeyCredentialCacheConfigurationFactory)p;
+
+    public static PIKeyCredentialManagerExtendedStatics __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics* p) => (PIKeyCredentialManagerExtendedStatics)p;
 
     public static PIKeyCredentialManagerStatics __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerStatics* p) => (PIKeyCredentialManagerStatics)p;
 
@@ -4454,6 +4468,8 @@ public static unsafe class Pointers
     public static PINumeralSystemIdentifiersStatics __cast(TerraFX.Interop.WinRT.INumeralSystemIdentifiersStatics* p) => (PINumeralSystemIdentifiersStatics)p;
 
     public static PINumeralSystemIdentifiersStatics2 __cast(TerraFX.Interop.WinRT.INumeralSystemIdentifiersStatics2* p) => (PINumeralSystemIdentifiersStatics2)p;
+
+    public static PIOnlookerDetectionOptions __cast(TerraFX.Interop.WinRT.IOnlookerDetectionOptions* p) => (PIOnlookerDetectionOptions)p;
 
     public static PIOperationCompletedEventArgs __cast(TerraFX.Interop.WinRT.IOperationCompletedEventArgs* p) => (PIOperationCompletedEventArgs)p;
 

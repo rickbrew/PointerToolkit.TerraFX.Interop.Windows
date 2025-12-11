@@ -25831,6 +25831,19 @@ public unsafe readonly ref struct PIOverlayNotify2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIPackagedComSyntaxSupport
+{
+    private readonly TerraFX.Interop.Windows.IPackagedComSyntaxSupport* p;
+
+    public TerraFX.Interop.Windows.IPackagedComSyntaxSupport* Get() => this.p;
+
+    public static implicit operator PIPackagedComSyntaxSupport(TerraFX.Interop.Windows.IPackagedComSyntaxSupport* p) => *(PIPackagedComSyntaxSupport*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IPackagedComSyntaxSupport*(PIPackagedComSyntaxSupport p) => (TerraFX.Interop.Windows.IPackagedComSyntaxSupport*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIPackagedComSyntaxSupport p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIPackagedComSyntaxSupport p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIPackageDebugSettings
 {
     private readonly TerraFX.Interop.Windows.IPackageDebugSettings* p;
@@ -30876,6 +30889,32 @@ public unsafe readonly ref struct PISubunit
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportActivateAsActivatorPackaged
+{
+    private readonly TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged* p;
+
+    public TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged* Get() => this.p;
+
+    public static implicit operator PISupportActivateAsActivatorPackaged(TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged* p) => *(PISupportActivateAsActivatorPackaged*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged*(PISupportActivateAsActivatorPackaged p) => (TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportActivateAsActivatorPackaged p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportActivateAsActivatorPackaged p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportActivationFromPackage
+{
+    private readonly TerraFX.Interop.Windows.ISupportActivationFromPackage* p;
+
+    public TerraFX.Interop.Windows.ISupportActivationFromPackage* Get() => this.p;
+
+    public static implicit operator PISupportActivationFromPackage(TerraFX.Interop.Windows.ISupportActivationFromPackage* p) => *(PISupportActivationFromPackage*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportActivationFromPackage*(PISupportActivationFromPackage p) => (TerraFX.Interop.Windows.ISupportActivationFromPackage*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportActivationFromPackage p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportActivationFromPackage p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PISupportAllowLowerTrustActivation
 {
     private readonly TerraFX.Interop.Windows.ISupportAllowLowerTrustActivation* p;
@@ -30889,6 +30928,32 @@ public unsafe readonly ref struct PISupportAllowLowerTrustActivation
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportCoAddComDependencyOnPackage
+{
+    private readonly TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage* p;
+
+    public TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage* Get() => this.p;
+
+    public static implicit operator PISupportCoAddComDependencyOnPackage(TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage* p) => *(PISupportCoAddComDependencyOnPackage*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage*(PISupportCoAddComDependencyOnPackage p) => (TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportCoAddComDependencyOnPackage p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportCoAddComDependencyOnPackage p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportDoNotElevateServerActivation
+{
+    private readonly TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation* p;
+
+    public TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation* Get() => this.p;
+
+    public static implicit operator PISupportDoNotElevateServerActivation(TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation* p) => *(PISupportDoNotElevateServerActivation*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation*(PISupportDoNotElevateServerActivation p) => (TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportDoNotElevateServerActivation p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportDoNotElevateServerActivation p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PISupportErrorInfo
 {
     private readonly TerraFX.Interop.Windows.ISupportErrorInfo* p;
@@ -30899,6 +30964,45 @@ public unsafe readonly ref struct PISupportErrorInfo
     public static implicit operator TerraFX.Interop.Windows.ISupportErrorInfo*(PISupportErrorInfo p) => (TerraFX.Interop.Windows.ISupportErrorInfo*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportErrorInfo p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PISupportErrorInfo p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportPackagedComElevationEnabledClasses
+{
+    private readonly TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses* p;
+
+    public TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses* Get() => this.p;
+
+    public static implicit operator PISupportPackagedComElevationEnabledClasses(TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses* p) => *(PISupportPackagedComElevationEnabledClasses*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses*(PISupportPackagedComElevationEnabledClasses p) => (TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportPackagedComElevationEnabledClasses p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportPackagedComElevationEnabledClasses p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportPackagedComRegistrationVisibility
+{
+    private readonly TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility* p;
+
+    public TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility* Get() => this.p;
+
+    public static implicit operator PISupportPackagedComRegistrationVisibility(TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility* p) => *(PISupportPackagedComRegistrationVisibility*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility*(PISupportPackagedComRegistrationVisibility p) => (TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportPackagedComRegistrationVisibility p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportPackagedComRegistrationVisibility p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PISupportServerMustBeEqualOrGreaterPrivilegeActivation
+{
+    private readonly TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation* p;
+
+    public TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation* Get() => this.p;
+
+    public static implicit operator PISupportServerMustBeEqualOrGreaterPrivilegeActivation(TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation* p) => *(PISupportServerMustBeEqualOrGreaterPrivilegeActivation*)&p;
+    public static implicit operator TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation*(PISupportServerMustBeEqualOrGreaterPrivilegeActivation p) => (TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PISupportServerMustBeEqualOrGreaterPrivilegeActivation p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PISupportServerMustBeEqualOrGreaterPrivilegeActivation p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -36713,6 +36817,20 @@ public unsafe readonly ref struct PIWICBitmapSourceTransform2
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWICBitmapToneMapper
+{
+    private readonly TerraFX.Interop.Windows.IWICBitmapToneMapper* p;
+
+    public TerraFX.Interop.Windows.IWICBitmapToneMapper* Get() => this.p;
+
+    public static implicit operator PIWICBitmapToneMapper(TerraFX.Interop.Windows.IWICBitmapToneMapper* p) => *(PIWICBitmapToneMapper*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IWICBitmapToneMapper*(PIWICBitmapToneMapper p) => (TerraFX.Interop.Windows.IWICBitmapToneMapper*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IWICBitmapSource*(PIWICBitmapToneMapper p) => (TerraFX.Interop.Windows.IWICBitmapSource*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICBitmapToneMapper p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWICBitmapToneMapper p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PIWICColorContext
 {
     private readonly TerraFX.Interop.Windows.IWICColorContext* p;
@@ -36764,6 +36882,19 @@ public unsafe readonly ref struct PIWICComponentInfo
     public static implicit operator TerraFX.Interop.Windows.IWICComponentInfo*(PIWICComponentInfo p) => (TerraFX.Interop.Windows.IWICComponentInfo*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICComponentInfo p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIWICComponentInfo p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWICD3DTextureSource
+{
+    private readonly TerraFX.Interop.Windows.IWICD3DTextureSource* p;
+
+    public TerraFX.Interop.Windows.IWICD3DTextureSource* Get() => this.p;
+
+    public static implicit operator PIWICD3DTextureSource(TerraFX.Interop.Windows.IWICD3DTextureSource* p) => *(PIWICD3DTextureSource*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IWICD3DTextureSource*(PIWICD3DTextureSource p) => (TerraFX.Interop.Windows.IWICD3DTextureSource*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICD3DTextureSource p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWICD3DTextureSource p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -36952,6 +37083,21 @@ public unsafe readonly ref struct PIWICImagingFactory2
     public static implicit operator TerraFX.Interop.Windows.IWICImagingFactory*(PIWICImagingFactory2 p) => (TerraFX.Interop.Windows.IWICImagingFactory*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICImagingFactory2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PIWICImagingFactory2 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PIWICImagingFactory3
+{
+    private readonly TerraFX.Interop.Windows.IWICImagingFactory3* p;
+
+    public TerraFX.Interop.Windows.IWICImagingFactory3* Get() => this.p;
+
+    public static implicit operator PIWICImagingFactory3(TerraFX.Interop.Windows.IWICImagingFactory3* p) => *(PIWICImagingFactory3*)&p;
+    public static implicit operator TerraFX.Interop.Windows.IWICImagingFactory3*(PIWICImagingFactory3 p) => (TerraFX.Interop.Windows.IWICImagingFactory3*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IWICImagingFactory2*(PIWICImagingFactory3 p) => (TerraFX.Interop.Windows.IWICImagingFactory2*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IWICImagingFactory*(PIWICImagingFactory3 p) => (TerraFX.Interop.Windows.IWICImagingFactory*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PIWICImagingFactory3 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PIWICImagingFactory3 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]

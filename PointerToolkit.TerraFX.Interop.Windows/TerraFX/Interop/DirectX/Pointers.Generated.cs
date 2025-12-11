@@ -494,11 +494,23 @@ public static unsafe class Pointers
 
     public static PID3D12CommandQueue __cast(TerraFX.Interop.DirectX.ID3D12CommandQueue* p) => (PID3D12CommandQueue)p;
 
+    public static PID3D12CommandQueue1 __cast(TerraFX.Interop.DirectX.ID3D12CommandQueue1* p) => (PID3D12CommandQueue1)p;
+
     public static PID3D12CommandQueueDownlevel __cast(TerraFX.Interop.DirectX.ID3D12CommandQueueDownlevel* p) => (PID3D12CommandQueueDownlevel)p;
 
     public static PID3D12CommandSignature __cast(TerraFX.Interop.DirectX.ID3D12CommandSignature* p) => (PID3D12CommandSignature)p;
 
     public static PID3D12CompatibilityDevice __cast(TerraFX.Interop.DirectX.ID3D12CompatibilityDevice* p) => (PID3D12CompatibilityDevice)p;
+
+    public static PID3D12Compiler __cast(TerraFX.Interop.DirectX.ID3D12Compiler* p) => (PID3D12Compiler)p;
+
+    public static PID3D12CompilerCacheSession __cast(TerraFX.Interop.DirectX.ID3D12CompilerCacheSession* p) => (PID3D12CompilerCacheSession)p;
+
+    public static PID3D12CompilerFactory __cast(TerraFX.Interop.DirectX.ID3D12CompilerFactory* p) => (PID3D12CompilerFactory)p;
+
+    public static PID3D12CompilerFactoryChild __cast(TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild* p) => (PID3D12CompilerFactoryChild)p;
+
+    public static PID3D12CompilerStateObject __cast(TerraFX.Interop.DirectX.ID3D12CompilerStateObject* p) => (PID3D12CompilerStateObject)p;
 
     public static PID3D12Debug __cast(TerraFX.Interop.DirectX.ID3D12Debug* p) => (PID3D12Debug)p;
 
@@ -650,6 +662,8 @@ public static unsafe class Pointers
 
     public static PID3D12PipelineState __cast(TerraFX.Interop.DirectX.ID3D12PipelineState* p) => (PID3D12PipelineState)p;
 
+    public static PID3D12PipelineState1 __cast(TerraFX.Interop.DirectX.ID3D12PipelineState1* p) => (PID3D12PipelineState1)p;
+
     public static PID3D12ProtectedResourceSession __cast(TerraFX.Interop.DirectX.ID3D12ProtectedResourceSession* p) => (PID3D12ProtectedResourceSession)p;
 
     public static PID3D12ProtectedResourceSession1 __cast(TerraFX.Interop.DirectX.ID3D12ProtectedResourceSession1* p) => (PID3D12ProtectedResourceSession1)p;
@@ -680,9 +694,15 @@ public static unsafe class Pointers
 
     public static PID3D12StateObject __cast(TerraFX.Interop.DirectX.ID3D12StateObject* p) => (PID3D12StateObject)p;
 
+    public static PID3D12StateObjectDatabase __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabase* p) => (PID3D12StateObjectDatabase)p;
+
+    public static PID3D12StateObjectDatabaseFactory __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory* p) => (PID3D12StateObjectDatabaseFactory)p;
+
     public static PID3D12StateObjectProperties __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties* p) => (PID3D12StateObjectProperties)p;
 
     public static PID3D12StateObjectProperties1 __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties1* p) => (PID3D12StateObjectProperties1)p;
+
+    public static PID3D12StateObjectProperties2 __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties2* p) => (PID3D12StateObjectProperties2)p;
 
     public static PID3D12SwapChainAssistant __cast(TerraFX.Interop.DirectX.ID3D12SwapChainAssistant* p) => (PID3D12SwapChainAssistant)p;
 
@@ -718,6 +738,8 @@ public static unsafe class Pointers
 
     public static PID3D12VideoDevice3 __cast(TerraFX.Interop.DirectX.ID3D12VideoDevice3* p) => (PID3D12VideoDevice3)p;
 
+    public static PID3D12VideoDevice4 __cast(TerraFX.Interop.DirectX.ID3D12VideoDevice4* p) => (PID3D12VideoDevice4)p;
+
     public static PID3D12VideoEncodeCommandList __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList* p) => (PID3D12VideoEncodeCommandList)p;
 
     public static PID3D12VideoEncodeCommandList1 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList1* p) => (PID3D12VideoEncodeCommandList1)p;
@@ -726,9 +748,13 @@ public static unsafe class Pointers
 
     public static PID3D12VideoEncodeCommandList3 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList3* p) => (PID3D12VideoEncodeCommandList3)p;
 
+    public static PID3D12VideoEncodeCommandList4 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4* p) => (PID3D12VideoEncodeCommandList4)p;
+
     public static PID3D12VideoEncoder __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoder* p) => (PID3D12VideoEncoder)p;
 
     public static PID3D12VideoEncoderHeap __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap* p) => (PID3D12VideoEncoderHeap)p;
+
+    public static PID3D12VideoEncoderHeap1 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1* p) => (PID3D12VideoEncoderHeap1)p;
 
     public static PID3D12VideoExtensionCommand __cast(TerraFX.Interop.DirectX.ID3D12VideoExtensionCommand* p) => (PID3D12VideoExtensionCommand)p;
 
@@ -757,6 +783,16 @@ public static unsafe class Pointers
     public static PID3DDestructionNotifier __cast(TerraFX.Interop.DirectX.ID3DDestructionNotifier* p) => (PID3DDestructionNotifier)p;
 
     public static PID3DDeviceContextState __cast(TerraFX.Interop.DirectX.ID3DDeviceContextState* p) => (PID3DDeviceContextState)p;
+
+    public static PID3DShaderCacheApplication __cast(TerraFX.Interop.DirectX.ID3DShaderCacheApplication* p) => (PID3DShaderCacheApplication)p;
+
+    public static PID3DShaderCacheComponent __cast(TerraFX.Interop.DirectX.ID3DShaderCacheComponent* p) => (PID3DShaderCacheComponent)p;
+
+    public static PID3DShaderCacheExplorer __cast(TerraFX.Interop.DirectX.ID3DShaderCacheExplorer* p) => (PID3DShaderCacheExplorer)p;
+
+    public static PID3DShaderCacheInstaller __cast(TerraFX.Interop.DirectX.ID3DShaderCacheInstaller* p) => (PID3DShaderCacheInstaller)p;
+
+    public static PID3DShaderCacheInstallerFactory __cast(TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory* p) => (PID3DShaderCacheInstallerFactory)p;
 
     public static PID3DUserDefinedAnnotation __cast(TerraFX.Interop.DirectX.ID3DUserDefinedAnnotation* p) => (PID3DUserDefinedAnnotation)p;
 

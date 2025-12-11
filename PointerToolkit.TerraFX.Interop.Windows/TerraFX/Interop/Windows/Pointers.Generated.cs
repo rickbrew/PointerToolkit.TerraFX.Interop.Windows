@@ -3812,6 +3812,8 @@ public static unsafe class Pointers
 
     public static PIOverlayNotify2 __cast(TerraFX.Interop.Windows.IOverlayNotify2* p) => (PIOverlayNotify2)p;
 
+    public static PIPackagedComSyntaxSupport __cast(TerraFX.Interop.Windows.IPackagedComSyntaxSupport* p) => (PIPackagedComSyntaxSupport)p;
+
     public static PIPackageDebugSettings __cast(TerraFX.Interop.Windows.IPackageDebugSettings* p) => (PIPackageDebugSettings)p;
 
     public static PIPackageDebugSettings2 __cast(TerraFX.Interop.Windows.IPackageDebugSettings2* p) => (PIPackageDebugSettings2)p;
@@ -4548,9 +4550,23 @@ public static unsafe class Pointers
 
     public static PISubunit __cast(TerraFX.Interop.Windows.ISubunit* p) => (PISubunit)p;
 
+    public static PISupportActivateAsActivatorPackaged __cast(TerraFX.Interop.Windows.ISupportActivateAsActivatorPackaged* p) => (PISupportActivateAsActivatorPackaged)p;
+
+    public static PISupportActivationFromPackage __cast(TerraFX.Interop.Windows.ISupportActivationFromPackage* p) => (PISupportActivationFromPackage)p;
+
     public static PISupportAllowLowerTrustActivation __cast(TerraFX.Interop.Windows.ISupportAllowLowerTrustActivation* p) => (PISupportAllowLowerTrustActivation)p;
 
+    public static PISupportCoAddComDependencyOnPackage __cast(TerraFX.Interop.Windows.ISupportCoAddComDependencyOnPackage* p) => (PISupportCoAddComDependencyOnPackage)p;
+
+    public static PISupportDoNotElevateServerActivation __cast(TerraFX.Interop.Windows.ISupportDoNotElevateServerActivation* p) => (PISupportDoNotElevateServerActivation)p;
+
     public static PISupportErrorInfo __cast(TerraFX.Interop.Windows.ISupportErrorInfo* p) => (PISupportErrorInfo)p;
+
+    public static PISupportPackagedComElevationEnabledClasses __cast(TerraFX.Interop.Windows.ISupportPackagedComElevationEnabledClasses* p) => (PISupportPackagedComElevationEnabledClasses)p;
+
+    public static PISupportPackagedComRegistrationVisibility __cast(TerraFX.Interop.Windows.ISupportPackagedComRegistrationVisibility* p) => (PISupportPackagedComRegistrationVisibility)p;
+
+    public static PISupportServerMustBeEqualOrGreaterPrivilegeActivation __cast(TerraFX.Interop.Windows.ISupportServerMustBeEqualOrGreaterPrivilegeActivation* p) => (PISupportServerMustBeEqualOrGreaterPrivilegeActivation)p;
 
     public static PISurfacePresenter __cast(TerraFX.Interop.Windows.ISurfacePresenter* p) => (PISurfacePresenter)p;
 
@@ -5416,6 +5432,8 @@ public static unsafe class Pointers
 
     public static PIWICBitmapSourceTransform2 __cast(TerraFX.Interop.Windows.IWICBitmapSourceTransform2* p) => (PIWICBitmapSourceTransform2)p;
 
+    public static PIWICBitmapToneMapper __cast(TerraFX.Interop.Windows.IWICBitmapToneMapper* p) => (PIWICBitmapToneMapper)p;
+
     public static PIWICColorContext __cast(TerraFX.Interop.Windows.IWICColorContext* p) => (PIWICColorContext)p;
 
     public static PIWICColorTransform __cast(TerraFX.Interop.Windows.IWICColorTransform* p) => (PIWICColorTransform)p;
@@ -5423,6 +5441,8 @@ public static unsafe class Pointers
     public static PIWICComponentFactory __cast(TerraFX.Interop.Windows.IWICComponentFactory* p) => (PIWICComponentFactory)p;
 
     public static PIWICComponentInfo __cast(TerraFX.Interop.Windows.IWICComponentInfo* p) => (PIWICComponentInfo)p;
+
+    public static PIWICD3DTextureSource __cast(TerraFX.Interop.Windows.IWICD3DTextureSource* p) => (PIWICD3DTextureSource)p;
 
     public static PIWICDdsDecoder __cast(TerraFX.Interop.Windows.IWICDdsDecoder* p) => (PIWICDdsDecoder)p;
 
@@ -5451,6 +5471,8 @@ public static unsafe class Pointers
     public static PIWICImagingFactory __cast(TerraFX.Interop.Windows.IWICImagingFactory* p) => (PIWICImagingFactory)p;
 
     public static PIWICImagingFactory2 __cast(TerraFX.Interop.Windows.IWICImagingFactory2* p) => (PIWICImagingFactory2)p;
+
+    public static PIWICImagingFactory3 __cast(TerraFX.Interop.Windows.IWICImagingFactory3* p) => (PIWICImagingFactory3)p;
 
     public static PIWICJpegFrameDecode __cast(TerraFX.Interop.Windows.IWICJpegFrameDecode* p) => (PIWICJpegFrameDecode)p;
 

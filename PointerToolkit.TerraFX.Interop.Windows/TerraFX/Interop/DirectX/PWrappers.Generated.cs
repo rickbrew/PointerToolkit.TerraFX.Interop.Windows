@@ -3589,6 +3589,23 @@ public unsafe readonly ref struct PID3D12CommandQueue
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12CommandQueue1
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12CommandQueue1* p;
+
+    public TerraFX.Interop.DirectX.ID3D12CommandQueue1* Get() => this.p;
+
+    public static implicit operator PID3D12CommandQueue1(TerraFX.Interop.DirectX.ID3D12CommandQueue1* p) => *(PID3D12CommandQueue1*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CommandQueue1*(PID3D12CommandQueue1 p) => (TerraFX.Interop.DirectX.ID3D12CommandQueue1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CommandQueue*(PID3D12CommandQueue1 p) => (TerraFX.Interop.DirectX.ID3D12CommandQueue*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Pageable*(PID3D12CommandQueue1 p) => (TerraFX.Interop.DirectX.ID3D12Pageable*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12DeviceChild*(PID3D12CommandQueue1 p) => (TerraFX.Interop.DirectX.ID3D12DeviceChild*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Object*(PID3D12CommandQueue1 p) => (TerraFX.Interop.DirectX.ID3D12Object*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CommandQueue1 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12CommandQueue1 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PID3D12CommandQueueDownlevel
 {
     private readonly TerraFX.Interop.DirectX.ID3D12CommandQueueDownlevel* p;
@@ -3628,6 +3645,73 @@ public unsafe readonly ref struct PID3D12CompatibilityDevice
     public static implicit operator TerraFX.Interop.DirectX.ID3D12CompatibilityDevice*(PID3D12CompatibilityDevice p) => (TerraFX.Interop.DirectX.ID3D12CompatibilityDevice*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CompatibilityDevice p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PID3D12CompatibilityDevice p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12Compiler
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12Compiler* p;
+
+    public TerraFX.Interop.DirectX.ID3D12Compiler* Get() => this.p;
+
+    public static implicit operator PID3D12Compiler(TerraFX.Interop.DirectX.ID3D12Compiler* p) => *(PID3D12Compiler*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Compiler*(PID3D12Compiler p) => (TerraFX.Interop.DirectX.ID3D12Compiler*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*(PID3D12Compiler p) => (TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12Compiler p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12Compiler p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12CompilerCacheSession
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12CompilerCacheSession* p;
+
+    public TerraFX.Interop.DirectX.ID3D12CompilerCacheSession* Get() => this.p;
+
+    public static implicit operator PID3D12CompilerCacheSession(TerraFX.Interop.DirectX.ID3D12CompilerCacheSession* p) => *(PID3D12CompilerCacheSession*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerCacheSession*(PID3D12CompilerCacheSession p) => (TerraFX.Interop.DirectX.ID3D12CompilerCacheSession*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*(PID3D12CompilerCacheSession p) => (TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CompilerCacheSession p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12CompilerCacheSession p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12CompilerFactory
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12CompilerFactory* p;
+
+    public TerraFX.Interop.DirectX.ID3D12CompilerFactory* Get() => this.p;
+
+    public static implicit operator PID3D12CompilerFactory(TerraFX.Interop.DirectX.ID3D12CompilerFactory* p) => *(PID3D12CompilerFactory*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerFactory*(PID3D12CompilerFactory p) => (TerraFX.Interop.DirectX.ID3D12CompilerFactory*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CompilerFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12CompilerFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12CompilerFactoryChild
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild* p;
+
+    public TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild* Get() => this.p;
+
+    public static implicit operator PID3D12CompilerFactoryChild(TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild* p) => *(PID3D12CompilerFactoryChild*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*(PID3D12CompilerFactoryChild p) => (TerraFX.Interop.DirectX.ID3D12CompilerFactoryChild*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CompilerFactoryChild p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12CompilerFactoryChild p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12CompilerStateObject
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12CompilerStateObject* p;
+
+    public TerraFX.Interop.DirectX.ID3D12CompilerStateObject* Get() => this.p;
+
+    public static implicit operator PID3D12CompilerStateObject(TerraFX.Interop.DirectX.ID3D12CompilerStateObject* p) => *(PID3D12CompilerStateObject*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CompilerStateObject*(PID3D12CompilerStateObject p) => (TerraFX.Interop.DirectX.ID3D12CompilerStateObject*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12CompilerStateObject p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12CompilerStateObject p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -4871,6 +4955,23 @@ public unsafe readonly ref struct PID3D12PipelineState
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12PipelineState1
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12PipelineState1* p;
+
+    public TerraFX.Interop.DirectX.ID3D12PipelineState1* Get() => this.p;
+
+    public static implicit operator PID3D12PipelineState1(TerraFX.Interop.DirectX.ID3D12PipelineState1* p) => *(PID3D12PipelineState1*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12PipelineState1*(PID3D12PipelineState1 p) => (TerraFX.Interop.DirectX.ID3D12PipelineState1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12PipelineState*(PID3D12PipelineState1 p) => (TerraFX.Interop.DirectX.ID3D12PipelineState*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Pageable*(PID3D12PipelineState1 p) => (TerraFX.Interop.DirectX.ID3D12Pageable*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12DeviceChild*(PID3D12PipelineState1 p) => (TerraFX.Interop.DirectX.ID3D12DeviceChild*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Object*(PID3D12PipelineState1 p) => (TerraFX.Interop.DirectX.ID3D12Object*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12PipelineState1 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12PipelineState1 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PID3D12ProtectedResourceSession
 {
     private readonly TerraFX.Interop.DirectX.ID3D12ProtectedResourceSession* p;
@@ -5098,6 +5199,32 @@ public unsafe readonly ref struct PID3D12StateObject
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12StateObjectDatabase
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12StateObjectDatabase* p;
+
+    public TerraFX.Interop.DirectX.ID3D12StateObjectDatabase* Get() => this.p;
+
+    public static implicit operator PID3D12StateObjectDatabase(TerraFX.Interop.DirectX.ID3D12StateObjectDatabase* p) => *(PID3D12StateObjectDatabase*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectDatabase*(PID3D12StateObjectDatabase p) => (TerraFX.Interop.DirectX.ID3D12StateObjectDatabase*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12StateObjectDatabase p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12StateObjectDatabase p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12StateObjectDatabaseFactory
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory* p;
+
+    public TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory* Get() => this.p;
+
+    public static implicit operator PID3D12StateObjectDatabaseFactory(TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory* p) => *(PID3D12StateObjectDatabaseFactory*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory*(PID3D12StateObjectDatabaseFactory p) => (TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12StateObjectDatabaseFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12StateObjectDatabaseFactory p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PID3D12StateObjectProperties
 {
     private readonly TerraFX.Interop.DirectX.ID3D12StateObjectProperties* p;
@@ -5122,6 +5249,21 @@ public unsafe readonly ref struct PID3D12StateObjectProperties1
     public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectProperties*(PID3D12StateObjectProperties1 p) => (TerraFX.Interop.DirectX.ID3D12StateObjectProperties*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12StateObjectProperties1 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PID3D12StateObjectProperties1 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12StateObjectProperties2
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12StateObjectProperties2* p;
+
+    public TerraFX.Interop.DirectX.ID3D12StateObjectProperties2* Get() => this.p;
+
+    public static implicit operator PID3D12StateObjectProperties2(TerraFX.Interop.DirectX.ID3D12StateObjectProperties2* p) => *(PID3D12StateObjectProperties2*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectProperties2*(PID3D12StateObjectProperties2 p) => (TerraFX.Interop.DirectX.ID3D12StateObjectProperties2*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectProperties1*(PID3D12StateObjectProperties2 p) => (TerraFX.Interop.DirectX.ID3D12StateObjectProperties1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12StateObjectProperties*(PID3D12StateObjectProperties2 p) => (TerraFX.Interop.DirectX.ID3D12StateObjectProperties*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12StateObjectProperties2 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12StateObjectProperties2 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -5387,6 +5529,23 @@ public unsafe readonly ref struct PID3D12VideoDevice3
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12VideoDevice4
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12VideoDevice4* p;
+
+    public TerraFX.Interop.DirectX.ID3D12VideoDevice4* Get() => this.p;
+
+    public static implicit operator PID3D12VideoDevice4(TerraFX.Interop.DirectX.ID3D12VideoDevice4* p) => *(PID3D12VideoDevice4*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoDevice4*(PID3D12VideoDevice4 p) => (TerraFX.Interop.DirectX.ID3D12VideoDevice4*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoDevice3*(PID3D12VideoDevice4 p) => (TerraFX.Interop.DirectX.ID3D12VideoDevice3*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoDevice2*(PID3D12VideoDevice4 p) => (TerraFX.Interop.DirectX.ID3D12VideoDevice2*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoDevice1*(PID3D12VideoDevice4 p) => (TerraFX.Interop.DirectX.ID3D12VideoDevice1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoDevice*(PID3D12VideoDevice4 p) => (TerraFX.Interop.DirectX.ID3D12VideoDevice*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12VideoDevice4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12VideoDevice4 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PID3D12VideoEncodeCommandList
 {
     private readonly TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList* p;
@@ -5457,6 +5616,26 @@ public unsafe readonly ref struct PID3D12VideoEncodeCommandList3
 }
 
 [StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12VideoEncodeCommandList4
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4* p;
+
+    public TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4* Get() => this.p;
+
+    public static implicit operator PID3D12VideoEncodeCommandList4(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4* p) => *(PID3D12VideoEncodeCommandList4*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList3*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList3*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList2*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList2*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList1*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12CommandList*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12CommandList*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12DeviceChild*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12DeviceChild*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Object*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.DirectX.ID3D12Object*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12VideoEncodeCommandList4 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12VideoEncodeCommandList4 p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
 public unsafe readonly ref struct PID3D12VideoEncoder
 {
     private readonly TerraFX.Interop.DirectX.ID3D12VideoEncoder* p;
@@ -5486,6 +5665,23 @@ public unsafe readonly ref struct PID3D12VideoEncoderHeap
     public static implicit operator TerraFX.Interop.DirectX.ID3D12Object*(PID3D12VideoEncoderHeap p) => (TerraFX.Interop.DirectX.ID3D12Object*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12VideoEncoderHeap p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PID3D12VideoEncoderHeap p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3D12VideoEncoderHeap1
+{
+    private readonly TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1* p;
+
+    public TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1* Get() => this.p;
+
+    public static implicit operator PID3D12VideoEncoderHeap1(TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1* p) => *(PID3D12VideoEncoderHeap1*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap1*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Pageable*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.DirectX.ID3D12Pageable*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12DeviceChild*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.DirectX.ID3D12DeviceChild*)p.p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3D12Object*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.DirectX.ID3D12Object*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3D12VideoEncoderHeap1 p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3D12VideoEncoderHeap1 p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
@@ -5703,6 +5899,71 @@ public unsafe readonly ref struct PID3DDeviceContextState
     public static implicit operator TerraFX.Interop.DirectX.ID3D11DeviceChild*(PID3DDeviceContextState p) => (TerraFX.Interop.DirectX.ID3D11DeviceChild*)p.p;
     public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DDeviceContextState p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
     public static implicit operator void*(PID3DDeviceContextState p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3DShaderCacheApplication
+{
+    private readonly TerraFX.Interop.DirectX.ID3DShaderCacheApplication* p;
+
+    public TerraFX.Interop.DirectX.ID3DShaderCacheApplication* Get() => this.p;
+
+    public static implicit operator PID3DShaderCacheApplication(TerraFX.Interop.DirectX.ID3DShaderCacheApplication* p) => *(PID3DShaderCacheApplication*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3DShaderCacheApplication*(PID3DShaderCacheApplication p) => (TerraFX.Interop.DirectX.ID3DShaderCacheApplication*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DShaderCacheApplication p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3DShaderCacheApplication p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3DShaderCacheComponent
+{
+    private readonly TerraFX.Interop.DirectX.ID3DShaderCacheComponent* p;
+
+    public TerraFX.Interop.DirectX.ID3DShaderCacheComponent* Get() => this.p;
+
+    public static implicit operator PID3DShaderCacheComponent(TerraFX.Interop.DirectX.ID3DShaderCacheComponent* p) => *(PID3DShaderCacheComponent*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3DShaderCacheComponent*(PID3DShaderCacheComponent p) => (TerraFX.Interop.DirectX.ID3DShaderCacheComponent*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DShaderCacheComponent p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3DShaderCacheComponent p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3DShaderCacheExplorer
+{
+    private readonly TerraFX.Interop.DirectX.ID3DShaderCacheExplorer* p;
+
+    public TerraFX.Interop.DirectX.ID3DShaderCacheExplorer* Get() => this.p;
+
+    public static implicit operator PID3DShaderCacheExplorer(TerraFX.Interop.DirectX.ID3DShaderCacheExplorer* p) => *(PID3DShaderCacheExplorer*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3DShaderCacheExplorer*(PID3DShaderCacheExplorer p) => (TerraFX.Interop.DirectX.ID3DShaderCacheExplorer*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DShaderCacheExplorer p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3DShaderCacheExplorer p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3DShaderCacheInstaller
+{
+    private readonly TerraFX.Interop.DirectX.ID3DShaderCacheInstaller* p;
+
+    public TerraFX.Interop.DirectX.ID3DShaderCacheInstaller* Get() => this.p;
+
+    public static implicit operator PID3DShaderCacheInstaller(TerraFX.Interop.DirectX.ID3DShaderCacheInstaller* p) => *(PID3DShaderCacheInstaller*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3DShaderCacheInstaller*(PID3DShaderCacheInstaller p) => (TerraFX.Interop.DirectX.ID3DShaderCacheInstaller*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DShaderCacheInstaller p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3DShaderCacheInstaller p) => p.p;
+}
+
+[StructLayout(LayoutKind.Sequential)]
+public unsafe readonly ref struct PID3DShaderCacheInstallerFactory
+{
+    private readonly TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory* p;
+
+    public TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory* Get() => this.p;
+
+    public static implicit operator PID3DShaderCacheInstallerFactory(TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory* p) => *(PID3DShaderCacheInstallerFactory*)&p;
+    public static implicit operator TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory*(PID3DShaderCacheInstallerFactory p) => (TerraFX.Interop.DirectX.ID3DShaderCacheInstallerFactory*)p.p;
+    public static implicit operator TerraFX.Interop.Windows.IUnknown*(PID3DShaderCacheInstallerFactory p) => (TerraFX.Interop.Windows.IUnknown*)p.p;
+    public static implicit operator void*(PID3DShaderCacheInstallerFactory p) => p.p;
 }
 
 [StructLayout(LayoutKind.Sequential)]
