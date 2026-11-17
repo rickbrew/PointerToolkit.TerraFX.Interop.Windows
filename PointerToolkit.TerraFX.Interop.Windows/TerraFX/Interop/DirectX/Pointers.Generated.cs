@@ -729,6 +729,12 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D11View struct.", false)]
     public static PID3D11View __cast(TerraFX.Interop.DirectX.ID3D11View* p) => (PID3D11View)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12ApplicationIdentity struct.", false)]
+    public static PID3D12ApplicationIdentity __cast(TerraFX.Interop.DirectX.ID3D12ApplicationIdentity* p) => (PID3D12ApplicationIdentity)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12AsyncCommandsFallback struct.", false)]
+    public static PID3D12AsyncCommandsFallback __cast(TerraFX.Interop.DirectX.ID3D12AsyncCommandsFallback* p) => (PID3D12AsyncCommandsFallback)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12CommandAllocator struct.", false)]
     public static PID3D12CommandAllocator __cast(TerraFX.Interop.DirectX.ID3D12CommandAllocator* p) => (PID3D12CommandAllocator)p;
 
@@ -752,6 +758,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Compiler struct.", false)]
     public static PID3D12Compiler __cast(TerraFX.Interop.DirectX.ID3D12Compiler* p) => (PID3D12Compiler)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Compiler1 struct.", false)]
+    public static PID3D12Compiler1 __cast(TerraFX.Interop.DirectX.ID3D12Compiler1* p) => (PID3D12Compiler1)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12CompilerCacheSession struct.", false)]
     public static PID3D12CompilerCacheSession __cast(TerraFX.Interop.DirectX.ID3D12CompilerCacheSession* p) => (PID3D12CompilerCacheSession)p;
@@ -785,6 +794,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Debug6 struct.", false)]
     public static PID3D12Debug6 __cast(TerraFX.Interop.DirectX.ID3D12Debug6* p) => (PID3D12Debug6)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Debug7 struct.", false)]
+    public static PID3D12Debug7 __cast(TerraFX.Interop.DirectX.ID3D12Debug7* p) => (PID3D12Debug7)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DebugCommandList struct.", false)]
     public static PID3D12DebugCommandList __cast(TerraFX.Interop.DirectX.ID3D12DebugCommandList* p) => (PID3D12DebugCommandList)p;
@@ -837,6 +849,12 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Device14 struct.", false)]
     public static PID3D12Device14 __cast(TerraFX.Interop.DirectX.ID3D12Device14* p) => (PID3D12Device14)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Device15 struct.", false)]
+    public static PID3D12Device15 __cast(TerraFX.Interop.DirectX.ID3D12Device15* p) => (PID3D12Device15)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Device16 struct.", false)]
+    public static PID3D12Device16 __cast(TerraFX.Interop.DirectX.ID3D12Device16* p) => (PID3D12Device16)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Device2 struct.", false)]
     public static PID3D12Device2 __cast(TerraFX.Interop.DirectX.ID3D12Device2* p) => (PID3D12Device2)p;
 
@@ -873,6 +891,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceDownlevel struct.", false)]
     public static PID3D12DeviceDownlevel __cast(TerraFX.Interop.DirectX.ID3D12DeviceDownlevel* p) => (PID3D12DeviceDownlevel)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceDumpFile struct.", false)]
+    public static PID3D12DeviceDumpFile __cast(TerraFX.Interop.DirectX.ID3D12DeviceDumpFile* p) => (PID3D12DeviceDumpFile)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceFactory struct.", false)]
     public static PID3D12DeviceFactory __cast(TerraFX.Interop.DirectX.ID3D12DeviceFactory* p) => (PID3D12DeviceFactory)p;
 
@@ -894,11 +915,17 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceRemovedExtendedDataSettings2 struct.", false)]
     public static PID3D12DeviceRemovedExtendedDataSettings2 __cast(TerraFX.Interop.DirectX.ID3D12DeviceRemovedExtendedDataSettings2* p) => (PID3D12DeviceRemovedExtendedDataSettings2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceStatistics struct.", false)]
+    public static PID3D12DeviceStatistics __cast(TerraFX.Interop.DirectX.ID3D12DeviceStatistics* p) => (PID3D12DeviceStatistics)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceTools struct.", false)]
     public static PID3D12DeviceTools __cast(TerraFX.Interop.DirectX.ID3D12DeviceTools* p) => (PID3D12DeviceTools)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceTools1 struct.", false)]
     public static PID3D12DeviceTools1 __cast(TerraFX.Interop.DirectX.ID3D12DeviceTools1* p) => (PID3D12DeviceTools1)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DeviceTools2 struct.", false)]
+    public static PID3D12DeviceTools2 __cast(TerraFX.Interop.DirectX.ID3D12DeviceTools2* p) => (PID3D12DeviceTools2)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12DSRDeviceFactory struct.", false)]
     public static PID3D12DSRDeviceFactory __cast(TerraFX.Interop.DirectX.ID3D12DSRDeviceFactory* p) => (PID3D12DSRDeviceFactory)p;
@@ -920,6 +947,12 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12GraphicsCommandList10 struct.", false)]
     public static PID3D12GraphicsCommandList10 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList10* p) => (PID3D12GraphicsCommandList10)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12GraphicsCommandList11 struct.", false)]
+    public static PID3D12GraphicsCommandList11 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList11* p) => (PID3D12GraphicsCommandList11)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12GraphicsCommandList12 struct.", false)]
+    public static PID3D12GraphicsCommandList12 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList12* p) => (PID3D12GraphicsCommandList12)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12GraphicsCommandList2 struct.", false)]
     public static PID3D12GraphicsCommandList2 __cast(TerraFX.Interop.DirectX.ID3D12GraphicsCommandList2* p) => (PID3D12GraphicsCommandList2)p;
@@ -1014,11 +1047,23 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Resource2 struct.", false)]
     public static PID3D12Resource2 __cast(TerraFX.Interop.DirectX.ID3D12Resource2* p) => (PID3D12Resource2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12Resource3 struct.", false)]
+    public static PID3D12Resource3 __cast(TerraFX.Interop.DirectX.ID3D12Resource3* p) => (PID3D12Resource3)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12ResourceOpaqueTextureLayout struct.", false)]
+    public static PID3D12ResourceOpaqueTextureLayout __cast(TerraFX.Interop.DirectX.ID3D12ResourceOpaqueTextureLayout* p) => (PID3D12ResourceOpaqueTextureLayout)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12RootSignature struct.", false)]
     public static PID3D12RootSignature __cast(TerraFX.Interop.DirectX.ID3D12RootSignature* p) => (PID3D12RootSignature)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12RootSignature1 struct.", false)]
+    public static PID3D12RootSignature1 __cast(TerraFX.Interop.DirectX.ID3D12RootSignature1* p) => (PID3D12RootSignature1)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12RootSignatureDeserializer struct.", false)]
     public static PID3D12RootSignatureDeserializer __cast(TerraFX.Interop.DirectX.ID3D12RootSignatureDeserializer* p) => (PID3D12RootSignatureDeserializer)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12RuntimeValidationControl struct.", false)]
+    public static PID3D12RuntimeValidationControl __cast(TerraFX.Interop.DirectX.ID3D12RuntimeValidationControl* p) => (PID3D12RuntimeValidationControl)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12SDKConfiguration struct.", false)]
     public static PID3D12SDKConfiguration __cast(TerraFX.Interop.DirectX.ID3D12SDKConfiguration* p) => (PID3D12SDKConfiguration)p;
@@ -1028,6 +1073,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12ShaderCacheSession struct.", false)]
     public static PID3D12ShaderCacheSession __cast(TerraFX.Interop.DirectX.ID3D12ShaderCacheSession* p) => (PID3D12ShaderCacheSession)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12ShaderCacheSession1 struct.", false)]
+    public static PID3D12ShaderCacheSession1 __cast(TerraFX.Interop.DirectX.ID3D12ShaderCacheSession1* p) => (PID3D12ShaderCacheSession1)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12ShaderReflection struct.", false)]
     public static PID3D12ShaderReflection __cast(TerraFX.Interop.DirectX.ID3D12ShaderReflection* p) => (PID3D12ShaderReflection)p;
@@ -1041,8 +1089,17 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectDatabase struct.", false)]
     public static PID3D12StateObjectDatabase __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabase* p) => (PID3D12StateObjectDatabase)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectDatabase1 struct.", false)]
+    public static PID3D12StateObjectDatabase1 __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabase1* p) => (PID3D12StateObjectDatabase1)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectDatabaseCapture struct.", false)]
+    public static PID3D12StateObjectDatabaseCapture __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseCapture* p) => (PID3D12StateObjectDatabaseCapture)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectDatabaseFactory struct.", false)]
     public static PID3D12StateObjectDatabaseFactory __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory* p) => (PID3D12StateObjectDatabaseFactory)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectDatabaseFactory1 struct.", false)]
+    public static PID3D12StateObjectDatabaseFactory1 __cast(TerraFX.Interop.DirectX.ID3D12StateObjectDatabaseFactory1* p) => (PID3D12StateObjectDatabaseFactory1)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12StateObjectProperties struct.", false)]
     public static PID3D12StateObjectProperties __cast(TerraFX.Interop.DirectX.ID3D12StateObjectProperties* p) => (PID3D12StateObjectProperties)p;
@@ -1080,6 +1137,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoDecodeCommandList3 struct.", false)]
     public static PID3D12VideoDecodeCommandList3 __cast(TerraFX.Interop.DirectX.ID3D12VideoDecodeCommandList3* p) => (PID3D12VideoDecodeCommandList3)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoDecodeCommandList4 struct.", false)]
+    public static PID3D12VideoDecodeCommandList4 __cast(TerraFX.Interop.DirectX.ID3D12VideoDecodeCommandList4* p) => (PID3D12VideoDecodeCommandList4)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoDecoder struct.", false)]
     public static PID3D12VideoDecoder __cast(TerraFX.Interop.DirectX.ID3D12VideoDecoder* p) => (PID3D12VideoDecoder)p;
 
@@ -1107,6 +1167,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoDevice4 struct.", false)]
     public static PID3D12VideoDevice4 __cast(TerraFX.Interop.DirectX.ID3D12VideoDevice4* p) => (PID3D12VideoDevice4)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoDevice5 struct.", false)]
+    public static PID3D12VideoDevice5 __cast(TerraFX.Interop.DirectX.ID3D12VideoDevice5* p) => (PID3D12VideoDevice5)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncodeCommandList struct.", false)]
     public static PID3D12VideoEncodeCommandList __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList* p) => (PID3D12VideoEncodeCommandList)p;
 
@@ -1122,8 +1185,14 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncodeCommandList4 struct.", false)]
     public static PID3D12VideoEncodeCommandList4 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList4* p) => (PID3D12VideoEncodeCommandList4)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncodeCommandList5 struct.", false)]
+    public static PID3D12VideoEncodeCommandList5 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncodeCommandList5* p) => (PID3D12VideoEncodeCommandList5)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncoder struct.", false)]
     public static PID3D12VideoEncoder __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoder* p) => (PID3D12VideoEncoder)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncoder1 struct.", false)]
+    public static PID3D12VideoEncoder1 __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoder1* p) => (PID3D12VideoEncoder1)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoEncoderHeap struct.", false)]
     public static PID3D12VideoEncoderHeap __cast(TerraFX.Interop.DirectX.ID3D12VideoEncoderHeap* p) => (PID3D12VideoEncoderHeap)p;
@@ -1152,11 +1221,20 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessCommandList3 struct.", false)]
     public static PID3D12VideoProcessCommandList3 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessCommandList3* p) => (PID3D12VideoProcessCommandList3)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessCommandList4 struct.", false)]
+    public static PID3D12VideoProcessCommandList4 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessCommandList4* p) => (PID3D12VideoProcessCommandList4)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessCommandList5 struct.", false)]
+    public static PID3D12VideoProcessCommandList5 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessCommandList5* p) => (PID3D12VideoProcessCommandList5)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessor struct.", false)]
     public static PID3D12VideoProcessor __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessor* p) => (PID3D12VideoProcessor)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessor1 struct.", false)]
     public static PID3D12VideoProcessor1 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessor1* p) => (PID3D12VideoProcessor1)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VideoProcessor2 struct.", false)]
+    public static PID3D12VideoProcessor2 __cast(TerraFX.Interop.DirectX.ID3D12VideoProcessor2* p) => (PID3D12VideoProcessor2)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PID3D12VirtualizationGuestDevice struct.", false)]
     public static PID3D12VirtualizationGuestDevice __cast(TerraFX.Interop.DirectX.ID3D12VirtualizationGuestDevice* p) => (PID3D12VirtualizationGuestDevice)p;

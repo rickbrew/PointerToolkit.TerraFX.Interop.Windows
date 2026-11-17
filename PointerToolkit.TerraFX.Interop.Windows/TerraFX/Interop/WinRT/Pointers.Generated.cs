@@ -2070,6 +2070,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PICodecSubtypesStatics struct.", false)]
     public static PICodecSubtypesStatics __cast(TerraFX.Interop.WinRT.ICodecSubtypesStatics* p) => (PICodecSubtypesStatics)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PICodecSubtypesStatics2 struct.", false)]
+    public static PICodecSubtypesStatics2 __cast(TerraFX.Interop.WinRT.ICodecSubtypesStatics2* p) => (PICodecSubtypesStatics2)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIColorHelper struct.", false)]
     public static PIColorHelper __cast(TerraFX.Interop.WinRT.IColorHelper* p) => (PIColorHelper)p;
 
@@ -2742,6 +2745,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIContactPostActivatedEventArgs struct.", false)]
     public static PIContactPostActivatedEventArgs __cast(TerraFX.Interop.WinRT.IContactPostActivatedEventArgs* p) => (PIContactPostActivatedEventArgs)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIContactProvider struct.", false)]
+    public static PIContactProvider __cast(TerraFX.Interop.WinRT.IContactProvider* p) => (PIContactProvider)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIContactQueryOptions struct.", false)]
     public static PIContactQueryOptions __cast(TerraFX.Interop.WinRT.IContactQueryOptions* p) => (PIContactQueryOptions)p;
 
@@ -3362,6 +3368,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIDateTimeSettingsStatics struct.", false)]
     public static PIDateTimeSettingsStatics __cast(TerraFX.Interop.WinRT.IDateTimeSettingsStatics* p) => (PIDateTimeSettingsStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIDDEInitializer struct.", false)]
+    public static PIDDEInitializer __cast(TerraFX.Interop.WinRT.IDDEInitializer* p) => (PIDDEInitializer)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIDefaultAudioDeviceChangedEventArgs struct.", false)]
     public static PIDefaultAudioDeviceChangedEventArgs __cast(TerraFX.Interop.WinRT.IDefaultAudioDeviceChangedEventArgs* p) => (PIDefaultAudioDeviceChangedEventArgs)p;
@@ -4247,6 +4256,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIGameBarServicesTargetInfo struct.", false)]
     public static PIGameBarServicesTargetInfo __cast(TerraFX.Interop.WinRT.IGameBarServicesTargetInfo* p) => (PIGameBarServicesTargetInfo)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIGamepadKeyRoutingConfigurationStatics struct.", false)]
+    public static PIGamepadKeyRoutingConfigurationStatics __cast(TerraFX.Interop.WinRT.IGamepadKeyRoutingConfigurationStatics* p) => (PIGamepadKeyRoutingConfigurationStatics)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIGattCharacteristic struct.", false)]
     public static PIGattCharacteristic __cast(TerraFX.Interop.WinRT.IGattCharacteristic* p) => (PIGattCharacteristic)p;
@@ -5265,6 +5277,12 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIInputEnabledEventArgs struct.", false)]
     public static PIInputEnabledEventArgs __cast(TerraFX.Interop.WinRT.IInputEnabledEventArgs* p) => (PIInputEnabledEventArgs)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIInputHapticsManager struct.", false)]
+    public static PIInputHapticsManager __cast(TerraFX.Interop.WinRT.IInputHapticsManager* p) => (PIInputHapticsManager)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIInputHapticsManagerStatics struct.", false)]
+    public static PIInputHapticsManagerStatics __cast(TerraFX.Interop.WinRT.IInputHapticsManagerStatics* p) => (PIInputHapticsManagerStatics)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIInputPane struct.", false)]
     public static PIInputPane __cast(TerraFX.Interop.WinRT.IInputPane* p) => (PIInputPane)p;
 
@@ -5301,6 +5319,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIPInformation struct.", false)]
     public static PIIPInformation __cast(TerraFX.Interop.WinRT.IIPInformation* p) => (PIIPInformation)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppAttributeConverterStatics struct.", false)]
+    public static PIIppAttributeConverterStatics __cast(TerraFX.Interop.WinRT.IIppAttributeConverterStatics* p) => (PIIppAttributeConverterStatics)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppAttributeError struct.", false)]
     public static PIIppAttributeError __cast(TerraFX.Interop.WinRT.IIppAttributeError* p) => (PIIppAttributeError)p;
 
@@ -5327,6 +5348,15 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppPrintDevice4 struct.", false)]
     public static PIIppPrintDevice4 __cast(TerraFX.Interop.WinRT.IIppPrintDevice4* p) => (PIIppPrintDevice4)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppPrintDevice5 struct.", false)]
+    public static PIIppPrintDevice5 __cast(TerraFX.Interop.WinRT.IIppPrintDevice5* p) => (PIIppPrintDevice5)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppPrintDeviceInstallationResult struct.", false)]
+    public static PIIppPrintDeviceInstallationResult __cast(TerraFX.Interop.WinRT.IIppPrintDeviceInstallationResult* p) => (PIIppPrintDeviceInstallationResult)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppPrintDeviceManagerStatics struct.", false)]
+    public static PIIppPrintDeviceManagerStatics __cast(TerraFX.Interop.WinRT.IIppPrintDeviceManagerStatics* p) => (PIIppPrintDeviceManagerStatics)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIIppPrintDeviceStatics struct.", false)]
     public static PIIppPrintDeviceStatics __cast(TerraFX.Interop.WinRT.IIppPrintDeviceStatics* p) => (PIIppPrintDeviceStatics)p;
@@ -5421,17 +5451,23 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialCacheConfigurationFactory struct.", false)]
     public static PIKeyCredentialCacheConfigurationFactory __cast(TerraFX.Interop.WinRT.IKeyCredentialCacheConfigurationFactory* p) => (PIKeyCredentialCacheConfigurationFactory)p;
 
-    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialManagerExtendedStatics struct.", false)]
-    public static PIKeyCredentialManagerExtendedStatics __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerExtendedStatics* p) => (PIKeyCredentialManagerExtendedStatics)p;
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialManagerCreateWithWindowStatics struct.", false)]
+    public static PIKeyCredentialManagerCreateWithWindowStatics __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerCreateWithWindowStatics* p) => (PIKeyCredentialManagerCreateWithWindowStatics)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialManagerStatics struct.", false)]
     public static PIKeyCredentialManagerStatics __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerStatics* p) => (PIKeyCredentialManagerStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialManagerStatics2 struct.", false)]
+    public static PIKeyCredentialManagerStatics2 __cast(TerraFX.Interop.WinRT.IKeyCredentialManagerStatics2* p) => (PIKeyCredentialManagerStatics2)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialOperationResult struct.", false)]
     public static PIKeyCredentialOperationResult __cast(TerraFX.Interop.WinRT.IKeyCredentialOperationResult* p) => (PIKeyCredentialOperationResult)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialRetrievalResult struct.", false)]
     public static PIKeyCredentialRetrievalResult __cast(TerraFX.Interop.WinRT.IKeyCredentialRetrievalResult* p) => (PIKeyCredentialRetrievalResult)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyCredentialWithWindow struct.", false)]
+    public static PIKeyCredentialWithWindow __cast(TerraFX.Interop.WinRT.IKeyCredentialWithWindow* p) => (PIKeyCredentialWithWindow)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKeyDerivationAlgorithmNamesStatics struct.", false)]
     public static PIKeyDerivationAlgorithmNamesStatics __cast(TerraFX.Interop.WinRT.IKeyDerivationAlgorithmNamesStatics* p) => (PIKeyDerivationAlgorithmNamesStatics)p;
@@ -5528,6 +5564,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKnownSimpleHapticsControllerWaveformsStatics2 struct.", false)]
     public static PIKnownSimpleHapticsControllerWaveformsStatics2 __cast(TerraFX.Interop.WinRT.IKnownSimpleHapticsControllerWaveformsStatics2* p) => (PIKnownSimpleHapticsControllerWaveformsStatics2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKnownSimpleHapticsControllerWaveformsStatics3 struct.", false)]
+    public static PIKnownSimpleHapticsControllerWaveformsStatics3 __cast(TerraFX.Interop.WinRT.IKnownSimpleHapticsControllerWaveformsStatics3* p) => (PIKnownSimpleHapticsControllerWaveformsStatics3)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIKnownSmartCardAppletIds struct.", false)]
     public static PIKnownSmartCardAppletIds __cast(TerraFX.Interop.WinRT.IKnownSmartCardAppletIds* p) => (PIKnownSmartCardAppletIds)p;
@@ -6858,6 +6897,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPdlPassthroughProvider struct.", false)]
     public static PIPdlPassthroughProvider __cast(TerraFX.Interop.WinRT.IPdlPassthroughProvider* p) => (PIPdlPassthroughProvider)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPdlPassthroughProvider2 struct.", false)]
+    public static PIPdlPassthroughProvider2 __cast(TerraFX.Interop.WinRT.IPdlPassthroughProvider2* p) => (PIPdlPassthroughProvider2)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPdlPassthroughTarget struct.", false)]
     public static PIPdlPassthroughTarget __cast(TerraFX.Interop.WinRT.IPdlPassthroughTarget* p) => (PIPdlPassthroughTarget)p;
 
@@ -7071,6 +7113,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPhotoConfirmationControl struct.", false)]
     public static PIPhotoConfirmationControl __cast(TerraFX.Interop.WinRT.IPhotoConfirmationControl* p) => (PIPhotoConfirmationControl)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPhysicalGestureRecognizer struct.", false)]
+    public static PIPhysicalGestureRecognizer __cast(TerraFX.Interop.WinRT.IPhysicalGestureRecognizer* p) => (PIPhysicalGestureRecognizer)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPickerClosingDeferral struct.", false)]
     public static PIPickerClosingDeferral __cast(TerraFX.Interop.WinRT.IPickerClosingDeferral* p) => (PIPickerClosingDeferral)p;
 
@@ -7181,6 +7226,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPowerManagerStatics struct.", false)]
     public static PIPowerManagerStatics __cast(TerraFX.Interop.WinRT.IPowerManagerStatics* p) => (PIPowerManagerStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPowerManagerStatics2 struct.", false)]
+    public static PIPowerManagerStatics2 __cast(TerraFX.Interop.WinRT.IPowerManagerStatics2* p) => (PIPowerManagerStatics2)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrelaunchActivatedEventArgs struct.", false)]
     public static PIPrelaunchActivatedEventArgs __cast(TerraFX.Interop.WinRT.IPrelaunchActivatedEventArgs* p) => (PIPrelaunchActivatedEventArgs)p;
@@ -7362,6 +7410,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowJobBackgroundSession2 struct.", false)]
     public static PIPrintWorkflowJobBackgroundSession2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession2* p) => (PIPrintWorkflowJobBackgroundSession2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowJobBackgroundSession3 struct.", false)]
+    public static PIPrintWorkflowJobBackgroundSession3 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobBackgroundSession3* p) => (PIPrintWorkflowJobBackgroundSession3)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowJobIssueDetectedEventArgs struct.", false)]
     public static PIPrintWorkflowJobIssueDetectedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobIssueDetectedEventArgs* p) => (PIPrintWorkflowJobIssueDetectedEventArgs)p;
 
@@ -7383,6 +7434,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowJobUISession2 struct.", false)]
     public static PIPrintWorkflowJobUISession2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowJobUISession2* p) => (PIPrintWorkflowJobUISession2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowObjectModelProvider struct.", false)]
+    public static PIPrintWorkflowObjectModelProvider __cast(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelProvider* p) => (PIPrintWorkflowObjectModelProvider)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowObjectModelSourceFileContent struct.", false)]
     public static PIPrintWorkflowObjectModelSourceFileContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowObjectModelSourceFileContent* p) => (PIPrintWorkflowObjectModelSourceFileContent)p;
 
@@ -7398,6 +7452,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlConverter2 struct.", false)]
     public static PIPrintWorkflowPdlConverter2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter2* p) => (PIPrintWorkflowPdlConverter2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlConverter3 struct.", false)]
+    public static PIPrintWorkflowPdlConverter3 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlConverter3* p) => (PIPrintWorkflowPdlConverter3)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlDataAvailableEventArgs struct.", false)]
     public static PIPrintWorkflowPdlDataAvailableEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlDataAvailableEventArgs* p) => (PIPrintWorkflowPdlDataAvailableEventArgs)p;
 
@@ -7406,6 +7463,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlModificationRequestedEventArgs2 struct.", false)]
     public static PIPrintWorkflowPdlModificationRequestedEventArgs2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs2* p) => (PIPrintWorkflowPdlModificationRequestedEventArgs2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlModificationRequestedEventArgs3 struct.", false)]
+    public static PIPrintWorkflowPdlModificationRequestedEventArgs3 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlModificationRequestedEventArgs3* p) => (PIPrintWorkflowPdlModificationRequestedEventArgs3)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPdlSourceContent struct.", false)]
     public static PIPrintWorkflowPdlSourceContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowPdlSourceContent* p) => (PIPrintWorkflowPdlSourceContent)p;
@@ -7418,6 +7478,12 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPrinterJob2 struct.", false)]
     public static PIPrintWorkflowPrinterJob2 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob2* p) => (PIPrintWorkflowPrinterJob2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPrinterJob3 struct.", false)]
+    public static PIPrintWorkflowPrinterJob3 __cast(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJob3* p) => (PIPrintWorkflowPrinterJob3)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowPrinterJobStatusChangedEventArgs struct.", false)]
+    public static PIPrintWorkflowPrinterJobStatusChangedEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowPrinterJobStatusChangedEventArgs* p) => (PIPrintWorkflowPrinterJobStatusChangedEventArgs)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowSourceContent struct.", false)]
     public static PIPrintWorkflowSourceContent __cast(TerraFX.Interop.WinRT.IPrintWorkflowSourceContent* p) => (PIPrintWorkflowSourceContent)p;
@@ -7460,6 +7526,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowXpsDataAvailableEventArgs struct.", false)]
     public static PIPrintWorkflowXpsDataAvailableEventArgs __cast(TerraFX.Interop.WinRT.IPrintWorkflowXpsDataAvailableEventArgs* p) => (PIPrintWorkflowXpsDataAvailableEventArgs)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintWorkflowXpsObjectModelProvider struct.", false)]
+    public static PIPrintWorkflowXpsObjectModelProvider __cast(TerraFX.Interop.WinRT.IPrintWorkflowXpsObjectModelProvider* p) => (PIPrintWorkflowXpsObjectModelProvider)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIProcessAudioFrameContext struct.", false)]
     public static PIProcessAudioFrameContext __cast(TerraFX.Interop.WinRT.IProcessAudioFrameContext* p) => (PIProcessAudioFrameContext)p;
@@ -8036,6 +8105,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIReplaceAppointmentOperation struct.", false)]
     public static PIReplaceAppointmentOperation __cast(TerraFX.Interop.WinRT.IReplaceAppointmentOperation* p) => (PIReplaceAppointmentOperation)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIReplaceDevicePropertiesResult struct.", false)]
+    public static PIReplaceDevicePropertiesResult __cast(TerraFX.Interop.WinRT.IReplaceDevicePropertiesResult* p) => (PIReplaceDevicePropertiesResult)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIRequestingFocusOnKeyboardInputEventArgs struct.", false)]
     public static PIRequestingFocusOnKeyboardInputEventArgs __cast(TerraFX.Interop.WinRT.IRequestingFocusOnKeyboardInputEventArgs* p) => (PIRequestingFocusOnKeyboardInputEventArgs)p;
@@ -9189,6 +9261,15 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorageProviderStatusUISourceFactory struct.", false)]
     public static PIStorageProviderStatusUISourceFactory __cast(TerraFX.Interop.WinRT.IStorageProviderStatusUISourceFactory* p) => (PIStorageProviderStatusUISourceFactory)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorageProviderSuggestionsHandler struct.", false)]
+    public static PIStorageProviderSuggestionsHandler __cast(TerraFX.Interop.WinRT.IStorageProviderSuggestionsHandler* p) => (PIStorageProviderSuggestionsHandler)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorageProviderSuggestionsHandlerFactory struct.", false)]
+    public static PIStorageProviderSuggestionsHandlerFactory __cast(TerraFX.Interop.WinRT.IStorageProviderSuggestionsHandlerFactory* p) => (PIStorageProviderSuggestionsHandlerFactory)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorageProviderSuggestionsQueryOptions struct.", false)]
+    public static PIStorageProviderSuggestionsQueryOptions __cast(TerraFX.Interop.WinRT.IStorageProviderSuggestionsQueryOptions* p) => (PIStorageProviderSuggestionsQueryOptions)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorageProviderSyncRootInfo struct.", false)]
     public static PIStorageProviderSyncRootInfo __cast(TerraFX.Interop.WinRT.IStorageProviderSyncRootInfo* p) => (PIStorageProviderSyncRootInfo)p;
 
@@ -9735,6 +9816,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIToastNotificationManagerStatics5 struct.", false)]
     public static PIToastNotificationManagerStatics5 __cast(TerraFX.Interop.WinRT.IToastNotificationManagerStatics5* p) => (PIToastNotificationManagerStatics5)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIToastNotificationStatics struct.", false)]
+    public static PIToastNotificationStatics __cast(TerraFX.Interop.WinRT.IToastNotificationStatics* p) => (PIToastNotificationStatics)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIToastNotifier struct.", false)]
     public static PIToastNotifier __cast(TerraFX.Interop.WinRT.IToastNotifier* p) => (PIToastNotifier)p;
 
@@ -9752,6 +9836,39 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITouchHitTestingEventArgs struct.", false)]
     public static PITouchHitTestingEventArgs __cast(TerraFX.Interop.WinRT.ITouchHitTestingEventArgs* p) => (PITouchHitTestingEventArgs)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITouchpadGesturesController struct.", false)]
+    public static PITouchpadGesturesController __cast(TerraFX.Interop.WinRT.ITouchpadGesturesController* p) => (PITouchpadGesturesController)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITouchpadGesturesControllerStatics struct.", false)]
+    public static PITouchpadGesturesControllerStatics __cast(TerraFX.Interop.WinRT.ITouchpadGesturesControllerStatics* p) => (PITouchpadGesturesControllerStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITouchpadGlobalActionEventArgs struct.", false)]
+    public static PITouchpadGlobalActionEventArgs __cast(TerraFX.Interop.WinRT.ITouchpadGlobalActionEventArgs* p) => (PITouchpadGlobalActionEventArgs)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTarget struct.", false)]
+    public static PITransferTarget __cast(TerraFX.Interop.WinRT.ITransferTarget* p) => (PITransferTarget)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetChangedEventArgs struct.", false)]
+    public static PITransferTargetChangedEventArgs __cast(TerraFX.Interop.WinRT.ITransferTargetChangedEventArgs* p) => (PITransferTargetChangedEventArgs)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetDiscoveryOptions struct.", false)]
+    public static PITransferTargetDiscoveryOptions __cast(TerraFX.Interop.WinRT.ITransferTargetDiscoveryOptions* p) => (PITransferTargetDiscoveryOptions)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetDiscoveryOptionsFactory struct.", false)]
+    public static PITransferTargetDiscoveryOptionsFactory __cast(TerraFX.Interop.WinRT.ITransferTargetDiscoveryOptionsFactory* p) => (PITransferTargetDiscoveryOptionsFactory)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetInvokeResult struct.", false)]
+    public static PITransferTargetInvokeResult __cast(TerraFX.Interop.WinRT.ITransferTargetInvokeResult* p) => (PITransferTargetInvokeResult)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetStatics struct.", false)]
+    public static PITransferTargetStatics __cast(TerraFX.Interop.WinRT.ITransferTargetStatics* p) => (PITransferTargetStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetWatcher struct.", false)]
+    public static PITransferTargetWatcher __cast(TerraFX.Interop.WinRT.ITransferTargetWatcher* p) => (PITransferTargetWatcher)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransferTargetWatcherStatics struct.", false)]
+    public static PITransferTargetWatcherStatics __cast(TerraFX.Interop.WinRT.ITransferTargetWatcherStatics* p) => (PITransferTargetWatcherStatics)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PITransportParameters struct.", false)]
     public static PITransportParameters __cast(TerraFX.Interop.WinRT.ITransportParameters* p) => (PITransportParameters)p;
@@ -9870,6 +9987,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUser2 struct.", false)]
     public static PIUser2 __cast(TerraFX.Interop.WinRT.IUser2* p) => (PIUser2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUser3 struct.", false)]
+    public static PIUser3 __cast(TerraFX.Interop.WinRT.IUser3* p) => (PIUser3)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUserActivityInterop struct.", false)]
     public static PIUserActivityInterop __cast(TerraFX.Interop.WinRT.IUserActivityInterop* p) => (PIUserActivityInterop)p;
 
@@ -9878,6 +9998,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUserActivitySourceHostInterop struct.", false)]
     public static PIUserActivitySourceHostInterop __cast(TerraFX.Interop.WinRT.IUserActivitySourceHostInterop* p) => (PIUserActivitySourceHostInterop)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUserAgeRange struct.", false)]
+    public static PIUserAgeRange __cast(TerraFX.Interop.WinRT.IUserAgeRange* p) => (PIUserAgeRange)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIUserAuthenticationStatusChangeDeferral struct.", false)]
     public static PIUserAuthenticationStatusChangeDeferral __cast(TerraFX.Interop.WinRT.IUserAuthenticationStatusChangeDeferral* p) => (PIUserAuthenticationStatusChangeDeferral)p;
@@ -10202,6 +10325,21 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIViewSwitcherProvider struct.", false)]
     public static PIViewSwitcherProvider __cast(TerraFX.Interop.WinRT.IViewSwitcherProvider* p) => (PIViewSwitcherProvider)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualPrinterInstallationParameters struct.", false)]
+    public static PIVirtualPrinterInstallationParameters __cast(TerraFX.Interop.WinRT.IVirtualPrinterInstallationParameters* p) => (PIVirtualPrinterInstallationParameters)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualPrinterInstallationResult struct.", false)]
+    public static PIVirtualPrinterInstallationResult __cast(TerraFX.Interop.WinRT.IVirtualPrinterInstallationResult* p) => (PIVirtualPrinterInstallationResult)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualPrinterManagerStatics struct.", false)]
+    public static PIVirtualPrinterManagerStatics __cast(TerraFX.Interop.WinRT.IVirtualPrinterManagerStatics* p) => (PIVirtualPrinterManagerStatics)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualPrinterSupportedFormat struct.", false)]
+    public static PIVirtualPrinterSupportedFormat __cast(TerraFX.Interop.WinRT.IVirtualPrinterSupportedFormat* p) => (PIVirtualPrinterSupportedFormat)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualPrinterSupportedFormatFactory struct.", false)]
+    public static PIVirtualPrinterSupportedFormatFactory __cast(TerraFX.Interop.WinRT.IVirtualPrinterSupportedFormatFactory* p) => (PIVirtualPrinterSupportedFormatFactory)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIVirtualSurfaceImageSourceNative struct.", false)]
     public static PIVirtualSurfaceImageSourceNative __cast(TerraFX.Interop.WinRT.IVirtualSurfaceImageSourceNative* p) => (PIVirtualSurfaceImageSourceNative)p;
@@ -10610,6 +10748,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWorkflowPrintTicket struct.", false)]
     public static PIWorkflowPrintTicket __cast(TerraFX.Interop.WinRT.IWorkflowPrintTicket* p) => (PIWorkflowPrintTicket)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWorkflowPrintTicketFactory struct.", false)]
+    public static PIWorkflowPrintTicketFactory __cast(TerraFX.Interop.WinRT.IWorkflowPrintTicketFactory* p) => (PIWorkflowPrintTicketFactory)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWorkflowPrintTicketValidationResult struct.", false)]
     public static PIWorkflowPrintTicketValidationResult __cast(TerraFX.Interop.WinRT.IWorkflowPrintTicketValidationResult* p) => (PIWorkflowPrintTicketValidationResult)p;

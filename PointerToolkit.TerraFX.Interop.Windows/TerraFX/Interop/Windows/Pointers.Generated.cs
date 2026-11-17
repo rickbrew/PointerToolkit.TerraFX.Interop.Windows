@@ -1416,6 +1416,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleFactory2 struct.", false)]
     public static PIAppxBundleFactory2 __cast(TerraFX.Interop.Windows.IAppxBundleFactory2* p) => (PIAppxBundleFactory2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleFactory3 struct.", false)]
+    public static PIAppxBundleFactory3 __cast(TerraFX.Interop.Windows.IAppxBundleFactory3* p) => (PIAppxBundleFactory3)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleManifestOptionalBundleInfo struct.", false)]
     public static PIAppxBundleManifestOptionalBundleInfo __cast(TerraFX.Interop.Windows.IAppxBundleManifestOptionalBundleInfo* p) => (PIAppxBundleManifestOptionalBundleInfo)p;
 
@@ -1445,6 +1448,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleReader struct.", false)]
     public static PIAppxBundleReader __cast(TerraFX.Interop.Windows.IAppxBundleReader* p) => (PIAppxBundleReader)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleReader2 struct.", false)]
+    public static PIAppxBundleReader2 __cast(TerraFX.Interop.Windows.IAppxBundleReader2* p) => (PIAppxBundleReader2)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxBundleWriter struct.", false)]
     public static PIAppxBundleWriter __cast(TerraFX.Interop.Windows.IAppxBundleWriter* p) => (PIAppxBundleWriter)p;
@@ -1514,6 +1520,9 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxFactory3 struct.", false)]
     public static PIAppxFactory3 __cast(TerraFX.Interop.Windows.IAppxFactory3* p) => (PIAppxFactory3)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxFactory4 struct.", false)]
+    public static PIAppxFactory4 __cast(TerraFX.Interop.Windows.IAppxFactory4* p) => (PIAppxFactory4)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIAppxFile struct.", false)]
     public static PIAppxFile __cast(TerraFX.Interop.Windows.IAppxFile* p) => (PIAppxFile)p;
@@ -2939,6 +2948,21 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWbemClassObject struct.", false)]
     public static PIEnumWbemClassObject __cast(TerraFX.Interop.Windows.IEnumWbemClassObject* p) => (PIEnumWbemClassObject)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWiaItem struct.", false)]
+    public static PIEnumWiaItem __cast(TerraFX.Interop.Windows.IEnumWiaItem* p) => (PIEnumWiaItem)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWiaItem2 struct.", false)]
+    public static PIEnumWiaItem2 __cast(TerraFX.Interop.Windows.IEnumWiaItem2* p) => (PIEnumWiaItem2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWIA_DEV_CAPS struct.", false)]
+    public static PIEnumWIA_DEV_CAPS __cast(TerraFX.Interop.Windows.IEnumWIA_DEV_CAPS* p) => (PIEnumWIA_DEV_CAPS)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWIA_DEV_INFO struct.", false)]
+    public static PIEnumWIA_DEV_INFO __cast(TerraFX.Interop.Windows.IEnumWIA_DEV_INFO* p) => (PIEnumWIA_DEV_INFO)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIEnumWIA_FORMAT_INFO struct.", false)]
+    public static PIEnumWIA_FORMAT_INFO __cast(TerraFX.Interop.Windows.IEnumWIA_FORMAT_INFO* p) => (PIEnumWIA_FORMAT_INFO)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIErrorInfo struct.", false)]
     public static PIErrorInfo __cast(TerraFX.Interop.Windows.IErrorInfo* p) => (PIErrorInfo)p;
@@ -4959,6 +4983,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIMFMediaEngineTransferSource struct.", false)]
     public static PIMFMediaEngineTransferSource __cast(TerraFX.Interop.Windows.IMFMediaEngineTransferSource* p) => (PIMFMediaEngineTransferSource)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIMFMediaEngineVideoRendererEffect struct.", false)]
+    public static PIMFMediaEngineVideoRendererEffect __cast(TerraFX.Interop.Windows.IMFMediaEngineVideoRendererEffect* p) => (PIMFMediaEngineVideoRendererEffect)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIMFMediaEngineWebSupport struct.", false)]
     public static PIMFMediaEngineWebSupport __cast(TerraFX.Interop.Windows.IMFMediaEngineWebSupport* p) => (PIMFMediaEngineWebSupport)p;
 
@@ -5907,6 +5934,9 @@ public static unsafe class Pointers
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintManagerTemplatePrinter2 struct.", false)]
     public static PIPrintManagerTemplatePrinter2 __cast(TerraFX.Interop.Windows.IPrintManagerTemplatePrinter2* p) => (PIPrintManagerTemplatePrinter2)p;
 
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIPrintPreviewDxgiPackageTarget struct.", false)]
+    public static PIPrintPreviewDxgiPackageTarget __cast(TerraFX.Interop.Windows.IPrintPreviewDxgiPackageTarget* p) => (PIPrintPreviewDxgiPackageTarget)p;
+
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIProcessInitControl struct.", false)]
     public static PIProcessInitControl __cast(TerraFX.Interop.Windows.IProcessInitControl* p) => (PIProcessInitControl)p;
 
@@ -6782,6 +6812,12 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStdMarshalInfo struct.", false)]
     public static PIStdMarshalInfo __cast(TerraFX.Interop.Windows.IStdMarshalInfo* p) => (PIStdMarshalInfo)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStiDevice struct.", false)]
+    public static PIStiDevice __cast(TerraFX.Interop.Windows.IStiDevice* p) => (PIStiDevice)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStillImageW struct.", false)]
+    public static PIStillImageW __cast(TerraFX.Interop.Windows.IStillImageW* p) => (PIStillImageW)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIStorage struct.", false)]
     public static PIStorage __cast(TerraFX.Interop.Windows.IStorage* p) => (PIStorage)p;
@@ -8090,6 +8126,63 @@ public static unsafe class Pointers
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWebWizardHost2 struct.", false)]
     public static PIWebWizardHost2 __cast(TerraFX.Interop.Windows.IWebWizardHost2* p) => (PIWebWizardHost2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaAppErrorHandler struct.", false)]
+    public static PIWiaAppErrorHandler __cast(TerraFX.Interop.Windows.IWiaAppErrorHandler* p) => (PIWiaAppErrorHandler)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaDataCallback struct.", false)]
+    public static PIWiaDataCallback __cast(TerraFX.Interop.Windows.IWiaDataCallback* p) => (PIWiaDataCallback)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaDataTransfer struct.", false)]
+    public static PIWiaDataTransfer __cast(TerraFX.Interop.Windows.IWiaDataTransfer* p) => (PIWiaDataTransfer)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaDevMgr struct.", false)]
+    public static PIWiaDevMgr __cast(TerraFX.Interop.Windows.IWiaDevMgr* p) => (PIWiaDevMgr)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaDevMgr2 struct.", false)]
+    public static PIWiaDevMgr2 __cast(TerraFX.Interop.Windows.IWiaDevMgr2* p) => (PIWiaDevMgr2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaErrorHandler struct.", false)]
+    public static PIWiaErrorHandler __cast(TerraFX.Interop.Windows.IWiaErrorHandler* p) => (PIWiaErrorHandler)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaEventCallback struct.", false)]
+    public static PIWiaEventCallback __cast(TerraFX.Interop.Windows.IWiaEventCallback* p) => (PIWiaEventCallback)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaImageFilter struct.", false)]
+    public static PIWiaImageFilter __cast(TerraFX.Interop.Windows.IWiaImageFilter* p) => (PIWiaImageFilter)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaItem struct.", false)]
+    public static PIWiaItem __cast(TerraFX.Interop.Windows.IWiaItem* p) => (PIWiaItem)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaItem2 struct.", false)]
+    public static PIWiaItem2 __cast(TerraFX.Interop.Windows.IWiaItem2* p) => (PIWiaItem2)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaItemExtras struct.", false)]
+    public static PIWiaItemExtras __cast(TerraFX.Interop.Windows.IWiaItemExtras* p) => (PIWiaItemExtras)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaLog struct.", false)]
+    public static PIWiaLog __cast(TerraFX.Interop.Windows.IWiaLog* p) => (PIWiaLog)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaLogEx struct.", false)]
+    public static PIWiaLogEx __cast(TerraFX.Interop.Windows.IWiaLogEx* p) => (PIWiaLogEx)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaNotifyDevMgr struct.", false)]
+    public static PIWiaNotifyDevMgr __cast(TerraFX.Interop.Windows.IWiaNotifyDevMgr* p) => (PIWiaNotifyDevMgr)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaPreview struct.", false)]
+    public static PIWiaPreview __cast(TerraFX.Interop.Windows.IWiaPreview* p) => (PIWiaPreview)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaPropertyStorage struct.", false)]
+    public static PIWiaPropertyStorage __cast(TerraFX.Interop.Windows.IWiaPropertyStorage* p) => (PIWiaPropertyStorage)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaSegmentationFilter struct.", false)]
+    public static PIWiaSegmentationFilter __cast(TerraFX.Interop.Windows.IWiaSegmentationFilter* p) => (PIWiaSegmentationFilter)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaTransfer struct.", false)]
+    public static PIWiaTransfer __cast(TerraFX.Interop.Windows.IWiaTransfer* p) => (PIWiaTransfer)p;
+
+    [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWiaTransferCallback struct.", false)]
+    public static PIWiaTransferCallback __cast(TerraFX.Interop.Windows.IWiaTransferCallback* p) => (PIWiaTransferCallback)p;
 
     [Obsolete("The __cast methods have major performance consequences at build time. Switch to casting directly to the PIWICBitmap struct.", false)]
     public static PIWICBitmap __cast(TerraFX.Interop.Windows.IWICBitmap* p) => (PIWICBitmap)p;
