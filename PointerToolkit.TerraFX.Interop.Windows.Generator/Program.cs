@@ -215,6 +215,11 @@ public static class Program
                             // NOTE: 'message' might need escaping if it has quotes, backslashes, etc. Can worry about this later.
                             writer.WriteLine($"    [Obsolete(\"{message}\", true)]");
                         }
+                        else
+                        {
+                            writer.WriteLine($"    [Obsolete(\"The __cast methods have major performance consequences at build time. Switch to casting directly to the P{comStructType.Name} struct.\", false)]");
+                        }
+
                         writer.WriteLine($"    public static P{comStructType.Name} __cast({comStructType.FullName}* p) => (P{comStructType.Name})p;");
                     }
 
